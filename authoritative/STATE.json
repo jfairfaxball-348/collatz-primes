@@ -1,0 +1,33 @@
+{
+  "project": "Collatz Primes",
+  "updated_utc_date": "2026-10-14",
+  "current_session": "S000",
+  "completed_sessions": [
+    "S000"
+  ],
+  "next_session": "S001",
+  "next_session_status": "FUTURE_UNEXECUTED",
+  "target": "All composite positive integers eventually reach 1 under shortened Collatz T",
+  "target_equivalent_to_full_collatz": true,
+  "headline_status": "OPEN_UNPROVED",
+  "phase": "P0_BOOTSTRAPPED_P1_PROOF_RESEARCH_OPEN",
+  "evidence": {
+    "universal_proof": false,
+    "elementary_foundations": "INTERNAL_PROOFS",
+    "finite_audit": "LOCAL_SANITY_PASS",
+    "independent_validation": false,
+    "lean": false,
+    "palomar": false,
+    "hosted_ci": "NOT_YET_OBSERVED"
+  },
+  "audit": {
+    "input_start": 2,
+    "input_end": 10000,
+    "prime_count": 1229,
+    "composite_count": 8770,
+    "assertions": 4790,
+    "sha256": "45a4ee995384ec9154bf092e272562172797e78bf771611b1d31376627498084"
+  },
+  "protocol": "docs/SESSION_PROTOCOL.md",
+  "next_prompt": "authoritative/NEXT_SESSION_PROMPT.md"
+}

@@ -1,0 +1,20 @@
+{
+  "claim_level": "finite_sanity_only",
+  "composites": 8770,
+  "finite_assertions": 4790,
+  "map": "shortened",
+  "max_composite_steps_and_start": [
+    165,
+    6171
+  ],
+  "max_prime_steps_and_start": [
+    164,
+    9257
+  ],
+  "parity_depth": 8,
+  "primes": 1229,
+  "range_inclusive": [
+    2,
+    10000
+  ]
+}
