@@ -25,3 +25,10 @@ First session requirements and evidence/kill gates are in authoritative/NEXT_SES
 - W1 CP-0016 establishes genuine two-U-step prime re-entry; monotone prime-support rank refuted by family x=20t+15. Explore m-step offsets/valuation tradeoffs, not factor disappearance alone.
 - W3 CP-0017 establishes 3 never appears after first U, but this source obstruction says nothing about convergence. CP-0018 forbids a fixed 2^k residue alone predicting output mod3; mixed automata remain OPEN.
 - Hosted S002 CI now consumes actual canonical S001 JSONL in addition to independent regeneration; cite actual job outputs before PASS claim. Universal theorem OPEN.
+
+## S003 proof-route redirect (2026-10-15)
+
+- W2 CST: the explored identity first descent = first parity slope crossing is NOT an original conjecture; it is Terras' existing OPEN CST conjecture (CP-0019). CP-0020 proves only the classical exact intercept cutoff per parity cylinder. The stronger arbitrary negative-slope-implies-descent is false at n=7, j8. Work on a new delimited tractable family and counterexample audit, not renaming CST.
+- W2 tower: OPEN iff slopes all >=1 is finite-only k10..16; equivalence for all representatives would solve CST. CP-0022 rules out ANY finite per-residue first-descent horizon assigned to a fixed 2^k modulus; seek a genuinely adaptive or mixed-modulus rank.
+- W1 prime factors: CP-0021 explicit valuation-sensitive U^m offset and gcd for every m. It lacks monotone size/factor rank and survives hostile factor-return cases; S004 must search noncircular rank or kill defined candidates.
+- W3 U-inverse grammar remains sound, exact source classes y divisible3 and larger-only parents y=1 mod3 obstruct naive induction. Six least hypothetical counterexample classes mod48 unchanged. Full Collatz OPEN.

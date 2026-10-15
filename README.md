@@ -41,3 +41,8 @@ S000 is completed. S001 remains **future/unexecuted** even after this planning-o
 ## S002 update — 15 October 2026
 
 Completed S000, S001 and S002. The full **next executable S003 prompt** is at [authoritative/NEXT_SESSION_PROMPT.md](authoritative/NEXT_SESSION_PROMPT.md); a linked or pasted owner run request is sufficient authority. Older README references to S001 as future and depth-16 statistics as report-only are historical/stale: S001 directly reproduced 30653 STRICT +1 BASE_1+2114 OPEN, and S002 added a canonical JSONL consumer to hosted CI. [S002 proof record](research/S002_PROOFS_AND_OBSTRUCTIONS.md) / [closeout](sessions/S002/CLOSEOUT.md). The conjecture **remains OPEN**.
+
+
+## S003 update — 15 October 2026
+
+The next executable **S004** handover is [authoritative/NEXT_SESSION_PROMPT.md](authoritative/NEXT_SESSION_PROMPT.md). S003 identified the proposed first-slope/first-descent identity as the **existing open Terras Coefficient Stopping Time conjecture**; it remains unproved. Elementary intercept/cylinder bounds (CP-0020), an m-step prime-return formula (CP-0021) and fixed-modulus stopping-time table obstruction (CP-0022) were proved internally; none settles Collatz. See [S003 proof/obstructions](research/S003_PROOFS_AND_OBSTRUCTIONS.md) and [closeout](sessions/S003/CLOSEOUT.md). Older text above referring to S001 as next is historical, not authoritative.
