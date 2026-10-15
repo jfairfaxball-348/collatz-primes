@@ -96,8 +96,17 @@
     "s011_near_resonant": "CP_0046_INFINITE_PAIRED_D_LT_K_ALL_LIFTS_STRICT",
     "s011_arbitrary_exception_exit": "CP_0045_THIN_CERTIFIED_SUBPROGRESSIONS_ALL_N_OPEN",
     "s011_rank_no_go": "CP_0041_CONSTANT_V2_EXPANDING_RETURN",
-    "s011_pr_ci": "NOT_YET_OBSERVED",
-    "s011_main_ci": "NOT_YET_OBSERVED"
+    "s011_pr_ci": "SUCCESS_RUN_38733062031_JOB_116415361296_ALL_STEPS",
+    "s011_main_ci": "SUCCESS_RUN_38733167126_JOB_116415721379_ALL_STEPS",
+    "s011_branch_push_ci": "SUCCESS_RUN_38733012424_JOB_116415195126_ALL_STEPS",
+    "s011_merged_pr": 16,
+    "s011_merged_main_sha": "c0f880614e59e8ad58c0da244947da2957fca75e",
+    "s011_merged_main_true_tree": "a1f3c80fe7025866e5c82433da6d11d3bf0598c6",
+    "s011_merged_main_parents": [
+      "5017318dc43f950fa63b4f704fa77c385c7aec87",
+      "2028e4d5bf6fec9d54059af6bb17404a5edd2243"
+    ],
+    "s011_readback": "STATE_NEXT_CLOSEOUT_AND_TEST_VERIFIED"
   },
   "next_prompt": "authoritative/NEXT_SESSION_PROMPT.md",
   "s007_proof_record": "research/S007_PROOFS_AND_OBSTRUCTIONS.md",
