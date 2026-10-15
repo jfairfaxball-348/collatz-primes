@@ -1,0 +1,7 @@
+# S018 finite local validation — STRICTLY finite
+
+- Local fresh standalone Python 3 script: /mnt/data/s018/independent_s018.py; SHA256 01b5d72969272b410df8c1258833a3a84302d9c5768ff683ef45b7c88a8eb060. This path is a scratch script, NOT a GitHub checkout. Exact integer arithmetic only.
+- Command: python /mnt/data/s018/independent_s018.py ; enumerates ALL first coefficient crossings length<=24, checks canonical modular inverse and exact trajectory, and three lifts for multi-E-prefix words. Output: 81,118 first-crossing words, 78,303 targeted multiblock cases; only nonstrict OE/n=1 (outside theorem); named hostile starts 7,15,27,31,39,43,91,155,251 matched prior exact descent checkpoints. No finite test establishes all-U result.
+- New committed tests/test_s018_math.py independently codes bounded checks, exact B_U upper bound, CRT sign, examples, adversarial towers. It is NOT byte-identical to standalone scratch.
+- Prior ORIGINAL merged-main CI pre-S018, run38771277023 job116547419358, all individually SUCCESS: Unit tests; Finite parity and orbit sanity S000 byte match; Recreate finite residue stream and cross-check original manifest (S001 depths10–16, independent checker, JSONL). This is NOT new S018 CI.
+- Original local checkout unavailable (container DNS github.com failed). Any S018 branch/PR/main hosted status must be read separately AFTER the S018 commit. Tests and prior CI do not validate global convergence, novelty, external deep source proofs or the math with Lean.
