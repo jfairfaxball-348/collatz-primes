@@ -63,8 +63,12 @@
     "s009_expanding_residue_return": "CP_0041_27_MOD256_EXPANDING_NOT_DIVERGENCE",
     "s009_original_clone": false,
     "s009_isolated_three_tests": "PASS",
-    "s009_pr_ci": "PENDING_HOSTED_OBSERVATION",
-    "s009_main_ci": "PENDING_HOSTED_OBSERVATION"
+    "s009_pr_ci": "SUCCESS_RUN_38725112600_JOB_116388900909",
+    "s009_main_ci": "SUCCESS_RUN_38725193059_JOB_116389167019",
+    "s009_branch_push_ci": "SUCCESS_RUN_38725062735_JOB_116388736429",
+    "s009_merged_pr": 12,
+    "s009_initial_merged_main_sha": "1d2ce79b85862fb84bab15bbfb8a4fcce7ca8cea",
+    "s009_initial_merged_tree": "241617465fbca7c1f9139294b63ba7526f97f01b"
   },
   "next_prompt": "authoritative/NEXT_SESSION_PROMPT.md",
   "s007_proof_record": "research/S007_PROOFS_AND_OBSTRUCTIONS.md",
