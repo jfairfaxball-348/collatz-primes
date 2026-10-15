@@ -10,3 +10,6 @@ A prepared S002 prompt is not an executed session. Owner fresh instruction direc
 
 | S002 | 2026-10-15 | COMPLETE (mathematics recorded; hosted results verify separately) | Exact exceptional lift, 27+2^59*q first-descent theorem, two-step prime return, mod3 transition | CP-0014—CP-0018; universal target OPEN |
 | S003 | — | FUTURE / UNEXECUTED | First-descent/slope threshold, positive exceptional-path exit and m-step prime return | authoritative/NEXT_SESSION_PROMPT.md |
+
+| S003 | 2026-10-15 | COMPLETE (PR/CI evidence separately verify) | Terras CST prior-art identification, exact first-crossing intercept, m-step factor re-entry, fixed-modulus no-go; corruption checks | CP-0019 identified as OPEN prior art; CP-0020—CP-0022 elementary; conjecture OPEN |
+| S004 | — | FUTURE / UNEXECUTED | CST delimited theorem, exceptional adaptive ranks, valuation potential | authoritative/NEXT_SESSION_PROMPT.md |

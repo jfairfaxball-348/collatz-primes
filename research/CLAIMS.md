@@ -26,3 +26,9 @@
 | CP-0019 | OPEN / FINITE OBSERVATION ONLY | Does first strict descent occur exactly at first parity-slope 3^{a_j}<2^j for every positive n>1? S003 proof/refutation target | authoritative/NEXT_SESSION_PROMPT.md |
 
 **S002 novelty:** not established for any CP-0014—CP-0018; algebra is elementary and likely classical in broader form. No global proof.
+
+| CP-0020 | PROVED_INTERNAL elementary; known prior-art framework | Exact first coefficient-crossing intercept test and finite bad-lift cutoff; extremal fixed-(j,a) bound on intercept; no CST proof | research/S003_PROOFS_AND_OBSTRUCTIONS.md |
+| CP-0021 | PROVED_INTERNAL elementary | For all positive odd x and m>=1, 2^A U^m(x)=3^m x+F_m and gcd(x,U^m(x))=gcd(x,F_m) | research/S003_PROOFS_AND_OBSTRUCTIONS.md |
+| CP-0022 | PROVED_INTERNAL scoped no-go | No fixed 2^k residue table of finite first-descent horizons can cover all positive starts; not all adaptive/mixed automata | research/S003_PROOFS_AND_OBSTRUCTIONS.md |
+
+**S003 prior-art correction:** CP-0019 is Terras' established OPEN Coefficient Stopping Time conjecture, not new; see Rozier–Terracol 2026, arXiv:2502.00948. Finite n<=1000000 agreement does not prove it. No originality claim for CP-0020—CP-0022.

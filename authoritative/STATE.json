@@ -1,35 +1,35 @@
 {
   "project": "Collatz Primes",
   "updated_utc_date": "2026-10-15",
-  "update_kind": "S002_RESEARCH_SESSION_COMPLETED",
-  "current_session": "S002",
+  "update_kind": "S003_RESEARCH_SESSION_COMPLETED",
+  "current_session": "S003",
   "completed_sessions": [
     "S000",
     "S001",
-    "S002"
+    "S002",
+    "S003"
   ],
-  "next_session": "S003",
+  "next_session": "S004",
   "next_session_status": "FUTURE_UNEXECUTED",
   "target": "All composite positive integers eventually reach 1 under shortened Collatz T",
   "target_equivalent_to_full_collatz": true,
   "headline_status": "OPEN_UNPROVED",
-  "phase": "P1_EXCEPTIONS_REVERSE_BASIN_PROOF_ATTACK",
+  "phase": "P1_CST_EXCEPTIONAL_RANK_AND_PRIME_RETURN",
   "evidence": {
     "universal_proof": false,
-    "internal_theorems": "ELEMENTARY_CP_0014_TO_0018",
-    "infinite_family": "27+2^59*q EXACT_FIRST_DESCENT_59",
+    "terras_cst_status": "OPEN_KNOWN_PRIOR_ART",
+    "new_internal_math": "ELEMENTARY_CP_0020_TO_0022",
     "finite_certificate": "S001_FROZEN_K16_STRICT_30653_BASE_1_1_OPEN_2114",
-    "record_consumer": "ADDED_EXPECT_HOSTED_CI_OBSERVATION",
+    "s003_finite_cst_sample": "N_2_TO_1000000_CAP_1000_NO_MISMATCH",
+    "s003_ci": "MUST_VERIFY_HOSTED_WORKFLOW_SEPARATELY",
     "independent_external_validation": false,
     "lean": false,
     "palomar": false,
-    "novelty": "UNCHECKED_NO_CLAIM",
-    "prior_s001_pr_run": 38699290266,
-    "prior_s001_main_run": 38699378379
+    "novelty": "NOT_CLAIMED"
   },
-  "prior_main_sha": "cc35a3ecba8942521632a79a53c2212f95ec2c41",
-  "prior_main_tree": "11486055bf11b5f8f2e3ea211b84908fbf26e918",
-  "s002_proof_record": "research/S002_PROOFS_AND_OBSTRUCTIONS.md",
-  "s002_closeout": "sessions/S002/CLOSEOUT.md",
+  "entry_main_sha": "cd06922419225d68853c38e8144066a37d7e16ec",
+  "entry_main_tree": "02225d29f1314d5950040a37149637b25b4d527d",
+  "s003_proof_record": "research/S003_PROOFS_AND_OBSTRUCTIONS.md",
+  "s003_closeout": "sessions/S003/CLOSEOUT.md",
   "next_prompt": "authoritative/NEXT_SESSION_PROMPT.md"
 }

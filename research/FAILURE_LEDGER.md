@@ -22,3 +22,9 @@
 - F-0019 — INSUFFICIENT exact cylinder around 27: every 27+2^59*q descends at step59, but no proof for all 27+2^16*q and no universal exceptional-tower exit.
 - F-0020 — OPEN tempting first-descent/first-slope-threshold coincidence: finite sightings do not prove universally quantified equivalence; S003 must prove or refute adversarially.
 - F-0021 — INSUFFICIENT exact E_(k+1) per-child transfer: exact recurrences give no well-founded termination for every positive starting integer.
+
+- F-0022 — S003 PRIOR ART: j_s=j_c for n>=2 is exactly Terras' open Coefficient Stopping Time conjecture (CST); not a new theorem, and neither proved nor refuted here.
+- F-0023 — REFUTED stronger every-negative-coefficient-step-descends implication: 7->11->17->26->13->20->10->5->8; at j8 coefficient 243/256<1 but output 8>7. At first crossing j7 the start DID descend, so not a CST counterexample.
+- F-0024 — INSUFFICIENT finite CST scan 2..1000000, no mismatches. Does not justify universal CST, exceptional tower exit or Collatz.
+- F-0025 — PROVED SCOPED NO-GO: for any fixed modulus 2^k and arbitrary finite per-residue horizon h, all-O positive starts 2^H t-1 in the residue -1 break the proposed uniform bound; this does NOT eliminate adaptive/mixed automata.
+- F-0026 — INSUFFICIENT m-step U gcd formula; offset contains valuation history and gives no numeric/factor count monotonicity, killed by 15->23->35, 121->91, 27->41, and 12t+3 growing.
