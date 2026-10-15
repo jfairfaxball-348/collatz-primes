@@ -1,0 +1,557 @@
+{
+  "classification": "STRICT;BASE_1;OPEN",
+  "depths": [
+    {
+      "base_1": 1,
+      "examples": {
+        "1": {
+          "a": 1,
+          "b": 1,
+          "j": 2,
+          "k": 10,
+          "parity_word": "OE",
+          "r": 1,
+          "status": "BASE_1"
+        },
+        "1023": {
+          "a": 0,
+          "b": 0,
+          "j": 0,
+          "k": 10,
+          "parity_word": "",
+          "r": 1023,
+          "status": "OPEN"
+        },
+        "11": {
+          "a": 3,
+          "b": 23,
+          "j": 5,
+          "k": 10,
+          "parity_word": "OOEOE",
+          "r": 11,
+          "status": "STRICT"
+        },
+        "15": {
+          "a": 4,
+          "b": 65,
+          "j": 7,
+          "k": 10,
+          "parity_word": "OOOOEEE",
+          "r": 15,
+          "status": "STRICT"
+        },
+        "23": {
+          "a": 3,
+          "b": 19,
+          "j": 5,
+          "k": 10,
+          "parity_word": "OOOEE",
+          "r": 23,
+          "status": "STRICT"
+        },
+        "27": {
+          "a": 0,
+          "b": 0,
+          "j": 0,
+          "k": 10,
+          "parity_word": "",
+          "r": 27,
+          "status": "OPEN"
+        },
+        "7": {
+          "a": 4,
+          "b": 73,
+          "j": 7,
+          "k": 10,
+          "parity_word": "OOOEOEE",
+          "r": 7,
+          "status": "STRICT"
+        }
+      },
+      "k": 10,
+      "odd_classes": 512,
+      "records_sha256": "544867cb7129e894e57eadd0bf7fe88c6d5639536ab2cfbcd848bd78d3da5535",
+      "strict": 447,
+      "uncovered": 64,
+      "uncovered_mod16": {
+        "11": 13,
+        "15": 38,
+        "7": 13
+      }
+    },
+    {
+      "base_1": 1,
+      "examples": {
+        "1": {
+          "a": 1,
+          "b": 1,
+          "j": 2,
+          "k": 11,
+          "parity_word": "OE",
+          "r": 1,
+          "status": "BASE_1"
+        },
+        "11": {
+          "a": 3,
+          "b": 23,
+          "j": 5,
+          "k": 11,
+          "parity_word": "OOEOE",
+          "r": 11,
+          "status": "STRICT"
+        },
+        "15": {
+          "a": 4,
+          "b": 65,
+          "j": 7,
+          "k": 11,
+          "parity_word": "OOOOEEE",
+          "r": 15,
+          "status": "STRICT"
+        },
+        "2047": {
+          "a": 0,
+          "b": 0,
+          "j": 0,
+          "k": 11,
+          "parity_word": "",
+          "r": 2047,
+          "status": "OPEN"
+        },
+        "23": {
+          "a": 3,
+          "b": 19,
+          "j": 5,
+          "k": 11,
+          "parity_word": "OOOEE",
+          "r": 23,
+          "status": "STRICT"
+        },
+        "27": {
+          "a": 0,
+          "b": 0,
+          "j": 0,
+          "k": 11,
+          "parity_word": "",
+          "r": 27,
+          "status": "OPEN"
+        },
+        "7": {
+          "a": 4,
+          "b": 73,
+          "j": 7,
+          "k": 11,
+          "parity_word": "OOOEOEE",
+          "r": 7,
+          "status": "STRICT"
+        }
+      },
+      "k": 11,
+      "odd_classes": 1024,
+      "records_sha256": "09e02a02822942c9b7ac6a41dd6cbb11add312d00d015e36027ba278ebfe158a",
+      "strict": 895,
+      "uncovered": 128,
+      "uncovered_mod16": {
+        "11": 26,
+        "15": 76,
+        "7": 26
+      }
+    },
+    {
+      "base_1": 1,
+      "examples": {
+        "1": {
+          "a": 1,
+          "b": 1,
+          "j": 2,
+          "k": 12,
+          "parity_word": "OE",
+          "r": 1,
+          "status": "BASE_1"
+        },
+        "11": {
+          "a": 3,
+          "b": 23,
+          "j": 5,
+          "k": 12,
+          "parity_word": "OOEOE",
+          "r": 11,
+          "status": "STRICT"
+        },
+        "15": {
+          "a": 4,
+          "b": 65,
+          "j": 7,
+          "k": 12,
+          "parity_word": "OOOOEEE",
+          "r": 15,
+          "status": "STRICT"
+        },
+        "23": {
+          "a": 3,
+          "b": 19,
+          "j": 5,
+          "k": 12,
+          "parity_word": "OOOEE",
+          "r": 23,
+          "status": "STRICT"
+        },
+        "27": {
+          "a": 0,
+          "b": 0,
+          "j": 0,
+          "k": 12,
+          "parity_word": "",
+          "r": 27,
+          "status": "OPEN"
+        },
+        "4095": {
+          "a": 0,
+          "b": 0,
+          "j": 0,
+          "k": 12,
+          "parity_word": "",
+          "r": 4095,
+          "status": "OPEN"
+        },
+        "7": {
+          "a": 4,
+          "b": 73,
+          "j": 7,
+          "k": 12,
+          "parity_word": "OOOEOEE",
+          "r": 7,
+          "status": "STRICT"
+        }
+      },
+      "k": 12,
+      "odd_classes": 2048,
+      "records_sha256": "948eb98691f2d0d87a643548172d0d194d00bdf31132f714d69f89a09d158751",
+      "strict": 1821,
+      "uncovered": 226,
+      "uncovered_mod16": {
+        "11": 45,
+        "15": 136,
+        "7": 45
+      }
+    },
+    {
+      "base_1": 1,
+      "examples": {
+        "1": {
+          "a": 1,
+          "b": 1,
+          "j": 2,
+          "k": 13,
+          "parity_word": "OE",
+          "r": 1,
+          "status": "BASE_1"
+        },
+        "11": {
+          "a": 3,
+          "b": 23,
+          "j": 5,
+          "k": 13,
+          "parity_word": "OOEOE",
+          "r": 11,
+          "status": "STRICT"
+        },
+        "15": {
+          "a": 4,
+          "b": 65,
+          "j": 7,
+          "k": 13,
+          "parity_word": "OOOOEEE",
+          "r": 15,
+          "status": "STRICT"
+        },
+        "23": {
+          "a": 3,
+          "b": 19,
+          "j": 5,
+          "k": 13,
+          "parity_word": "OOOEE",
+          "r": 23,
+          "status": "STRICT"
+        },
+        "27": {
+          "a": 0,
+          "b": 0,
+          "j": 0,
+          "k": 13,
+          "parity_word": "",
+          "r": 27,
+          "status": "OPEN"
+        },
+        "7": {
+          "a": 4,
+          "b": 73,
+          "j": 7,
+          "k": 13,
+          "parity_word": "OOOEOEE",
+          "r": 7,
+          "status": "STRICT"
+        },
+        "8191": {
+          "a": 0,
+          "b": 0,
+          "j": 0,
+          "k": 13,
+          "parity_word": "",
+          "r": 8191,
+          "status": "OPEN"
+        }
+      },
+      "k": 13,
+      "odd_classes": 4096,
+      "records_sha256": "176510a24cb58421353e28ec0eb4cb66ee6de0b36e95df96630ffd6897613315",
+      "strict": 3728,
+      "uncovered": 367,
+      "uncovered_mod16": {
+        "11": 71,
+        "15": 225,
+        "7": 71
+      }
+    },
+    {
+      "base_1": 1,
+      "examples": {
+        "1": {
+          "a": 1,
+          "b": 1,
+          "j": 2,
+          "k": 14,
+          "parity_word": "OE",
+          "r": 1,
+          "status": "BASE_1"
+        },
+        "11": {
+          "a": 3,
+          "b": 23,
+          "j": 5,
+          "k": 14,
+          "parity_word": "OOEOE",
+          "r": 11,
+          "status": "STRICT"
+        },
+        "15": {
+          "a": 4,
+          "b": 65,
+          "j": 7,
+          "k": 14,
+          "parity_word": "OOOOEEE",
+          "r": 15,
+          "status": "STRICT"
+        },
+        "16383": {
+          "a": 0,
+          "b": 0,
+          "j": 0,
+          "k": 14,
+          "parity_word": "",
+          "r": 16383,
+          "status": "OPEN"
+        },
+        "23": {
+          "a": 3,
+          "b": 19,
+          "j": 5,
+          "k": 14,
+          "parity_word": "OOOEE",
+          "r": 23,
+          "status": "STRICT"
+        },
+        "27": {
+          "a": 0,
+          "b": 0,
+          "j": 0,
+          "k": 14,
+          "parity_word": "",
+          "r": 27,
+          "status": "OPEN"
+        },
+        "7": {
+          "a": 4,
+          "b": 73,
+          "j": 7,
+          "k": 14,
+          "parity_word": "OOOEOEE",
+          "r": 7,
+          "status": "STRICT"
+        }
+      },
+      "k": 14,
+      "odd_classes": 8192,
+      "records_sha256": "73beb2433f752d5463b8a8f96e92b449dd38952f4518cad48ddc81fcab798863",
+      "strict": 7457,
+      "uncovered": 734,
+      "uncovered_mod16": {
+        "11": 142,
+        "15": 450,
+        "7": 142
+      }
+    },
+    {
+      "base_1": 1,
+      "examples": {
+        "1": {
+          "a": 1,
+          "b": 1,
+          "j": 2,
+          "k": 15,
+          "parity_word": "OE",
+          "r": 1,
+          "status": "BASE_1"
+        },
+        "11": {
+          "a": 3,
+          "b": 23,
+          "j": 5,
+          "k": 15,
+          "parity_word": "OOEOE",
+          "r": 11,
+          "status": "STRICT"
+        },
+        "15": {
+          "a": 4,
+          "b": 65,
+          "j": 7,
+          "k": 15,
+          "parity_word": "OOOOEEE",
+          "r": 15,
+          "status": "STRICT"
+        },
+        "23": {
+          "a": 3,
+          "b": 19,
+          "j": 5,
+          "k": 15,
+          "parity_word": "OOOEE",
+          "r": 23,
+          "status": "STRICT"
+        },
+        "27": {
+          "a": 0,
+          "b": 0,
+          "j": 0,
+          "k": 15,
+          "parity_word": "",
+          "r": 27,
+          "status": "OPEN"
+        },
+        "32767": {
+          "a": 0,
+          "b": 0,
+          "j": 0,
+          "k": 15,
+          "parity_word": "",
+          "r": 32767,
+          "status": "OPEN"
+        },
+        "7": {
+          "a": 4,
+          "b": 73,
+          "j": 7,
+          "k": 15,
+          "parity_word": "OOOEOEE",
+          "r": 7,
+          "status": "STRICT"
+        }
+      },
+      "k": 15,
+      "odd_classes": 16384,
+      "records_sha256": "de99b2d9a955f5428a27d0a0827f2a371f8ee8c1a04ef920249e18430ffeab86",
+      "strict": 15088,
+      "uncovered": 1295,
+      "uncovered_mod16": {
+        "11": 247,
+        "15": 801,
+        "7": 247
+      }
+    },
+    {
+      "base_1": 1,
+      "examples": {
+        "1": {
+          "a": 1,
+          "b": 1,
+          "j": 2,
+          "k": 16,
+          "parity_word": "OE",
+          "r": 1,
+          "status": "BASE_1"
+        },
+        "11": {
+          "a": 3,
+          "b": 23,
+          "j": 5,
+          "k": 16,
+          "parity_word": "OOEOE",
+          "r": 11,
+          "status": "STRICT"
+        },
+        "15": {
+          "a": 4,
+          "b": 65,
+          "j": 7,
+          "k": 16,
+          "parity_word": "OOOOEEE",
+          "r": 15,
+          "status": "STRICT"
+        },
+        "23": {
+          "a": 3,
+          "b": 19,
+          "j": 5,
+          "k": 16,
+          "parity_word": "OOOEE",
+          "r": 23,
+          "status": "STRICT"
+        },
+        "27": {
+          "a": 0,
+          "b": 0,
+          "j": 0,
+          "k": 16,
+          "parity_word": "",
+          "r": 27,
+          "status": "OPEN"
+        },
+        "65535": {
+          "a": 0,
+          "b": 0,
+          "j": 0,
+          "k": 16,
+          "parity_word": "",
+          "r": 65535,
+          "status": "OPEN"
+        },
+        "7": {
+          "a": 4,
+          "b": 73,
+          "j": 7,
+          "k": 16,
+          "parity_word": "OOOEOEE",
+          "r": 7,
+          "status": "STRICT"
+        }
+      },
+      "k": 16,
+      "odd_classes": 32768,
+      "records_sha256": "2bdca7f3f24ca0f3166a03d55ec42a2d742f483585f7ac7577890d0cb81dec23",
+      "strict": 30653,
+      "uncovered": 2114,
+      "uncovered_mod16": {
+        "11": 395,
+        "15": 1324,
+        "7": 395
+      }
+    }
+  ],
+  "map": "shortened_T",
+  "range_k_inclusive": [
+    10,
+    16
+  ],
+  "records_encoding": "JSONL sorted keys compact newline"
+}

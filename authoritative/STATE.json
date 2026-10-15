@@ -1,30 +1,38 @@
 {
   "project": "Collatz Primes",
   "updated_utc_date": "2026-10-15",
-  "update_kind": "PLANNING_ONLY_NO_RESEARCH_SESSION_EXECUTED",
-  "current_session": "S000",
-  "completed_sessions": [
-    "S000"
-  ],
-  "next_session": "S001",
+  "update_kind": "S001_RESEARCH_SESSION_COMPLETED",
+  "current_session": "S001",
+  "completed_sessions": ["S000", "S001"],
+  "next_session": "S002",
   "next_session_status": "FUTURE_UNEXECUTED",
   "target": "All composite positive integers eventually reach 1 under shortened Collatz T",
   "target_equivalent_to_full_collatz": true,
   "headline_status": "OPEN_UNPROVED",
-  "phase": "P0_BOOTSTRAPPED_S001_PROOF_ATTACK_PLANNED",
+  "phase": "P1_EXCEPTIONS_REVERSE_BASIN_PROOF_ATTACK",
   "evidence": {
     "universal_proof": false,
-    "elementary_foundations": "INTERNAL_PROOFS",
-    "finite_audit": "LOCAL_SANITY_PASS",
-    "independent_validation": false,
+    "elementary_foundations": "PROVED_INTERNAL_ELEMENTARY_CP_0008_TO_0013",
+    "finite_certificate": "LOCAL_GENERATOR_AND_INDEPENDENT_CHECKER_PASS_K10_TO_K16",
+    "independent_external_validation": false,
     "lean": false,
     "palomar": false,
-    "hosted_ci": "S000_MAIN_FINITE_SANITY_SUCCESS_OBSERVED",
-    "hosted_ci_run_id": 38641993543,
-    "hosted_ci_head_sha": "efec7756f47364f1da0b7d2e6ff1c54f51804c94",
-    "report_depth16_counts": "REPORT_DERIVED_NOT_REPRODUCED_IN_REPO"
+    "hosted_ci": "NOT_OBSERVED_FOR_S001_AT_AUTHORING_TIME",
+    "latest_verified_prior_main_run_id": 38696354864,
+    "latest_verified_prior_main_sha": "fa6cd47825d09dc799df6f72d3c6f2e24c7d3c1d",
+    "depth_16": {
+      "odd_classes": 32768,
+      "strict_full_class_descent": 30653,
+      "base_1_except_n_equals_1": 1,
+      "uncovered_j_le_16": 2114,
+      "uncovered_mod16": {"7": 395, "11": 395, "15": 1324},
+      "manifest_sha256": "d4686d95c47107af29d939accb8d161684f929eb348426f2d39ea8b1819b2b37",
+      "complete_record_stream_sha256": "adec6e2b05d0671170ced97304a69f25a518ad0cd658be7feaa8238f0eafc1f9"
+    },
+    "report_original_raw_bytes_accessible": false,
+    "novelty": "UNCHECKED_NO_CLAIM"
   },
-  "audit": {
+  "original_S000_audit": {
     "input_start": 2,
     "input_end": 10000,
     "prime_count": 1229,
@@ -35,5 +43,7 @@
   "protocol": "docs/SESSION_PROTOCOL.md",
   "programme_plan": "research/PROGRAMME_PLAN.md",
   "report_integration": "research/REPORT_INTEGRATION.md",
+  "s001_proof_record": "research/S001_PROOFS_AND_OBSTRUCTIONS.md",
+  "s001_closeout": "sessions/S001/CLOSEOUT.md",
   "next_prompt": "authoritative/NEXT_SESSION_PROMPT.md"
 }
