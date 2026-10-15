@@ -1,0 +1,7 @@
+# S015 owner invocation and live baseline — 2026-10-15
+
+Exact owner instruction: "Run next session"; authoritative/NEXT_SESSION_PROMPT.md at entry was S015 FUTURE/UNEXECUTED and itself grants immediate authority for EXACTLY S015 (not S016). No second owner confirmation demanded.
+
+Read AGENTS.md, docs/SESSION_PROTOCOL.md, docs/EVIDENCE_POLICY.md, authoritative/START_HERE.md, STATE.json and the entire S015 handover, S014 INPUT/CLOSEOUT/proof/validation/test, S013/S012 mathematical notes, research/CLAIMS.md, FAILURE_LEDGER.md, SOURCES.md, sessions/LEDGER.md. Pre-entry remote main SHA ae692ae686102e3e07b5c3b5a60e97148eff7458, ACTUAL Git tree ecee406746b89d9d4bef03e846028fd9a7e39554, ordered parents 14a381126f13867ff41d9614783184dc3f473c48 and c6b0cb90deff9cb8bc2ff6dff1b38b8687b0b009. Open PR list []; rulesets []; branch protection GET 403 not observable. Earlier HEAD hosted push CI run 38752996133 job 116483964285 COMPLETED SUCCESS and each (1) Unit tests, (2) Finite parity and orbit sanity, (3) Recreate finite residue stream and cross-check original manifest individually SUCCESS. This PRECEDES S015. Original local git remote DNS failure confirmed.
+
+Research decision: direct primary Matveev 2000 Corollary 2.3, explicit uniform B_U bound and variable-U first crossing theorem, actually growing >3 E-blocks, adversarial finite graph and witness controls, two distinct noncircular algorithm attempts, source audit, original hosted CI AFTER branch, full S016 handover. See research/S015_PROOFS_AND_OBSTRUCTIONS.md and validation/S015_LOCAL_PROBES.md.

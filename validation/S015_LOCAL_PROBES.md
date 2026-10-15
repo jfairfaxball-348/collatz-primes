@@ -1,0 +1,12 @@
+# S015 exact finite validation — 15 October 2026
+
+Isolated execution: Python 3 standard library `python /mnt/data/s015_work/test_s015_math.py -v` — FIVE/5 tests PASS in 0.067 seconds after correcting one test domain; code SHA256 e722aaee44b5e25ff0fec3cbcffcade8e718b447df9490b531c87a3798ed84b2. The committed tests/test_s015_math.py reproduces the same code. No original repository checkout locally (git remote DNS blocked); the isolated 5 PASS must NOT be equated with hosted GitHub original suite.
+
+- All 8190 parity words of lengths 1..12 enumerated; affine intercept integer inequality 4B<=2^ell(3^r-1) checked on every word with no early coefficient crossing and r>=1. (The proof holds for ALL parity words regardless of crossing.)
+- GROWING U=(OOOE)^k, d=6k for k=1..24: exact word length, canonical n0 via inverse of 3^m mod2^j, FULL actual input parity checks, true first crossing, strict n0 and q=1,3 drops: PASS 24 families, 72 positive starts. None of this proves the asymptotic theorem by itself.
+- Matveev constants: numerical 2^32 ln2 ln3<10^10; effective enormous d0=[64(10^10+10)]² checked through symbolic inequality for selected integers without constructing 3^d0. PRIMARY mathematics comes from Matveev 2000 Corollary 2.3 inspected in its original English PDF and complete written algebra, not numeric computation.
+- Boundary U=OE crosses at step2; prefix p=OOEOOOOOEOEOO from 27 has T^13(27)=206 even, cannot immediately continue O^d with d>=1.
+- EXCEPTIONAL: first erroneous test enumerated all 8192 residues and found 367 noncrossing classes; this is NOT the historical 71 claim. Corrected domain z=11 mod16 inside 8192 (512 candidates) finds EXACTLY 71. Every row's P=3^r invertible mod8192 and its q=0..8191 maps to ALL 8192 residues, including 71 exceptional targets, i.e. 5041 possible directed exceptional pairs (not positive divergence).
+- Exact first descents: 7:7->5; 15:7->10; 27:59->23; 31:56->23; 39:8->38; 43:5->37; 91:45->61; 155:40->122; 251:27->244; 393243:37->269366; 917531:26->588548. Expanding 11-step same-v2 return for k=0,1,3,9 and forced-O composite tower H=6,12,24,48,96 checked.
+
+SOURCE STATUS: Matveev original 53-page English paper LOCATED/OPENED and primary corollary independently checked; entire proof NOT independently verified. Steiner 1978 original remains indirect. Novelty and global theorem open. Following new branch commit, hosted complete suite and original S000/S001/S003 tests must be checked by real workflow run/job/step IDs.
