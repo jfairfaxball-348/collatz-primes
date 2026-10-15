@@ -1,0 +1,9 @@
+# S013 finite local tests and external theorem provenance — 2026-10-15
+
+Standalone Python 3 isolated file /tmp/test_s013_math.py invoked by "python -m unittest -v /tmp/test_s013_math.py": 4 methods PASS, ~0.076 seconds in that environment; original full GitHub repository checkout was NOT cloned locally. The committed tests/test_s013_math.py is separately authored to match the four tested methods; local file byte identity and local full-original-suite PASS are NOT claimed.
+
+Finite bounds: a=2..10, c=1..7, m=a+1..150, subject to exact 3^a>2^(a+c), b>=1, 3^m>2^(m+c). 3,854 exact parameter triples PASS; D<K 43, D>=K 3,811. Check positive t0, modular inverse, two-modulus explicit CRT h, exact strict sign and integrality. Full parity input at EVERY i<j and exact endpoint for q=0 and q=1 on nine hand-picked triples, including (2,1,971), (2,1,1636), and D>=K short examples. Exact odd-run valuation and output on twelve odd inputs. Six least-counterexample mod48 examples plus 91/155/251 exact first-drop, 11-step expanding r27 family k=0,1,3,9. Nothing in 4 tests proves the asymptotic universal-in-m Matveev implication: its mathematical proof is in research/S013_PROOFS_AND_OBSTRUCTIONS.md.
+
+Sources: Matveev lower bound was read AS RESTATED in https://link.springer.com/article/10.1007/s40993-021-00252-2 (explicit 3*30^(t+4)... constant). Original Matveev primary paper not separately inspected; theorem is accepted as published SOURCE_STATED, and derivation into CP-0050 is PROVED_INTERNAL relative to it. Original 1978 Steiner pages not obtained/read. No new priority claim.
+
+GitHub-hosted ORIGINAL suite, S000 byte cmp/SHA256, S001 depths10–16 regenerated manifest, independent checker, JSONL consumer and S003 corruption cases: must be observed on this S013 branch/PR and merged main by exact workflow runs/jobs/steps, and not inferred from this standalone local test.

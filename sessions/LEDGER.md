@@ -37,3 +37,6 @@ A prepared S002 prompt is not an executed session. Owner fresh instruction direc
 | S012 | 2026-10-15 | COMPLETE research (CI/new PR separately attested upon observation) | Exact nonexhaustion of 27 p^N E^(4N) certificate; number-dependent termination/rank gap; EVERY fixed admissible (a,c) infinite near-resonant D<K first-crossing strict descent; composite forced-O bitlength lower bound | CP-0047—0049; target and Terras CST OPEN, S013 FUTURE/UNEXECUTED |
 
 S012 hosted verification: PR #18 merged main 1848d3021bba76da626ca0b91716fbbaa5fc4481, true tree e5776f3ff499baf8d77cf68548830a16a3988a08; branch/PR/main full substantive CI jobs SUCCESS (run IDs 38744583831, 38744619489, 38744739014). S013 FUTURE/UNEXECUTED.
+
+| S013 | 2026-10-15 | COMPLETE mathematical research; S013 hosted CI independently verify | Uniform fixed-pair first coefficient crossing via Matveev; exact dual CRT carry; finite odd-run valuation rank and failed global integer-dependent coverage | CP-0050—0052; 3854 standalone finite exact triples; Collatz/CST OPEN; S014 FUTURE/UNEXECUTED |
+
