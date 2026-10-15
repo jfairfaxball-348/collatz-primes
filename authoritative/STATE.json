@@ -1,8 +1,8 @@
 {
   "project": "Collatz Primes",
   "updated_utc_date": "2026-10-15",
-  "update_kind": "S015_MERGED_MAIN_AND_HOSTED_MAIN_CI_VERIFIED_ATTESTATION_BRANCH",
-  "current_session": "S015",
+  "update_kind": "S016_RESEARCH_COMMIT_HOSTED_CI_PENDING",
+  "current_session": "S016",
   "completed_sessions": [
     "S000",
     "S001",
@@ -19,16 +19,17 @@
     "S012",
     "S013",
     "S014",
-    "S015"
+    "S015",
+    "S016"
   ],
-  "next_session": "S016",
+  "next_session": "S017",
   "next_session_status": "FUTURE_UNEXECUTED",
   "target": "All composite positive integers eventually reach 1 under shortened Collatz T",
   "target_equivalent_to_full_collatz": true,
   "headline_status": "OPEN_UNPROVED",
-  "phase": "P1_S016_INTEGER_DEPENDENT_EXCEPTIONAL_EXIT",
-  "entry_main_sha": "ae692ae686102e3e07b5c3b5a60e97148eff7458",
-  "entry_main_tree": "ecee406746b89d9d4bef03e846028fd9a7e39554",
+  "phase": "P1_S017_EXHAUSTIVE_INTEGER_DEPENDENT_CERTIFICATE",
+  "entry_main_sha": "84a50048934ab5742ab76517e223267ddd44bc37",
+  "entry_main_tree": "e1823bff883c4cfc77bc4f8d20ebd79aedf5cfc1",
   "evidence": {
     "universal_proof": false,
     "terras_cst_status": "OPEN_KNOWN_PRIOR_ART",
@@ -207,7 +208,16 @@
       "674693dfa65ffaeb808a6cc100d75a33fc5383bd"
     ],
     "s015_main_hosted_ci": "SUCCESS_RUN_38757580954_JOB_116499980897_ALL_THREE_SUBSTANTIVE_STEPS",
-    "s015_postmerge_readback": "MAIN_STATE_NEXT_CLOSEOUT_TESTS_GIT_TREE_PARENTS_VERIFIED"
+    "s015_postmerge_readback": "MAIN_STATE_NEXT_CLOSEOUT_TESTS_GIT_TREE_PARENTS_VERIFIED",
+    "s016_sharp_intercept": "CP_0060_EXACT_MIN_MAX_ALL_ELL_R",
+    "s016_uniform_rho": "CP_0061_ALL_FIXED_RHO_LT_LN2_OVER_LN1P5_MATVEEV",
+    "s016_new_cylinder_noncoverage": "ALL_N_BELOW_HALF_EXP_EPS_D_EXCLUDED",
+    "s016_one_run_expansion": "CP_0062_64K_PLUS_59_SAME_V2_EXPANDS",
+    "s016_reverse_mod3": "CP_0063_MULTIPLES_OF_3_ONLY_EVEN_REVERSE_DESCENDANTS",
+    "s016_standalone_local": "FIVE_PASS_SHA256_b6d3efaf3dde18d66cfa88a16371e2e73137214bc4a7d72a7ad8cea934b5cc43",
+    "s016_preentry_main_ci": "SUCCESS_RUN_38757992468_JOB_116501433066_ALL_THREE_SUBSTANTIVE_STEPS",
+    "s016_hosted_pr_ci": "NOT_YET_OBSERVED",
+    "s016_universal_certificate": false
   },
   "next_prompt": "authoritative/NEXT_SESSION_PROMPT.md",
   "s007_proof_record": "research/S007_PROOFS_AND_OBSTRUCTIONS.md",
@@ -227,5 +237,7 @@
   "s014_proof_record": "research/S014_PROOFS_AND_OBSTRUCTIONS.md",
   "s014_closeout": "sessions/S014/CLOSEOUT.md",
   "s015_proof_record": "research/S015_PROOFS_AND_OBSTRUCTIONS.md",
-  "s015_closeout": "sessions/S015/CLOSEOUT.md"
+  "s015_closeout": "sessions/S015/CLOSEOUT.md",
+  "s016_proof_record": "research/S016_PROOFS_AND_OBSTRUCTIONS.md",
+  "s016_closeout": "sessions/S016/CLOSEOUT.md"
 }
