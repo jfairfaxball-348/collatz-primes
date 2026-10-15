@@ -27,3 +27,6 @@ A prepared S002 prompt is not an executed session. Owner fresh instruction direc
 | S008 | — | FUTURE / UNEXECUTED | Close residual 71/512 with noncircular regenerative rank; near-resonant multiblocks | authoritative/NEXT_SESSION_PROMPT.md |
 
 | S008 | 2026-10-15 | COMPLETE research (hosted PR/main CI verify separately) | Exact 71-residual first-crossing dichotomy; all-exponent two-run nonovershoot and known no-2-cycle supplement; general two-run affine obstruction | CP-0036–0038; composite Collatz and CST OPEN; S009 FUTURE/UNEXECUTED |
+
+| S009 | 2026-10-15 | COMPLETE (PR #12 and attestation PR #13 merged; hosted CI verified) | Explicit arbitrary-(c,d) a-progressions, K=1 all-a families and expanding r27 return | CP-0039–0041; global conjectures OPEN |
+| S010 | 2026-10-15 | COMPLETE mathematics (merge and hosted S010 CI independently verify) | Complete 71-state successor graph, arbitrary finite composite exception paths, D<K genuine first-crossing examples, two renewal no-go attempts | CP-0042–0043; Collatz/CST OPEN; S011 FUTURE/UNEXECUTED |

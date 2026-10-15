@@ -69,3 +69,8 @@ S008 novelty NOT established. Terras CST and full Collatz OPEN; local isolated 4
 | CP-0041 | PROVED_INTERNAL elementary | Infinite exact expanding 11-step same-residue return 393243+524288k ->1259803+1679616k, both 27 mod256; infinitely many composite starts. Does NOT give infinite divergent orbit. | research/S009_PROOFS_AND_OBSTRUCTIONS.md; tests/test_s009_math.py |
 
 S009: full Collatz and CST OPEN, 71/512 residual untouched by universal rank. Novelty UNCHECKED, no formal verification.
+
+| CP-0042 | PROVED_INTERNAL elementary exact exceptional graph and arbitrary finite lift lemma; originality UNESTABLISHED | All 71 depth13 exceptional residues admit EVERY directed 13-step successor among same 71 via q mod8192; 5041 graph edges. Every prescribed finite exceptional itinerary occurs for infinitely many positive COMPOSITE starts with strict no-descent and no coefficient crossing through every prescribed block. Refutes state-only well-founded rank and bounded state-dependent exceptional budget, not adaptive unbounded n-dependent rank or full Collatz. | research/S010_PROOFS_AND_OBSTRUCTIONS.md; tests/test_s010_math.py |
+| CP-0043 | PROVED_INTERNAL exact finite-parameter infinite-lift theorem; originality UNESTABLISHED | Authentic first-crossing two-run grammars (a,c,d,b)=(3,1,26,16),(4,2,25,15) have D<K but ALL admissible lifts strictly descend at j46; least-lift drops 18195423119 and 36390846239. D>K is not necessary, unrestricted D<=K classification/CST OPEN. | research/S010_PROOFS_AND_OBSTRUCTIONS.md; tests/test_s010_math.py |
+
+S010: Full Collatz and Terras CST remain OPEN; no novelty, Lean, Palomar or publication claim. Standalone exact local finite tests distinct from original hosted repo suite.
