@@ -1,8 +1,8 @@
 {
   "project": "Collatz Primes",
   "updated_utc_date": "2026-10-15",
-  "update_kind": "S011_RESEARCH_SESSION_COMPLETED",
-  "current_session": "S011",
+  "update_kind": "S012_RESEARCH_SESSION_COMPLETED_PENDING_CI",
+  "current_session": "S012",
   "completed_sessions": [
     "S000",
     "S001",
@@ -15,16 +15,17 @@
     "S008",
     "S009",
     "S010",
-    "S011"
+    "S011",
+    "S012"
   ],
-  "next_session": "S012",
+  "next_session": "S013",
   "next_session_status": "FUTURE_UNEXECUTED",
   "target": "All composite positive integers eventually reach 1 under shortened Collatz T",
   "target_equivalent_to_full_collatz": true,
   "headline_status": "OPEN_UNPROVED",
-  "phase": "P1_S012_EXCEPTION_BRANCH_COMPLETENESS_AND_NEAR_RESONANCE",
-  "entry_main_sha": "5017318dc43f950fa63b4f704fa77c385c7aec87",
-  "entry_main_tree": "097d89ecce99c75cddb8789454a1184eede194a6",
+  "phase": "P1_S013_SHRINKING_RESONANCE_AND_INTEGER_EXIT",
+  "entry_main_sha": "b397596941173027c7a0d33fddf38009ab837a87",
+  "entry_main_tree": "4ac25fdb3e2faff001acbdcb5c8c7e8f6b9ddb92",
   "evidence": {
     "universal_proof": false,
     "terras_cst_status": "OPEN_KNOWN_PRIOR_ART",
@@ -106,7 +107,15 @@
       "5017318dc43f950fa63b4f704fa77c385c7aec87",
       "2028e4d5bf6fec9d54059af6bb17404a5edd2243"
     ],
-    "s011_readback": "STATE_NEXT_CLOSEOUT_AND_TEST_VERIFIED"
+    "s011_readback": "STATE_NEXT_CLOSEOUT_AND_TEST_VERIFIED",
+    "s012_preentry_main_ci": "SUCCESS_RUN_38733438917_JOB_116416633742_ALL_THREE_SUBSTANTIVE_STEPS",
+    "s012_original_clone": false,
+    "s012_local_standalone_four_tests": "PASS_NOT_ORIGINAL_SUITE",
+    "s012_fixed_pair": "CP_0047_ALL_FIXED_ADMISSIBLE_A_C_INFINITE_D_LE_K_STRICT_ON_SUBPROGRESSIONS",
+    "s012_n27_noncoverage": "CP_0048_WN_UNION_NOT_EXHAUSTIVE",
+    "s012_forced_O": "CP_0049_H_LOG_INPUT_COMPOSITE",
+    "s012_pr_ci": "NOT_YET_OBSERVED",
+    "s012_main_ci": "NOT_YET_OBSERVED"
   },
   "next_prompt": "authoritative/NEXT_SESSION_PROMPT.md",
   "s007_proof_record": "research/S007_PROOFS_AND_OBSTRUCTIONS.md",
@@ -118,5 +127,7 @@
   "s010_proof_record": "research/S010_PROOFS_AND_OBSTRUCTIONS.md",
   "s010_closeout": "sessions/S010/CLOSEOUT.md",
   "s011_proof_record": "research/S011_PROOFS_AND_OBSTRUCTIONS.md",
-  "s011_closeout": "sessions/S011/CLOSEOUT.md"
+  "s011_closeout": "sessions/S011/CLOSEOUT.md",
+  "s012_proof_record": "research/S012_PROOFS_AND_OBSTRUCTIONS.md",
+  "s012_closeout": "sessions/S012/CLOSEOUT.md"
 }
