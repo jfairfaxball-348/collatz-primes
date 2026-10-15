@@ -44,3 +44,11 @@ First crossing CP-0026: every O^a E^b first-crossing representative is weakly no
 Mixed-state CP-0028: exact finite-word forward cylinders give an infinite STRICT composite progression in all six least-counterexample mod48 residues, plus an actual variable H O-exit grammar for r15/31 arbitrary H and r7/39 at H3; NO full residue eliminated. r27/43 incompatible with the simple H2 b2 O-run condition, so improve their sparse coverage in S006. U-inverse y=0,1 mod3 obstacles persist.
 
 Factor-rank CP-0029: even arbitrary fixed real state-dependent additive valuation/omega corrections to numeric n fail stepwise U monotonicity on infinite x=96q+15 composites. Seek genuinely nonlinear/block adaptive ranks; m-step F_m has no automatic sign. Universal and CST conjectures remain OPEN; novelty not established.
+
+## S006 route verdict — 2026-10-15
+
+**Steiner classical theorem import:** CP-0030 closes the S005 O^a E^b equality obstruction for a>=2 using EXISTING published one-circuit theory, NOT a new no-cycle proof. Every positive member of such a parity cylinder strictly decreases at the first coefficient crossing; this says nothing about first-crossing parity words with multiple odd blocks. Advance to true multi-block words in S007.
+
+**Six-class grammar:** CP-0031 three disjoint full parity-word cylinders (11 mod32 step5, 59 mod128 step7, 123 mod256 step8) cover exactly 11/16 of BOTH r27 and r43 mod48, much greater than sparse lifts. Remaining 5/16 and other four whole classes remain unresolved, so neither full class is excluded. Target the remaining mixed 27 mod32 subtrees, not merely global density.
+
+**Rank no-go:** CP-0032 rules out ALL separable multiplicative n^p f(v2(n+1)) strictly monotone at each U step even for composite starts. Input high-h O-runs vs output high-h jumps force incompatible growth. Nonseparable r/h, multi-step and terminal-state ranks remain possible. No Collatz/CST theorem.

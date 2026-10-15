@@ -45,3 +45,9 @@ S004 novelty gate: CP-0023—0025 are elementary; no originality demonstrated; n
 | CP-0029 | PROVED_INTERNAL scoped no-go | Every one-U-step rank R(n)=n+A_(n mod48,v2(n+1))+B_(state)*omega(n) with finite real fixed penalties increases on infinitely many composites x=96q+15 ->144q+23. Does not rule out nonlinear/block ranks. | research/S005_PROOFS_AND_OBSTRUCTIONS.md |
 
 S005 originality NOT established; Collatz and Terras CST OPEN; 55 newly certified exponents among a2..256 and all six word checks are FINITE_TEST only; no Lean/Palomar.
+
+| CP-0030 | SOURCE_STATED classical Steiner 1978 + PROVED_INTERNAL application | Published no-nontrivial-1-circuit theorem excludes equality in ALL positive O^a E^b first crossings with a>=2; hence EVERY such cylinder strictly descends at crossing. Exact Steiner proof NOT locally rederived; NOT novel. | research/S006_PROOFS_AND_OBSTRUCTIONS.md; Lagarias annotated bibliography |
+| CP-0031 | PROVED_INTERNAL elementary; novelty NOT ESTABLISHED | Three FULL parity residue cylinders n≡11 mod32 (j5), n≡59 mod128 (j7), n≡123 mod256 (j8) are strictly descending; their disjoint union covers EXACTLY 11/16 of each r=27,43 mod48 class. Not all residues. | research/S006_PROOFS_AND_OBSTRUCTIONS.md; tests/test_s006_math.py |
+| CP-0032 | PROVED_INTERNAL scoped no-go; novelty NOT ESTABLISHED | For ANY p>0 and positive function f(h), no one-U-step strictly decreasing potential R(n)=n^p f(v2(n+1)) exists for ALL odd composite inputs. High-h O-runs and composite high-h output jumps contradict. | research/S006_PROOFS_AND_OBSTRUCTIONS.md; tests/test_s006_math.py |
+
+S006: Full Collatz and Terras CST remain OPEN. Steiner's classical theorem is explicitly imported, not original; no novelty or formal validation claimed. 
