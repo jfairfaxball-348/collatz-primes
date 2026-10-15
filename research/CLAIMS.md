@@ -63,3 +63,9 @@ S007: 441/512 is NOT full coverage; Collatz and Terras CST OPEN. Independent Pyt
 | CP-0038 | PROVED_INTERNAL algebraic identity + scoped obstruction | For admissible O^a E^c O^d E^b, exact endpoint (3^(a+d)t+K)/M with K=3^d(2^c-1)-2^(c+d); K=-1 iff (c,d)=(1,1), otherwise K>=1. First-crossing overshoot in other words still OPEN, no proof of existence. | research/S008_PROOFS_AND_OBSTRUCTIONS.md; tests/test_s008_math.py |
 
 S008 novelty NOT established. Terras CST and full Collatz OPEN; local isolated 4/4 finite tests, original repo local tests unavailable; S008 hosted CI verify independently.
+
+| CP-0039 | PROVED_INTERNAL elementary weak + SOURCE_STATED strict q=0 | For EVERY fixed c,d>=1 other than (1,1), sufficiently large a satisfying a+d=0 mod phi(2^s), 2^s-1>K, yield first-crossing O^a E^c O^d E^b weak descent on ALL positive lifts, strict q>=1. q=0 strict follows from published no-2-cycle theorem; novelty UNCHECKED. | research/S009_PROOFS_AND_OBSTRUCTIONS.md; tests/test_s009_math.py |
+| CP-0040 | PROVED_INTERNAL elementary weak + SOURCE_STATED strict q=0 | For ALL a>=4, (c,d)=(2,1) and (1,2) have first coefficient crossing weak descent for all t; q>=1 strictly. K=1 and D≡5/7 mod8. | research/S009_PROOFS_AND_OBSTRUCTIONS.md; tests/test_s009_math.py |
+| CP-0041 | PROVED_INTERNAL elementary | Infinite exact expanding 11-step same-residue return 393243+524288k ->1259803+1679616k, both 27 mod256; infinitely many composite starts. Does NOT give infinite divergent orbit. | research/S009_PROOFS_AND_OBSTRUCTIONS.md; tests/test_s009_math.py |
+
+S009: full Collatz and CST OPEN, 71/512 residual untouched by universal rank. Novelty UNCHECKED, no formal verification.

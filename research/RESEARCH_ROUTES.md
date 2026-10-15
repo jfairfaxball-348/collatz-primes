@@ -68,3 +68,9 @@ Factor-rank CP-0029: even arbitrary fixed real state-dependent additive valuatio
 **Two O-runs:** CP-0037 removes the S007 ratio restriction for the precise O^a E O E^b grammar at ALL a>=3 by elementary residue/integrality; strict q>=1 unconditional, q=0 dependent on existing SOURCE_STATED 2-cycle exclusion. General O^a E^c O^d E^b formula CP-0038 has K=-1 only at (c,d)=(1,1), K>=1 otherwise; S009 should attack minimum representative inequality with new ideas, not assume automatic nonovershoot/CST. Neither family proves global Collatz or novelty.
 
 **Inverse/prime:** y mod3 source obstacles, six hypothetical least-counterexample mod48 classes and 121->91/15->23->35 factor reentry unchanged. No global rank, no publication gate, no Lean/Palomar.
+
+## S009 route verdict — 2026-10-15
+
+**Multi-run progress:** CP-0039 uses Euler congruences to prove weak first-crossing nonovershoot for infinitely many a for every fixed pair (c,d)≠(1,1), all nonminimum lifts strictly dropping; CP-0040 gives K=1 cases (2,1),(1,2) for every a>=4. This solves *scoped grammar classes*, not all parameter triples or Terras CST. Equality on least lift requires EXISTING Simons–de Weger no-2-cycle input, no new cycle proof. S010 should classify remaining a with D<=K, hostile small representatives and attempt complete two-run grammar without circularity.
+
+**Exceptional tree:** CP-0041 proves an exact expanding 11-step return to the SAME 27 mod256 residue, with composite input witnesses. Residue recurrence cannot be mistaken for integer descent; infinite iteration of the same return is NOT proved. Need a genuine well-founded adaptive rank with complete branch termination for all 71-depth13 exceptions and all six least-counterexample mod48 residues. Not achieved. No originality or publication clearance.
