@@ -32,3 +32,6 @@ A prepared S002 prompt is not an executed session. Owner fresh instruction direc
 | S010 | 2026-10-15 | COMPLETE mathematics (merge and hosted S010 CI independently verify) | Complete 71-state successor graph, arbitrary finite composite exception paths, D<K genuine first-crossing examples, two renewal no-go attempts | CP-0042–0043; Collatz/CST OPEN; S011 FUTURE/UNEXECUTED |
 
 | S011 | 2026-10-15 | COMPLETE mathematics (PR/main CI separately evidenced) | General two-run 2-adic lower bound; arbitrary-deep exceptional-to-first-crossing positive composite certificates; paired infinite D<K strict first-crossing theorem; valuation-return rank failure | CP-0044—0046; S012 FUTURE/UNEXECUTED; all Collatz/CST OPEN |
+
+
+| S012 | 2026-10-15 | COMPLETE research (CI/new PR separately attested upon observation) | Exact nonexhaustion of 27 p^N E^(4N) certificate; number-dependent termination/rank gap; EVERY fixed admissible (a,c) infinite near-resonant D<K first-crossing strict descent; composite forced-O bitlength lower bound | CP-0047—0049; target and Terras CST OPEN, S013 FUTURE/UNEXECUTED |
