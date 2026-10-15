@@ -1,23 +1,23 @@
 # Authoritative status — Collatz Primes
 
-**Date:** 2026-10-14.
-**Completed:** S000 bootstrap, foundations, bounded sanity audit.
-**Next:** S001 future / unexecuted; read authoritative/NEXT_SESSION_PROMPT.md.
-**Headline target:** forall composite n>=4, there exists k>=0 with T^k(n)=1.
-**Global status:** OPEN. This is equivalent to the full Collatz conjecture and is not resolved by S000.
-**Evidence tier:** internal elementary proofs plus a Python finite sanity check. No Lean proof, Palomar verification, external referee, independent replay or universal convergence certificate is asserted.
+**Date:** 2026-10-15 (planning update only).
+**Completed research sessions:** S000.
+**Next executable research session:** S001, FUTURE / UNEXECUTED. See authoritative/NEXT_SESSION_PROMPT.md.
+**Headline target:** for every composite n>=4 there is j>=0 with T^j(n)=1, equivalent by CP-0001 to all-positive Collatz.
+**Global theorem status:** OPEN / UNPROVED. The S001 planning revision makes NO new universal claim and does not execute S001.
 
-Main elementary mathematical points:
-- Composite-only convergence iff full Collatz convergence: for prime p, 2p is composite and T(2p)=p.
-- All n>1 even descend in one step; all n>1 with n=1 mod 4 descend in two shortened-map steps; all n=3 mod 16 descend in four steps.
-- For odd n, gcd(n,T(n))=1; no multiplicative behavior of T(n) follows.
-- If a least counterexample exists, it lies in classes 7,11,15 modulo 16 (necessary, far from sufficient).
-- A finite modulus 2^k cannot distinguish primality from compositeness on its odd residue classes: each contains infinitely many composites, and infinitely many primes by Dirichlet's theorem.
+**Governing roadmap:** research/PROGRAMME_PLAN.md.
+**Owner report source transfer / facts to check:** research/REPORT_INTEGRATION.md.
 
-Run:
-python -m unittest discover -s tests -v
-python tools/trajectory.py --limit 10000 --depth 8
+Proof-first priority is a noncircular global strict-descent theorem or a complete reverse-basin cover. Parallel tracks: exact affine-residue certificates and exceptional-family dynamics; prime-factor erasure/transition constraints; inverse-graph parameterisation and compact grammar; source/Lean/cycle theory audit. Large finite checks are supporting work only.
 
-S000 local run: four unittest cases PASS; 4790 finite assertions; [2,10000] has 1229 primes, 8770 composites. Exact checked output at validation/S000_audit.json. These are sanity results, not a proof of all starts.
+S000 mathematics remains as recorded: composite equivalence, elementary descent classes, gcd reset, affine parity identity and odd-residue prime/composite mixing. No substantial new Collatz theorem, Lean proof, Palomar verification or independent audit is claimed for this planning update.
 
-Primary reading: research/S000_FOUNDATIONS.md, research/RESEARCH_ROUTES.md, research/SOURCES.md and sessions/S000/CLOSEOUT.md. The future prompt is the authoritative next instruction, not evidence S001 already ran.
+**CI reconciliation:** The original S000 STATE.json marked hosted CI not observed. At planning entry, the LIVE main-branch finite-sanity-checks workflow run 38641993543 for commit efec7756f47364f1da0b7d2e6ff1c54f51804c94 was observed completed with SUCCESS on 2026-10-14. This is an S000 finite test, NOT a universal proof and NOT a claim that later workflow runs succeeded.
+
+Run for existing local finite checks:
+
+    python -m unittest discover -s tests -v
+    python tools/trajectory.py --limit 10000 --depth 8
+
+At S001 entry pin live main anew and read AGENTS.md, docs/SESSION_PROTOCOL.md, docs/EVIDENCE_POLICY.md, authoritative/STATE.json, research/PROGRAMME_PLAN.md, research/REPORT_INTEGRATION.md, research/CLAIMS.md, research/FAILURE_LEDGER.md, and the full next-session prompt. User invocation of S001's prompt authorises S001 immediately with no second confirmation. Do not run S002 unless subsequently instructed.
