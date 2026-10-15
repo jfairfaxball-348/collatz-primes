@@ -1,8 +1,8 @@
 {
   "project": "Collatz Primes",
   "updated_utc_date": "2026-10-15",
-  "update_kind": "S014_VERIFIED_MERGED_PR_HOSTED_CI_MAIN_READBACK",
-  "current_session": "S014",
+  "update_kind": "S015_PR_HOSTED_69_TESTS_AT_INITIAL_HEAD_ATTESTED_FINAL_CHECK_PENDING",
+  "current_session": "S015",
   "completed_sessions": [
     "S000",
     "S001",
@@ -18,16 +18,17 @@
     "S011",
     "S012",
     "S013",
-    "S014"
+    "S014",
+    "S015"
   ],
-  "next_session": "S015",
+  "next_session": "S016",
   "next_session_status": "FUTURE_UNEXECUTED",
   "target": "All composite positive integers eventually reach 1 under shortened Collatz T",
   "target_equivalent_to_full_collatz": true,
   "headline_status": "OPEN_UNPROVED",
-  "phase": "P1_S015_ARBITRARY_PREFIX_AUDIT_AND_UNIVERSAL_EXIT",
-  "entry_main_sha": "1b30f474157b676830b8c7be0ef9bd7613489efd",
-  "entry_main_tree": "NOT_OBSERVED_CONNECTOR_COMMIT_PAYLOAD_OMITS_TREE",
+  "phase": "P1_S016_INTEGER_DEPENDENT_EXCEPTIONAL_EXIT",
+  "entry_main_sha": "ae692ae686102e3e07b5c3b5a60e97148eff7458",
+  "entry_main_tree": "ecee406746b89d9d4bef03e846028fd9a7e39554",
   "evidence": {
     "universal_proof": false,
     "terras_cst_status": "OPEN_KNOWN_PRIOR_ART",
@@ -175,7 +176,27 @@
     "s014_merged_main_push_ci": "NOT_OBSERVED_CONNECTOR_PR_FILTER_ONLY",
     "s014_S000_sha256": "45a4ee995384ec9154bf092e272562172797e78bf771611b1d31376627498084",
     "s014_S001_manifest_sha256": "d4686d95c47107af29d939accb8d161684f929eb348426f2d39ea8b1819b2b37",
-    "s014_S001_records_sha256": "adec6e2b05d0671170ced97304a69f25a518ad0cd658be7feaa8238f0eafc1f9"
+    "s014_S001_records_sha256": "adec6e2b05d0671170ced97304a69f25a518ad0cd658be7feaa8238f0eafc1f9",
+    "s015_primary_matveev": "ORIGINAL_2000_FULL_ENGLISH_PRIMARY_ACQUIRED_SECTION_2_COROLLARY_2_3_READ_NOT_WHOLE_PROOF_REDERIVED",
+    "s015_log_delta_bound": "CP_0056_C_10_POWER_10_PRIMARY_SOURCE_STATED",
+    "s015_variable_prefix": "CP_0057_UNIFORM_R_LE_D_OVER_2_D_GE_64_C_PLUS_10_SQUARED",
+    "s015_intercept_bound": "CP_0058_FOUR_B_LE_2_POW_ELL_TIMES_3_POW_R_MINUS_1",
+    "s015_coverage": "CP_0059_EXPLICIT_LARGE_D_NONEXHAUSTION_ALL_GLOBAL_OPEN",
+    "s015_exception_graph": "71_VERTICES_5041_PAIRS_FINITE_EXACT",
+    "s015_local_tests": "5_PASS_NOT_HOSTED",
+    "s015_branch_hosted_suite": "SUCCESS_RUN_38756876594_JOB_116497513707_ALL_THREE_SUBSTANTIVE_STEPS",
+    "s015_entry_main_true_tree": "ecee406746b89d9d4bef03e846028fd9a7e39554",
+    "s015_entry_main_parents": [
+      "14a381126f13867ff41d9614783184dc3f473c48",
+      "c6b0cb90deff9cb8bc2ff6dff1b38b8687b0b009"
+    ],
+    "s015_preentry_main_ci": "SUCCESS_RUN_38752996133_JOB_116483964285_ALL_THREE_SUBSTANTIVE_STEPS",
+    "s015_pr_initial_hosted_suite": "SUCCESS_RUN_38756939543_JOB_116497731490_69_TESTS_ALL_THREE_STEPS",
+    "s015_S000_sha256": "45a4ee995384ec9154bf092e272562172797e78bf771611b1d31376627498084",
+    "s015_S001_manifest_sha256": "d4686d95c47107af29d939accb8d161684f929eb348426f2d39ea8b1819b2b37",
+    "s015_S001_records_sha256": "adec6e2b05d0671170ced97304a69f25a518ad0cd658be7feaa8238f0eafc1f9",
+    "s015_initial_pr": 24,
+    "s015_initial_research_commit": "c1a1faf307b3d1661aac057becd30ebfe17db798"
   },
   "next_prompt": "authoritative/NEXT_SESSION_PROMPT.md",
   "s007_proof_record": "research/S007_PROOFS_AND_OBSTRUCTIONS.md",
@@ -193,5 +214,7 @@
   "s013_proof_record": "research/S013_PROOFS_AND_OBSTRUCTIONS.md",
   "s013_closeout": "sessions/S013/CLOSEOUT.md",
   "s014_proof_record": "research/S014_PROOFS_AND_OBSTRUCTIONS.md",
-  "s014_closeout": "sessions/S014/CLOSEOUT.md"
+  "s014_closeout": "sessions/S014/CLOSEOUT.md",
+  "s015_proof_record": "research/S015_PROOFS_AND_OBSTRUCTIONS.md",
+  "s015_closeout": "sessions/S015/CLOSEOUT.md"
 }
