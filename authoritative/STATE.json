@@ -77,8 +77,17 @@
     "s010_local_original_clone": false,
     "s010_isolated_script": "PASS_SHA256_2e17bc227374d761c22f17bad2254660d28e2d1274b4e1a8aa4a1cfffbe16053",
     "s010_preentry_main_ci": "SUCCESS_RUN_38725436174_JOB_116389981447_ALL_STEPS",
-    "s010_pr_ci": "PENDING_INDEPENDENT_OBSERVATION",
-    "s010_main_ci": "PENDING_INDEPENDENT_OBSERVATION"
+    "s010_pr_ci": "SUCCESS_RUN_38727916167_JOB_116398235067_ALL_STEPS",
+    "s010_main_ci": "SUCCESS_RUN_38727998657_JOB_116398505970_ALL_STEPS",
+    "s010_branch_push_ci": "SUCCESS_RUN_38727872358_JOB_116398093359_ALL_STEPS",
+    "s010_merged_pr": 14,
+    "s010_merged_main_sha": "7dc3cce70243892c80209785bb9f1e87d0a67872",
+    "s010_merged_main_true_tree": "4b23febd6a2473a5cf3ec113b61e78637d7ddf3f",
+    "s010_merged_main_parents": [
+      "e7d9643233f6186c169898ed159f4192e9168da0",
+      "dc9baf0cf2a53818e05f351b09fad4e6bcb72ffd"
+    ],
+    "s010_readback": "STATE_START_CLOSEOUT_TEST_AND_NEXT_PROMPT_MAIN_VERIFIED"
   },
   "next_prompt": "authoritative/NEXT_SESSION_PROMPT.md",
   "s007_proof_record": "research/S007_PROOFS_AND_OBSTRUCTIONS.md",
