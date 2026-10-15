@@ -1,7 +1,7 @@
 {
   "project": "Collatz Primes",
   "updated_utc_date": "2026-10-15",
-  "update_kind": "S017_MATHEMATICS_COMMITTED_HOSTED_CI_PENDING",
+  "update_kind": "S017_ORIGINAL_PR_MERGED_AND_HOSTED_FULL_CI_VERIFIED_ATTESTATION_BRANCH",
   "current_session": "S017",
   "completed_sessions": [
     "S000",
@@ -239,9 +239,23 @@
     "s017_uniform_parameter_M0": "[16*(10^10+10)]^2",
     "s017_local_grid": "4425_TRIPLES_17700_LIFTS_PASS_STANDALONE_ONLY",
     "s017_local_source_sha256": "3ce5dceb6baae591c07f9a986cc871daafc3bc80db8439b9cfac3f78dc899522",
-    "s017_new_hosted_ci": "NOT_YET_OBSERVED",
+    "s017_new_hosted_ci": "ORIGINAL_RESEARCH_BRANCH_PR_AND_MERGED_MAIN_SUCCESS_SUBSEQUENT_ATTESTATION_NOT_YET_OBSERVED",
     "s017_universal_exit": false,
-    "s017_novelty": "NOT_ESTABLISHED"
+    "s017_novelty": "NOT_ESTABLISHED",
+    "s017_original_research_commit": "83ff5a9606723eabd51ca5e0e726604ec89626d8",
+    "s017_original_true_tree": "a29ab17367bd18cea99e9da42367c7d80e4d27d0",
+    "s017_original_parent": "e183c3a2133b6154700c0cb989318865a1387b80",
+    "s017_pr": 28,
+    "s017_branch_ci": "SUCCESS_RUN_38770770589_JOB_116545672885_ALL_THREE_STEPS_80_TESTS",
+    "s017_pr_ci": "SUCCESS_RUN_38770812418_JOB_116545821099_ALL_THREE_STEPS_80_TESTS",
+    "s017_merged_sha": "1bc9606f563ce2d37e392eefe0fc27d113224328",
+    "s017_merged_true_tree": "a29ab17367bd18cea99e9da42367c7d80e4d27d0",
+    "s017_merged_ordered_parents": [
+      "e183c3a2133b6154700c0cb989318865a1387b80",
+      "83ff5a9606723eabd51ca5e0e726604ec89626d8"
+    ],
+    "s017_merged_main_ci": "SUCCESS_RUN_38770957392_JOB_116546315754_ALL_THREE_STEPS_80_TESTS",
+    "s017_postmerge_readback": "MAIN_STATE_NEXT_CLOSEOUT_TEST_CONFIRMED"
   },
   "next_prompt": "authoritative/NEXT_SESSION_PROMPT.md",
   "s007_proof_record": "research/S007_PROOFS_AND_OBSTRUCTIONS.md",
