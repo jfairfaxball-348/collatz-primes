@@ -1,7 +1,7 @@
 {
   "project": "Collatz Primes",
   "updated_utc_date": "2026-10-15",
-  "update_kind": "S014_MATHEMATICS_COMPLETED_HOSTED_CHECK_PENDING",
+  "update_kind": "S014_VERIFIED_MERGED_PR_HOSTED_CI_MAIN_READBACK",
   "current_session": "S014",
   "completed_sessions": [
     "S000",
@@ -163,7 +163,19 @@
     "s014_entry_main_true_tree": "NOT_OBSERVED",
     "s014_pr_initial_22_ci": "SUCCESS_RUN_38751937102_JOB_116480292376_ALL_THREE_SUBSTANTIVE_STEPS_64_TESTS",
     "s014_pr_initial_22_head_sha": "0e4f12b703f03e9ff5b644fb00f6f09468e26d27",
-    "s014_pr_after_state_amendment_ci": "NOT_YET_OBSERVED"
+    "s014_pr_after_state_amendment_ci": "NOT_YET_OBSERVED",
+    "s014_original_hosted_unittest_count": 64,
+    "s014_pr_initial_ci": "SUCCESS_RUN_38751937102_JOB_116480292376_ALL_THREE_SUBSTANTIVE_STEPS",
+    "s014_pr_final_ci": "SUCCESS_RUN_38752182050_JOB_116481124938_ALL_THREE_SUBSTANTIVE_STEPS",
+    "s014_pr_number": 22,
+    "s014_merged_main_sha": "14a381126f13867ff41d9614783184dc3f473c48",
+    "s014_merged_main_readback": "STATE_NEXT_PROMPT_CLOSEOUT_TESTS_VERIFIED",
+    "s014_merged_main_true_tree": "NOT_OBSERVED",
+    "s014_merged_main_ordered_parents": "NOT_OBSERVED",
+    "s014_merged_main_push_ci": "NOT_OBSERVED_CONNECTOR_PR_FILTER_ONLY",
+    "s014_S000_sha256": "45a4ee995384ec9154bf092e272562172797e78bf771611b1d31376627498084",
+    "s014_S001_manifest_sha256": "d4686d95c47107af29d939accb8d161684f929eb348426f2d39ea8b1819b2b37",
+    "s014_S001_records_sha256": "adec6e2b05d0671170ced97304a69f25a518ad0cd658be7feaa8238f0eafc1f9"
   },
   "next_prompt": "authoritative/NEXT_SESSION_PROMPT.md",
   "s007_proof_record": "research/S007_PROOFS_AND_OBSTRUCTIONS.md",
