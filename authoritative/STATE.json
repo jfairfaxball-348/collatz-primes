@@ -1,22 +1,23 @@
 {
   "project": "Collatz Primes",
   "updated_utc_date": "2026-10-15",
-  "update_kind": "S005_RESEARCH_SESSION_COMPLETED",
-  "current_session": "S005",
+  "update_kind": "S006_RESEARCH_SESSION_COMPLETED",
+  "current_session": "S006",
   "completed_sessions": [
     "S000",
     "S001",
     "S002",
     "S003",
     "S004",
-    "S005"
+    "S005",
+    "S006"
   ],
-  "next_session": "S006",
+  "next_session": "S007",
   "next_session_status": "FUTURE_UNEXECUTED",
   "target": "All composite positive integers eventually reach 1 under shortened Collatz T",
   "target_equivalent_to_full_collatz": true,
   "headline_status": "OPEN_UNPROVED",
-  "phase": "P1_ONE_BLOCK_EQUALITY_AND_SIX_CLASS_ADAPTIVE_GRAMMAR",
+  "phase": "P1_STEINER_ONE_CIRCUIT_AND_MIXED_RESIDUAL_ADAPTIVE_GRAMMAR",
   "evidence": {
     "universal_proof": false,
     "terras_cst_status": "OPEN_KNOWN_PRIOR_ART",
@@ -35,16 +36,24 @@
     "s005_local_original_checkout": false,
     "s004_pr_ci": "SUCCESS_RUN_38710949298_JOB_116341876105",
     "s004_main_ci": "SUCCESS_RUN_38711026773_JOB_116342130842",
-    "s005_pr_ci": "PENDING_HOSTED_OBSERVATION",
-    "s005_main_ci": "PENDING_HOSTED_OBSERVATION"
+    "s005_pr_ci": "SUCCESS_RUN_38713158631_JOB_116349307535",
+    "s005_main_ci": "SUCCESS_RUN_38713250568_JOB_116349613788",
+    "s006_source_steiner": "KNOWN_THEOREM_AS_ANNOTATED_BY_LAGARIAS_ORIGINAL_NOT_READ",
+    "s006_residue": "CP_0031_PROVED_INTERNAL_11_OF_16_OF_R27_AND_R43",
+    "s006_rank": "CP_0032_PROVED_INTERNAL_SCOPED_MULTIPLICATIVE_NO_GO",
+    "s006_local_original_checkout": false,
+    "s006_pr_ci": "PENDING_HOSTED_OBSERVATION",
+    "s006_main_ci": "PENDING_HOSTED_OBSERVATION"
   },
-  "entry_main_sha": "da3c88e41b5321d40a607302575def05c9d33b23",
-  "entry_main_tree": "316655231c41a5ba8419e7566f630a919d6e45f1",
+  "entry_main_sha": "5074485f78b0c84746607ef7054f9ec0e5263fa7",
+  "entry_main_tree": "873308b7dd1c0e45ecbb7a3e3d1e0bad24644fe0",
   "s003_proof_record": "research/S003_PROOFS_AND_OBSTRUCTIONS.md",
   "s003_closeout": "sessions/S003/CLOSEOUT.md",
   "next_prompt": "authoritative/NEXT_SESSION_PROMPT.md",
   "s004_proof_record": "research/S004_PROOFS_AND_OBSTRUCTIONS.md",
   "s004_closeout": "sessions/S004/CLOSEOUT.md",
   "s005_proof_record": "research/S005_PROOFS_AND_OBSTRUCTIONS.md",
-  "s005_closeout": "sessions/S005/CLOSEOUT.md"
+  "s005_closeout": "sessions/S005/CLOSEOUT.md",
+  "s006_proof_record": "research/S006_PROOFS_AND_OBSTRUCTIONS.md",
+  "s006_closeout": "sessions/S006/CLOSEOUT.md"
 }

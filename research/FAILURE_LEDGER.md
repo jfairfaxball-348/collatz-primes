@@ -38,3 +38,7 @@
 - F-0029 — INSUFFICIENT sparse six-residue forward certificates: n=r+3*2^j*q descends for six seed r, but no FULL class coverage; r27/43 fail the simple H=2 O^H E^b inverse condition t mod4.
 - F-0030 — REFUTED all-composite one-U-step monotonicity of any fixed additive size + (r,h)-valuation/prime-support penalties: x=96q+15 -> y=144q+23 yields y-x=48q+8 against O(log q) omega terms.
 - F-0031 — INVALID leap from a vanishing rare near-resonance band f_a>4/5 to absence of one-block equality or of global cycles. The Diophantine equality remains unexcluded; the full Collatz theorem OPEN.
+
+- F-0032 — SOURCE-RESOLVED S006: treating S005 one-block equality as a new open Diophantine subproblem ignores Steiner (published 1978), which solved EXACTLY (2^(k+l)-3^k)h=2^l-1 for positive k,l,h (only 1,1,1). The original text is NOT personally rederived; careful source import only.
+- F-0033 — INSUFFICIENT S006: 11/16 density of first descent in BOTH 27 and43 mod48 is NOT full coverage; 5/16 residue subset remains, including starts 27,91 and infinite lift branches. Relative density is not a global proof.
+- F-0034 — REFUTED S006: global one-U strictly decreasing n^p*f(v2(n+1)) with p>0 and f>0 even on odd composite starts; forced f(H)/f(H-1)>(3/2)^p conflicts with jump-family uniform f(K)/f(1)<(4/3)^p. Does not exclude arbitrary nonlinear/multi-step ranks.

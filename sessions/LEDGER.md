@@ -19,3 +19,6 @@ A prepared S002 prompt is not an executed session. Owner fresh instruction direc
 
 | S005 | 2026-10-15 | COMPLETE (mathematical session; hosted CI/merge independently check) | First-crossing nonovershoot; new infinite complementary exponent band; six-class strict-cylinder grammar; additive mixed-state U-rank obstruction | CP-0026—CP-0029 internal elementary; global theorem/CST OPEN |
 | S006 | — | FUTURE / UNEXECUTED | One-block equality/cycle question, r27/43 coverage and nonadditive adaptive ranks | authoritative/NEXT_SESSION_PROMPT.md |
+
+| S006 | 2026-10-15 | COMPLETE (research; new PR/hosted checks separately verify) | Steiner 1-circuit prior art; three full parity cylinders covering 11/16 of r27/r43; multiplicative valuation-rank no-go | CP-0030 classical-source import, CP-0031–0032 elementary internal; global theorem OPEN |
+| S007 | — | FUTURE / UNEXECUTED | Remaining 5/16 mixed residues, multi-block first crossings, adaptive ranks | authoritative/NEXT_SESSION_PROMPT.md |
