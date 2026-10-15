@@ -62,3 +62,7 @@ S006 researches published Steiner one-circuit theorem (CP-0030): the exact equal
 ## S007 update — 15 October 2026
 
 S007 proves elementary scoped CP-0033, CP-0034, CP-0035: exact full residue-cylinder coverage in EACH hard mod48 class rises from 11/16 to **441/512**, while **71/512 remains open**; an infinite band of actual two-odd-run first-crossing parity cylinders strictly descends; and infinitely many composite starts in each class avoid descent for any prescribed fixed horizon H. These do NOT prove Collatz or CST, do NOT constitute a divergent example, and priority remains UNCHECKED. See [S007 proofs](research/S007_PROOFS_AND_OBSTRUCTIONS.md), [S007 closeout](sessions/S007/CLOSEOUT.md) and the **complete S008 FUTURE/UNEXECUTED prompt** at [authoritative/NEXT_SESSION_PROMPT.md](authoritative/NEXT_SESSION_PROMPT.md). Earlier README next-session headings are historical.
+
+## S009 update — 15 October 2026
+
+S009 completes scoped CP-0039/0040 first-crossing two-run certificates (for every fixed c,d≠(1,1) an infinite progression of a, and for K=1 both (2,1) and (1,2) ALL a>=4), plus CP-0041 an exact expanding 27 mod256 residue return showing why residue renewal alone cannot work. Global Collatz/composite goal and Terras CST **OPEN**; novelty UNCHECKED. Read [proof](research/S009_PROOFS_AND_OBSTRUCTIONS.md), [closeout](sessions/S009/CLOSEOUT.md), and [complete S010 future prompt](authoritative/NEXT_SESSION_PROMPT.md). Older next-session headings above are historical, not authoritative.
