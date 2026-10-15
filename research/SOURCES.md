@@ -9,3 +9,15 @@ Literature is read as background; none provides the desired universal theorem.
 - SRC-0005 — Dirichlet's theorem on primes in arithmetic progressions (classical). The theorem is invoked for every odd residue mod 2^k in CP-0005; not claimed original.
 
 **Source caution:** GitHub projects and secondary articles can change. Confirm literature and latest computational frontier at each relevant subsequent session; date all newly claimed records. No source in this list is evidence that the composite-convergence conjecture is settled.
+
+
+## S001 dated live audits (15 October 2026)
+
+- SRC-0006 — Vigleik Angeltveit, “An improved algorithm for checking the Collatz conjecture for all n<2^N,” arXiv:2602.10466, submitted 11 Feb 2026, https://arxiv.org/abs/2602.10466 . Primary abstract inspected; algorithm concerns finite verification, no global theorem.
+- SRC-0007 — John Simons and Benne de Weger, “Theoretical and computational bounds for m-cycles of the 3n+1-problem,” *Acta Arithmetica* 117 (2005), 51–70, DOI 10.4064/aa117-1-3. Publisher/university abstract inspected, excludes m-cycles with 1<=m<=68 in its cycle definition. Not a full cycle/divergence theorem.
+- SRC-0008 — Christian Hercher, “There are no Collatz m-Cycles with m ≤ 91,” *Journal of Integer Sequences* 26 (2023), https://cs.uwaterloo.ca/journals/JIS/VOL26/Hercher/hercher5.html . Journal abstract inspected: lower bound m>=92 in its local-minima parameter. Journal page also links **June 2026 corrigendum**; its detailed impact not fully audited and should be read before importing lemmas. No full convergence implication.
+- SRC-0009 — Lagarias arXiv:2111.02635 (2021) abstract and Tao publisher full abstract https://doi.org/10.1017/fmp.2022.8 (2022) rechecked: no all-positive theorem. Tao's result is log-density almost-all with lower orbit values below any function tending to infinity.
+- SRC-0010 — Bařina publisher journal abstract DOI 10.1007/s11227-025-07337-0 rechecked: paper reports finite bound n<2^71; S001 did NOT rerun it. CEML later live frontier statements are separate, changing and not independently verified by S001.
+- SRC-0011 — Live sibling GitHub README/authoritative status read (2026-10-15): https://github.com/jfairfaxball-348/PRIMES ; https://github.com/jfairfaxball-348/Proof-that-non-trivial-cycles-cannot-exist-in-Collatz ; https://github.com/jfairfaxball-348/Collatz-Divergence-Machine ; https://github.com/jfairfaxball-348/LEAN-non-trivial-collatz-cycles ; https://github.com/jfairfaxball-348/CEML ; https://github.com/jfairfaxball-348/leading-digit-hailstone . Exact scoped claims and caution in research/S001_PROOFS_AND_OBSTRUCTIONS.md; all sibling results are separate and cannot close Collatz here.
+
+No S001 finding claimed novel. Dated source inspections were abstracts/statuses, not exhaustive full-paper theorem audits. Source-to-lemma table is in S001 research note.
