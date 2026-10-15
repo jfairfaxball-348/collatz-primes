@@ -28,3 +28,8 @@
 - F-0024 — INSUFFICIENT finite CST scan 2..1000000, no mismatches. Does not justify universal CST, exceptional tower exit or Collatz.
 - F-0025 — PROVED SCOPED NO-GO: for any fixed modulus 2^k and arbitrary finite per-residue horizon h, all-O positive starts 2^H t-1 in the residue -1 break the proposed uniform bound; this does NOT eliminate adaptive/mixed automata.
 - F-0026 — INSUFFICIENT m-step U gcd formula; offset contains valuation history and gives no numeric/factor count monotonicity, killed by 15->23->35, 121->91, 27->41, and 12t+3 growing.
+
+- F-0027 — INSUFFICIENT / known CST context: CP-0023 proves a strict first-crossing subfamily, not every parity itinerary. a=3,b=2 is outside the sufficient 3/4 band yet n=23 strictly descends; do not infer counterexamples from failed sufficient inequalities.
+- F-0028 — REFUTED mixed-modulus fixed horizon: for any fixed M and compatible residue r=-1 mod2^v2(M), there exist infinitely many composite starts with unbounded initial growth; mod48 classes 15 and31 are explicit, but growing-memory ranks remain possible.
+- F-0029 — REFUTED valuation-only one-U-step decreasing rank: composite x=681 has v2(x+1)=1, U(x)=511 has v2(U(x)+1)=9, and arbitrarily large jumps exist. Size nevertheless decreases for this family; combined ranks not excluded.
+- F-0030 — INSUFFICIENT m-step factor/size potential: for every fixed m there are composite starts with the first m U steps increasing and F_m=3^m-2^m; adaptive m remains open.

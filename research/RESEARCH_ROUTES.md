@@ -32,3 +32,7 @@ First session requirements and evidence/kill gates are in authoritative/NEXT_SES
 - W2 tower: OPEN iff slopes all >=1 is finite-only k10..16; equivalence for all representatives would solve CST. CP-0022 rules out ANY finite per-residue first-descent horizon assigned to a fixed 2^k modulus; seek a genuinely adaptive or mixed-modulus rank.
 - W1 prime factors: CP-0021 explicit valuation-sensitive U^m offset and gcd for every m. It lacks monotone size/factor rank and survives hostile factor-return cases; S004 must search noncircular rank or kill defined candidates.
 - W3 U-inverse grammar remains sound, exact source classes y divisible3 and larger-only parents y=1 mod3 obstruct naive induction. Six least hypothetical counterexample classes mod48 unchanged. Full Collatz OPEN.
+
+## S004 route decision — 2026-10-15
+
+First-crossing route: CP-0023 gives a proof for O^a E^b cylinders, including all least positive representatives under a 3/4 coefficient margin, and proves the eligible a have gaps at most one. S005 must attack the complementary a via the inverse residue t0, not simply extend numerical counts. Arbitrary-modulus finite horizon route killed by CP-0024 (including r15,31 mod48), so any plausible algorithm needs unbounded state, growing parity window, or start-dependent rank; the y≡0,1 mod3 inverse obstacles persist. Valuation-only route killed by CP-0025's unbounded one-U jump and bounded-m all-O growth. Explore combined potentials with explicit decreasing transitions; do not assume prime erasure helps. Collatz and CST OPEN, originality unknown.

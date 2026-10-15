@@ -46,3 +46,7 @@ Completed S000, S001 and S002. The full **next executable S003 prompt** is at [a
 ## S003 update — 15 October 2026
 
 The next executable **S004** handover is [authoritative/NEXT_SESSION_PROMPT.md](authoritative/NEXT_SESSION_PROMPT.md). S003 identified the proposed first-slope/first-descent identity as the **existing open Terras Coefficient Stopping Time conjecture**; it remains unproved. Elementary intercept/cylinder bounds (CP-0020), an m-step prime-return formula (CP-0021) and fixed-modulus stopping-time table obstruction (CP-0022) were proved internally; none settles Collatz. See [S003 proof/obstructions](research/S003_PROOFS_AND_OBSTRUCTIONS.md) and [closeout](sessions/S003/CLOSEOUT.md). Older text above referring to S001 as next is historical, not authoritative.
+
+## S004 update — 15 October 2026
+
+S004 completed a **restricted quantified** first-coefficient-crossing O^a E^b descent theorem CP-0023, a no-go for **any fixed mixed modulus** residue horizon CP-0024, and a composite valuation-jump family CP-0025. All are elementary and nonuniversal; neither full Collatz nor Terras CST is proved. The **next executable S005** is in authoritative/NEXT_SESSION_PROMPT.md, immediately authorised by the next owner run request. See research/S004_PROOFS_AND_OBSTRUCTIONS.md and sessions/S004/CLOSEOUT.md. Older headings above that identify S001/S003 as next are historical and not authoritative.
