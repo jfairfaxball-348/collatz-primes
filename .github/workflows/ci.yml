@@ -17,3 +17,10 @@ jobs:
           python tools/trajectory.py --limit 10000 --depth 8 > /tmp/collatz_audit.json
           cmp validation/S000_audit.json /tmp/collatz_audit.json
           sha256sum validation/S000_audit.json
+      - name: Recreate finite residue stream and cross-check original manifest
+        run: |
+          python tools/residue_certificates.py --output /tmp/S002_manifest.json --records /tmp/S002_records.jsonl
+          cmp validation/S001_manifest.json /tmp/S002_manifest.json
+          python tools/check_residue_certificates.py /tmp/S002_manifest.json
+          python tools/consume_residue_records.py /tmp/S002_manifest.json /tmp/S002_records.jsonl
+          sha256sum /tmp/S002_manifest.json /tmp/S002_records.jsonl

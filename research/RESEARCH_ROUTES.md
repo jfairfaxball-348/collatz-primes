@@ -17,3 +17,11 @@ First session requirements and evidence/kill gates are in authoritative/NEXT_SES
 - **Affine residue (W2):** producer/independent code checker verify k=10..16, split strict 30653 + base-only 1 + uncovered 2114 at k16. CP-0012 proves exceptional ancestry projection but no tower closure; infinite -1-prefix positive composites defeat every fixed step bound. S002 must attack per-child transition and start-dependent rank, not just larger percentages.
 - **Inverse basin (W3):** CP-0010 exact inverse theorem; least counterexample cannot lie in 5 mod6, leaving six necessary residues mod48; no smaller inverse for odd y≡0 or 1 mod3. Grammar sound but universality circular if assumed; S002 target this gap.
 - **Cross-project (W4–W6):** primary abstracts, corrigendum existence and six sibling READMEs/statuses checked; no sibling proof promoted and no Lean/Palomar performed. Novelty unestablished. See research/S001_PROOFS_AND_OBSTRUCTIONS.md.
+
+## S002 updated proof routes (15 October 2026)
+
+- W2 exceptional tower CP-0014 now gives exact high/low child inequalities; missing universal positive-integer tower-exit rank. S003 tests whether first strict descent coincides with first slope 3^{a_j}<2^j (only finite observation so far), and seeks a quantified counterexample/proof.
+- W2 CP-0015 proves exact first descent step59 for every 27+2^59*q, including infinitely many composites, but makes no claim over entire coarser 27 mod2^16 family.
+- W1 CP-0016 establishes genuine two-U-step prime re-entry; monotone prime-support rank refuted by family x=20t+15. Explore m-step offsets/valuation tradeoffs, not factor disappearance alone.
+- W3 CP-0017 establishes 3 never appears after first U, but this source obstruction says nothing about convergence. CP-0018 forbids a fixed 2^k residue alone predicting output mod3; mixed automata remain OPEN.
+- Hosted S002 CI now consumes actual canonical S001 JSONL in addition to independent regeneration; cite actual job outputs before PASS claim. Universal theorem OPEN.

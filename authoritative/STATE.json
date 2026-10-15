@@ -1,10 +1,14 @@
 {
   "project": "Collatz Primes",
   "updated_utc_date": "2026-10-15",
-  "update_kind": "S001_RESEARCH_SESSION_COMPLETED",
-  "current_session": "S001",
-  "completed_sessions": ["S000", "S001"],
-  "next_session": "S002",
+  "update_kind": "S002_RESEARCH_SESSION_COMPLETED",
+  "current_session": "S002",
+  "completed_sessions": [
+    "S000",
+    "S001",
+    "S002"
+  ],
+  "next_session": "S003",
   "next_session_status": "FUTURE_UNEXECUTED",
   "target": "All composite positive integers eventually reach 1 under shortened Collatz T",
   "target_equivalent_to_full_collatz": true,
@@ -12,38 +16,20 @@
   "phase": "P1_EXCEPTIONS_REVERSE_BASIN_PROOF_ATTACK",
   "evidence": {
     "universal_proof": false,
-    "elementary_foundations": "PROVED_INTERNAL_ELEMENTARY_CP_0008_TO_0013",
-    "finite_certificate": "LOCAL_GENERATOR_AND_INDEPENDENT_CHECKER_PASS_K10_TO_K16",
+    "internal_theorems": "ELEMENTARY_CP_0014_TO_0018",
+    "infinite_family": "27+2^59*q EXACT_FIRST_DESCENT_59",
+    "finite_certificate": "S001_FROZEN_K16_STRICT_30653_BASE_1_1_OPEN_2114",
+    "record_consumer": "ADDED_EXPECT_HOSTED_CI_OBSERVATION",
     "independent_external_validation": false,
     "lean": false,
     "palomar": false,
-    "hosted_ci": "NOT_OBSERVED_FOR_S001_AT_AUTHORING_TIME",
-    "latest_verified_prior_main_run_id": 38696354864,
-    "latest_verified_prior_main_sha": "fa6cd47825d09dc799df6f72d3c6f2e24c7d3c1d",
-    "depth_16": {
-      "odd_classes": 32768,
-      "strict_full_class_descent": 30653,
-      "base_1_except_n_equals_1": 1,
-      "uncovered_j_le_16": 2114,
-      "uncovered_mod16": {"7": 395, "11": 395, "15": 1324},
-      "manifest_sha256": "d4686d95c47107af29d939accb8d161684f929eb348426f2d39ea8b1819b2b37",
-      "complete_record_stream_sha256": "adec6e2b05d0671170ced97304a69f25a518ad0cd658be7feaa8238f0eafc1f9"
-    },
-    "report_original_raw_bytes_accessible": false,
-    "novelty": "UNCHECKED_NO_CLAIM"
+    "novelty": "UNCHECKED_NO_CLAIM",
+    "prior_s001_pr_run": 38699290266,
+    "prior_s001_main_run": 38699378379
   },
-  "original_S000_audit": {
-    "input_start": 2,
-    "input_end": 10000,
-    "prime_count": 1229,
-    "composite_count": 8770,
-    "assertions": 4790,
-    "sha256": "45a4ee995384ec9154bf092e272562172797e78bf771611b1d31376627498084"
-  },
-  "protocol": "docs/SESSION_PROTOCOL.md",
-  "programme_plan": "research/PROGRAMME_PLAN.md",
-  "report_integration": "research/REPORT_INTEGRATION.md",
-  "s001_proof_record": "research/S001_PROOFS_AND_OBSTRUCTIONS.md",
-  "s001_closeout": "sessions/S001/CLOSEOUT.md",
+  "prior_main_sha": "cc35a3ecba8942521632a79a53c2212f95ec2c41",
+  "prior_main_tree": "11486055bf11b5f8f2e3ea211b84908fbf26e918",
+  "s002_proof_record": "research/S002_PROOFS_AND_OBSTRUCTIONS.md",
+  "s002_closeout": "sessions/S002/CLOSEOUT.md",
   "next_prompt": "authoritative/NEXT_SESSION_PROMPT.md"
 }

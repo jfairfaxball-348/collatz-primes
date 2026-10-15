@@ -21,3 +21,14 @@ Literature is read as background; none provides the desired universal theorem.
 - SRC-0011 — Live sibling GitHub README/authoritative status read (2026-10-15): https://github.com/jfairfaxball-348/PRIMES ; https://github.com/jfairfaxball-348/Proof-that-non-trivial-cycles-cannot-exist-in-Collatz ; https://github.com/jfairfaxball-348/Collatz-Divergence-Machine ; https://github.com/jfairfaxball-348/LEAN-non-trivial-collatz-cycles ; https://github.com/jfairfaxball-348/CEML ; https://github.com/jfairfaxball-348/leading-digit-hailstone . Exact scoped claims and caution in research/S001_PROOFS_AND_OBSTRUCTIONS.md; all sibling results are separate and cannot close Collatz here.
 
 No S001 finding claimed novel. Dated source inspections were abstracts/statuses, not exhaustive full-paper theorem audits. Source-to-lemma table is in S001 research note.
+
+## S002 follow-up source audit — 15 October 2026
+
+- SRC-0002 Lagarias arXiv:2111.02635 confirmed historical overview, not a universal proof. https://arxiv.org/abs/2111.02635
+- SRC-0003 Tao 2022 primary Cambridge theorem confirms almost all in *logarithmic density* attain almost-bounded orbit minima, not every start. https://doi.org/10.1017/fmp.2022.8
+- SRC-0004 Bařina 2025 publisher article reports verification to 2^71; neither reproduced nor treated as a theorem over all positives. https://doi.org/10.1007/s11227-025-07337-0
+- SRC-0006 Angeltveit 2026 arXiv:2602.10466 is a finite N verification algorithm and complexity improvement; not global convergence. https://arxiv.org/abs/2602.10466
+- SRC-0007 Simons–de Weger Acta Arith.117 (2005) primary metadata confirms m-cycle topic, no use of technical m-bound in S002 proof. https://doi.org/10.4064/aa117-1-3
+- SRC-0008 Hercher *There are no Collatz m-Cycles with m<=91*, JIS 26 (2023), publisher explicitly links corrigendum dated June 14 2026. Its m counts local minima. Corrigendum existence checked; technical corrected proposition NOT imported. https://cs.uwaterloo.ca/journals/JIS/VOL26/Hercher/hercher5.html
+
+**Dependency/novelty assessment:** CP-0014—CP-0018 use none of these papers as proof premises, only context. Exact earlier occurrences of the elementary identities were not exhaustively checked, so NO originality claim or publication gate passes. No sibling technical assumptions imported.
