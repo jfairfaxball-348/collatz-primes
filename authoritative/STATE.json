@@ -1,8 +1,8 @@
 {
   "project": "Collatz Primes",
   "updated_utc_date": "2026-10-15",
-  "update_kind": "S010_RESEARCH_SESSION_COMPLETED",
-  "current_session": "S010",
+  "update_kind": "S011_RESEARCH_SESSION_COMPLETED",
+  "current_session": "S011",
   "completed_sessions": [
     "S000",
     "S001",
@@ -14,16 +14,17 @@
     "S007",
     "S008",
     "S009",
-    "S010"
+    "S010",
+    "S011"
   ],
-  "next_session": "S011",
+  "next_session": "S012",
   "next_session_status": "FUTURE_UNEXECUTED",
   "target": "All composite positive integers eventually reach 1 under shortened Collatz T",
   "target_equivalent_to_full_collatz": true,
   "headline_status": "OPEN_UNPROVED",
-  "phase": "P1_UNBOUNDED_EXCEPTION_ADAPTIVE_RANK_AND_UNRESTRICTED_D_LE_K",
-  "entry_main_sha": "e7d9643233f6186c169898ed159f4192e9168da0",
-  "entry_main_tree": "1ada5fe749773225a47f703eb27c94b0eabc7a77",
+  "phase": "P1_S012_EXCEPTION_BRANCH_COMPLETENESS_AND_NEAR_RESONANCE",
+  "entry_main_sha": "5017318dc43f950fa63b4f704fa77c385c7aec87",
+  "entry_main_tree": "097d89ecce99c75cddb8789454a1184eede194a6",
   "evidence": {
     "universal_proof": false,
     "terras_cst_status": "OPEN_KNOWN_PRIOR_ART",
@@ -87,7 +88,16 @@
       "e7d9643233f6186c169898ed159f4192e9168da0",
       "dc9baf0cf2a53818e05f351b09fad4e6bcb72ffd"
     ],
-    "s010_readback": "STATE_START_CLOSEOUT_TEST_AND_NEXT_PROMPT_MAIN_VERIFIED"
+    "s010_readback": "STATE_START_CLOSEOUT_TEST_AND_NEXT_PROMPT_MAIN_VERIFIED",
+    "s011_main_entry_ci": "SUCCESS_RUN_38728310174_JOB_116399522422_ALL_STEPS",
+    "s011_original_clone": false,
+    "s011_isolated_four_tests": "PASS_LOCAL_ONLY",
+    "s011_box": "30987_ELIGIBLE_88_D_LE_K_ZERO_OVERSHOOT_FINITE_ONLY",
+    "s011_near_resonant": "CP_0046_INFINITE_PAIRED_D_LT_K_ALL_LIFTS_STRICT",
+    "s011_arbitrary_exception_exit": "CP_0045_THIN_CERTIFIED_SUBPROGRESSIONS_ALL_N_OPEN",
+    "s011_rank_no_go": "CP_0041_CONSTANT_V2_EXPANDING_RETURN",
+    "s011_pr_ci": "NOT_YET_OBSERVED",
+    "s011_main_ci": "NOT_YET_OBSERVED"
   },
   "next_prompt": "authoritative/NEXT_SESSION_PROMPT.md",
   "s007_proof_record": "research/S007_PROOFS_AND_OBSTRUCTIONS.md",
@@ -97,5 +107,7 @@
   "s009_proof_record": "research/S009_PROOFS_AND_OBSTRUCTIONS.md",
   "s009_closeout": "sessions/S009/CLOSEOUT.md",
   "s010_proof_record": "research/S010_PROOFS_AND_OBSTRUCTIONS.md",
-  "s010_closeout": "sessions/S010/CLOSEOUT.md"
+  "s010_closeout": "sessions/S010/CLOSEOUT.md",
+  "s011_proof_record": "research/S011_PROOFS_AND_OBSTRUCTIONS.md",
+  "s011_closeout": "sessions/S011/CLOSEOUT.md"
 }

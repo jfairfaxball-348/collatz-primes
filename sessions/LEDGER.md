@@ -30,3 +30,5 @@ A prepared S002 prompt is not an executed session. Owner fresh instruction direc
 
 | S009 | 2026-10-15 | COMPLETE (PR #12 and attestation PR #13 merged; hosted CI verified) | Explicit arbitrary-(c,d) a-progressions, K=1 all-a families and expanding r27 return | CP-0039–0041; global conjectures OPEN |
 | S010 | 2026-10-15 | COMPLETE mathematics (merge and hosted S010 CI independently verify) | Complete 71-state successor graph, arbitrary finite composite exception paths, D<K genuine first-crossing examples, two renewal no-go attempts | CP-0042–0043; Collatz/CST OPEN; S011 FUTURE/UNEXECUTED |
+
+| S011 | 2026-10-15 | COMPLETE mathematics (PR/main CI separately evidenced) | General two-run 2-adic lower bound; arbitrary-deep exceptional-to-first-crossing positive composite certificates; paired infinite D<K strict first-crossing theorem; valuation-return rank failure | CP-0044—0046; S012 FUTURE/UNEXECUTED; all Collatz/CST OPEN |
