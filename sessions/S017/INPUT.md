@@ -1,0 +1,7 @@
+# S017 invocation and provenance — 2026-10-15
+
+Exact fresh owner instruction: "run next session". Authoritative NEXT_SESSION_PROMPT was S017 FUTURE / UNEXECUTED: this directly authorises precisely S017, not S018. Full instructions read from authoritative/NEXT_SESSION_PROMPT.md SHA dc27ba439fc8b4799ea97fb093844be2011f7ace. AGENTS, session/evidence protocol, START_HERE, STATE, S015/S016 INPUT/CLOSEOUT/proofs, claim/failure/source registers and ledger consulted.
+
+Live default branch main e183c3a2133b6154700c0cb989318865a1387b80; actual underlying Git tree 18cc76572a4e9aee1e73d94a900d7adbda3cf991, ordered parents [d985e26f40befdd5f28332fffcffd395e9a5c620,975ec8bcb2d1f25482b2f815d8fc5580c669c3b6]. Open PRs []; rulesets []; main branch protection endpoint 403, NOT OBSERVED. Most recent pre-session main hosted run 38768747419 job116538721403 completed SUCCESS; individually Unit tests, finite S000 audit and S001 manifest/checker/consumer steps SUCCESS. This is NOT S017 CI. Repo native git clone DNS unavailable in local container.
+
+Mathematics plan: either get a noncircular all-positive exceptional exit or prove a significant scoped result by combining S016 sharp-intercept and actual CRT-derived odd-run parameters. Falsify extrapolation of naive rho threshold, calculate canonical residues and sparse noncoverage, exact-grid tests, source verification and honest limitations. Only one mathematical session authorised.

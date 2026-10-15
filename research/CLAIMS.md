@@ -116,3 +116,9 @@ S015: 5 standalone exact tests PASS, new hosted original-suite job to observe se
 | CP-0063 | PROVED_INTERNAL elementary; originality UNCHECKED | For y multiple3 all positive reverse descendants are exactly 2^k y: reverse odd predecessor exists precisely y≡2 mod3. No smaller-greedy reverse construction; full root-1 basin completeness still OPEN. | research/S016_PROOFS_AND_OBSTRUCTIONS.md; tests/test_s016_math.py |
 
 S016 finite controls: five standalone local exact methods PASS; 71 states/5041 finite pairs rechecked, selected witnesses and forced towers. Global Collatz/composite and Terras CST remain OPEN; novelty unestablished; no external proof validation or publication.
+
+
+| CP-0064 | PROVED_INTERNAL conditional on SOURCE_STATED original Matveev Cor2.3; originality UNCHECKED | For ALL varying r,c,d>=1 with 3^r>2^(r+c) and r+d>=M0=[16(10^10+10)]², whole parity cylinder O^r E^c O^d E^b strictly drops at genuine first coefficient crossing; r/d UNRESTRICTED, infinitely many composites. Sound but NONEXHAUSTIVE; not Collatz/CST. | research/S017_PROOFS_AND_OBSTRUCTIONS.md; tests/test_s017_math.py |
+| CP-0065 | PROVED_INTERNAL elementary; originality UNCHECKED | ANY parity word with 2^j>3^m has unique canonical n0 and exact integer qmin for strict descent (q>=qmin); for every finite H explicit infinitely many composite all-O positive starts defeat any H-bounded first-crossing certificate collection. Does NOT exclude integer-dependent unbounded total algorithms. | research/S017_PROOFS_AND_OBSTRUCTIONS.md; tests/test_s017_math.py |
+
+S017: standalone finite grid 4,425 triples/17,700 lifts PASS, not an infinite proof or hosted S017 result. Global Collatz/composite convergence and Terras CST remain OPEN; no independent novelty/formal/Palomar/publication.
