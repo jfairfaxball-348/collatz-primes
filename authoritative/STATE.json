@@ -1,8 +1,8 @@
 {
   "project": "Collatz Primes",
   "updated_utc_date": "2026-10-15",
-  "update_kind": "S013_VERIFIED_MERGED_AND_HOSTED_CI",
-  "current_session": "S013",
+  "update_kind": "S014_MATHEMATICS_COMPLETED_HOSTED_CHECK_PENDING",
+  "current_session": "S014",
   "completed_sessions": [
     "S000",
     "S001",
@@ -17,16 +17,17 @@
     "S010",
     "S011",
     "S012",
-    "S013"
+    "S013",
+    "S014"
   ],
-  "next_session": "S014",
+  "next_session": "S015",
   "next_session_status": "FUTURE_UNEXECUTED",
   "target": "All composite positive integers eventually reach 1 under shortened Collatz T",
   "target_equivalent_to_full_collatz": true,
   "headline_status": "OPEN_UNPROVED",
-  "phase": "P1_S014_UNIFORM_GRAMMARS_AND_INTEGER_EXIT",
-  "entry_main_sha": "cee8936245d497bdd51cc817c8283c8bd41b2839",
-  "entry_main_tree": "0e3a7afa11b9a951fb1feb286a78268b9c4bc00e",
+  "phase": "P1_S015_ARBITRARY_PREFIX_AUDIT_AND_UNIVERSAL_EXIT",
+  "entry_main_sha": "1b30f474157b676830b8c7be0ef9bd7613489efd",
+  "entry_main_tree": "NOT_OBSERVED_CONNECTOR_COMMIT_PAYLOAD_OMITS_TREE",
   "evidence": {
     "universal_proof": false,
     "terras_cst_status": "OPEN_KNOWN_PRIOR_ART",
@@ -151,7 +152,18 @@
     "s013_S000_sha256": "45a4ee995384ec9154bf092e272562172797e78bf771611b1d31376627498084",
     "s013_S001_manifest_sha256": "d4686d95c47107af29d939accb8d161684f929eb348426f2d39ea8b1819b2b37",
     "s013_S001_records_sha256": "adec6e2b05d0671170ced97304a69f25a518ad0cd658be7feaa8238f0eafc1f9",
-    "s013_main_readback": "STATE_NEXT_S013_CLOSEOUT_TESTS_VERIFIED"
+    "s013_main_readback": "STATE_NEXT_S013_CLOSEOUT_TESTS_VERIFIED",
+    "s014_explicit_matveev_bound": "CP_0053_PROVED_INTERNAL_USING_PUBLISHED_SECONDARY_SOURCE_STATED",
+    "s014_arbitrary_fixed_prefix": "CP_0054_MULTIBLOCK_ALL_LARGE_D_ALL_POSITIVE_LIFTS_STRICT",
+    "s014_boundary": "CP_0055_PREFIX_OE_INVALID_UNRESTRICTED_EXTENSION",
+    "s014_standalone_tests": "5_PASS_380_EXACT_CYLINDERS_ORIGINAL_HOSTED_PENDING",
+    "s014_original_primary_matveev": "NOT_READ_PUBLISHED_2021_SECONDARY_EXPLICIT_FORM",
+    "s014_original_repo_local_clone": false,
+    "s014_universal_descent_certificate": false,
+    "s014_entry_main_true_tree": "NOT_OBSERVED",
+    "s014_pr_initial_22_ci": "SUCCESS_RUN_38751937102_JOB_116480292376_ALL_THREE_SUBSTANTIVE_STEPS_64_TESTS",
+    "s014_pr_initial_22_head_sha": "0e4f12b703f03e9ff5b644fb00f6f09468e26d27",
+    "s014_pr_after_state_amendment_ci": "NOT_YET_OBSERVED"
   },
   "next_prompt": "authoritative/NEXT_SESSION_PROMPT.md",
   "s007_proof_record": "research/S007_PROOFS_AND_OBSTRUCTIONS.md",
@@ -167,5 +179,7 @@
   "s012_proof_record": "research/S012_PROOFS_AND_OBSTRUCTIONS.md",
   "s012_closeout": "sessions/S012/CLOSEOUT.md",
   "s013_proof_record": "research/S013_PROOFS_AND_OBSTRUCTIONS.md",
-  "s013_closeout": "sessions/S013/CLOSEOUT.md"
+  "s013_closeout": "sessions/S013/CLOSEOUT.md",
+  "s014_proof_record": "research/S014_PROOFS_AND_OBSTRUCTIONS.md",
+  "s014_closeout": "sessions/S014/CLOSEOUT.md"
 }

@@ -1,0 +1,9 @@
+# S014 standalone exact validation — 15 October 2026
+
+Environment: local isolated Python 3 standard-library unittest /mnt/data/s014_work/test_s014_math.py; direct command `python /mnt/data/s014_work/test_s014_math.py`; **5 tests, PASS** (0.023 seconds). The committed tests/test_s014_math.py is rewritten from the same checked identities for the original GitHub-hosted suite. No local repo checkout or original full-suite run is claimed: `git ls-remote` failed DNS github.com.
+
+Exact finite coverage: four overcritical prefixes U=OOOE, OOOOEOO, OOOEOOEOOE, OOOOEOOOEOOEOOE and d=6..100 (380 parity-cylinder tests). Each checked exact affine numerator, inverse mod2^j minimal start, ALL input parities, first slope crossing at final j, T^j(n0)<n0. Separate multi-E-block U=OOOEOOEOOE for d=12,19,40,73,101,200 and q=0,1 positive lifts. U=OE counterparameter has first coefficient crossing at 2 before long terminal run. Independent finite controls 7,15,27,31,39,43,91,155,251,393243,917531; same-residue expanding 11-step returns k=0,1,3,9; forced O towers H=6,12,24,48. Huge explicit Matveev bound checked algebraically rather than attempting to construct astronomical 3^m: C0=10^12, m0=[4(C0+a+c+10)]². These are FINITE_TEST, not a proof of any universal theorem.
+
+Multi-E prefix numerical witnesses: ell10, r7, B2899; d12 j31, b9, n0=1633475239, T^31(n0)=884069749, drop749405490; d19 j42, b13, n0=2267417467559, T^42(n0)=1310461579885. Paper proofs CP-0053/54 rely on published SOURCE_STATED Matveev inequality and are not automated formal verification.
+
+Published 2021 theorem statement checked directly at https://link.springer.com/article/10.1007/s40993-021-00252-2 ; original Matveev 2000 primary article metadata identified but primary full text not read. Steiner 1978 original not read. Novelty UNCHECKED. New branch/PR/main hosted checks must be separately observed; preexisting S013 PASS is NOT this session's PASS.

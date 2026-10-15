@@ -79,3 +79,10 @@
 - F-0060 — S013 REFUTED global rank from only finite maximal-O-run potential v2(n+1): valuation descends across each O step but can be renewed on E; exact CP-0041 11-step same-valuation growing return contradicts any size-monotone same-valuation rank on all such returns.
 - F-0061 — S013 OPEN constructive exact bound m0(a,c): Matveev gives explicit massive theoretical polynomial lower bound but no practical uniformly small cutoff, and with a,c growing with m the fixed-parameter exponential domination proof does not automatically extend.
 
+
+
+- F-0062 — S014 DISCHARGED the lack of an explicit threshold for the TWO-RUN grammar: CP-0053 supplies m0(a,c)=[4(10^12+a+c+10)]², absurdly large but explicit. This is a SUFFICIENT bound for a narrow word family, not a global stopping-time or polynomial-in-input guarantee.
+- F-0063 — S014 REFUTED unrestricted arbitrary-prefix FIRST-crossing claim: U=OE has coefficient crossing at its second letter. The long appended O^d/E^b tail cannot make the last index its first crossing. CP-0054 crucially assumes EVERY nonempty prefix of U stays overcritical.
+- F-0064 — S014 OPEN growth of PREFIX U with d: CP-0054 holds for fixed U and has bound depending on its ell,r,B_U; letting U vary arbitrarily with d can destroy the exponential versus Matveev polynomial comparison. A uniform B_U and depth relation must be proved before asserting any variable-U theorem.
+- F-0065 — S014 OPEN actual all-positive exceptional exit: multi-run first-crossing cylinders remain thin sets, and the finite 71-vertex 5041-edge graph has no single positive-trajectory divergence implication. Both forward block-run rank and finite inverse-basin membership have no noncircular ALL-n termination proof. At y=3, no odd immediate inverse and even inverse6>3 disprove "every y has an immediate smaller reverse predecessor".
+- F-0066 — S014 SOURCE GAP: Matveev's original 2000 primary paper was identified bibliographically but not read; exact inequality was checked against a 2021 published secondary statement. Steiner 1978 original seven pages likewise not acquired. Novelty is NOT established.
