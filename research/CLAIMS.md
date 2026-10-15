@@ -94,3 +94,10 @@ S012 full Collatz and Terras CST OPEN, all six mod48 exceptional classes unresol
 
 S013 research finite grid 3854 (43 D<K, 3811 D>=K), 4 isolated tests PASS; new hosted full-suite CI separate. Global Collatz and Terras CST OPEN, no novel priority or formal verification.
 
+
+
+| CP-0053 | PROVED_INTERNAL conditional on SOURCE_STATED published Matveev; priority UNCHECKED | Explicit sufficient m0(a,c)=[4(10^12+a+c+10)]² for EVERY admissible positive a,c, including varying a,c, guarantees all m>=m0 have genuine first-crossing strict descent on EVERY positive lift of O^a E^c O^(m-a) E^b; uniform a<=rho*m for fixed rho<ln2/(ln2+ln3), for m sufficiently large. NOT all words/Collatz/CST. | research/S014_PROOFS_AND_OBSTRUCTIONS.md; tests/test_s014_math.py |
+| CP-0054 | PROVED_INTERNAL conditional on SOURCE_STATED published Matveev; novelty UNESTABLISHED | ANY fixed finite U with 3^(#O(V))>2^|V| at EVERY nonempty prefix V yields for ALL sufficiently large d (explicit gigantic d0(U)) full first-coefficient-crossing strict descent on the ENTIRE positive cylinder U O^d E^(bitlength(3^(r+d))-|U|-d). Arbitrarily many O/E blocks allowed; infinitely many composites per cylinder. NOT all n. | research/S014_PROOFS_AND_OBSTRUCTIONS.md; tests/test_s014_math.py |
+| CP-0055 | PROVED_INTERNAL exact counterparameter and incomplete algorithm audit | U=OE already has coefficient first crossing at step2, defeating an overstrong unrestricted-prefix generalisation. Run-compressed forward certificates and bounded reverse-basin enumeration terminate per finite subtask but have NO proven ALL-positive completion; 71/5041 and expanding same-valuation return remain. | research/S014_PROOFS_AND_OBSTRUCTIONS.md; tests/test_s014_math.py |
+
+S014: isolated standalone tests 5 PASS, 380 exact finite cylinders; original hosted suite NEW S014 run status separately attest after observation. Imported Matveev ORIGINAL PRIMARY NOT READ, priority unestablished. Composite convergence (equivalent full Collatz) and Terras CST OPEN; no Lean/Palomar.
