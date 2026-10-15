@@ -51,3 +51,9 @@ S005 originality NOT established; Collatz and Terras CST OPEN; 55 newly certifie
 | CP-0032 | PROVED_INTERNAL scoped no-go; novelty NOT ESTABLISHED | For ANY p>0 and positive function f(h), no one-U-step strictly decreasing potential R(n)=n^p f(v2(n+1)) exists for ALL odd composite inputs. High-h O-runs and composite high-h output jumps contradict. | research/S006_PROOFS_AND_OBSTRUCTIONS.md; tests/test_s006_math.py |
 
 S006: Full Collatz and Terras CST remain OPEN. Steiner's classical theorem is explicitly imported, not original; no novelty or formal validation claimed. 
+
+| CP-0033 | PROVED_INTERNAL elementary; novelty UNESTABLISHED | Thirty disjoint new full j=8/10/12/13 strict-descent cylinders cover additional 89/512 of EACH r27/r43 mod48 class, total with S006 441/512, residual 71/512. Complete table/CRT proof. | research/S007_PROOFS_AND_OBSTRUCTIONS.md; tests/test_s007_math.py |
+| CP-0034 | PROVED_INTERNAL elementary, scoped two-run; novelty UNESTABLISHED | For a>=3 with X=2^(a+b+2)>3^(a+1)=P, minimal b, and 4X>=5P, EVERY positive O^a E O E^b parity-cylinder start strictly descends at first coefficient crossing. At least one of any consecutive pair a,a+1 qualifies; infinitely many a and composite witnesses. | research/S007_PROOFS_AND_OBSTRUCTIONS.md; tests/test_s007_math.py |
+| CP-0035 | PROVED_INTERNAL elementary no-uniform-horizon obstruction; novelty UNESTABLISHED | For every H>=8, infinitely many composite n≡27 mod256 in EACH 27 and43 mod48 class have T^j(n)>n for ALL 1<=j<=H. Nested 2-adic parity residues do NOT imply divergent integer; eliminates uniform finite descent bound only. | research/S007_PROOFS_AND_OBSTRUCTIONS.md; tests/test_s007_math.py |
+
+S007: 441/512 is NOT full coverage; Collatz and Terras CST OPEN. Independent Python probes FINITE_TEST (local script SHA and output hash in validation/S007_LOCAL_PROBES.md). No novelty/Lean/Palomar.
