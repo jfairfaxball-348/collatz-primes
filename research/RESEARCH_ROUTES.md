@@ -60,3 +60,11 @@ Factor-rank CP-0029: even arbitrary fixed real state-dependent additive valuatio
 **Multi-block:** CP-0034 rigorous infinite two-O-run first-coefficient-crossing descent band O^a E O E^b with explicit t0, affine formula, strict inequality 4X>=5P and qualifying exponent at least once per adjacent pair. Does not establish the general Terras CST and has no novelty certificate. Challenge near-resonant a and general O^a E^c O^d E^b in S008.
 
 **Horizon kill:** CP-0035 gives for every H composite witnesses in BOTH r27/r43 mod48 also ≡27 mod256 with all first H iterates > start, via forcing O after OOEOOOOO. Therefore no uniform horizon, even after the new certificates, can solve the infinite residue tree. A genuine start-dependent descending rank or renewal strategy remains unproved. Nested 2-adic word cannot be treated as a divergent ordinary integer.
+
+## S008 route verdict — 2026-10-15
+
+**Exceptional residual arithmetic:** CP-0036 sharpens S007 coverage into an exact first-crossing DICHOTOMY for every positive 11 mod16 start through step13: 441/512 certified first strict crossing versus 71/512 with no possible descent at ANY j<=13, coefficient >=1 throughout. Grouped 71 = 26+15+15+15 mod256 and exhaustive symbolic representatives. Hence no depth13 renewal that assumes a smaller endpoint; next S009 must construct genuinely start-dependent well-founded regeneration on ALL positive residual descendants. CP-0035 remains obstruction to ANY uniform finite horizon, not adaptive ranks.
+
+**Two O-runs:** CP-0037 removes the S007 ratio restriction for the precise O^a E O E^b grammar at ALL a>=3 by elementary residue/integrality; strict q>=1 unconditional, q=0 dependent on existing SOURCE_STATED 2-cycle exclusion. General O^a E^c O^d E^b formula CP-0038 has K=-1 only at (c,d)=(1,1), K>=1 otherwise; S009 should attack minimum representative inequality with new ideas, not assume automatic nonovershoot/CST. Neither family proves global Collatz or novelty.
+
+**Inverse/prime:** y mod3 source obstacles, six hypothetical least-counterexample mod48 classes and 121->91/15->23->35 factor reentry unchanged. No global rank, no publication gate, no Lean/Palomar.

@@ -25,3 +25,5 @@ A prepared S002 prompt is not an executed session. Owner fresh instruction direc
 
 | S007 | 2026-10-15 | COMPLETE research (PR/main CI verify separately) | Residual 30 disjoint certificates, infinite two-O-run first-crossing family, no-uniform-horizon composite obstruction | CP-0033–0035; 441/512 in each hard class, 71/512 still open; global Collatz/CST OPEN |
 | S008 | — | FUTURE / UNEXECUTED | Close residual 71/512 with noncircular regenerative rank; near-resonant multiblocks | authoritative/NEXT_SESSION_PROMPT.md |
+
+| S008 | 2026-10-15 | COMPLETE research (hosted PR/main CI verify separately) | Exact 71-residual first-crossing dichotomy; all-exponent two-run nonovershoot and known no-2-cycle supplement; general two-run affine obstruction | CP-0036–0038; composite Collatz and CST OPEN; S009 FUTURE/UNEXECUTED |
