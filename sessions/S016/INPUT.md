@@ -1,0 +1,7 @@
+# S016 invocation and live baseline — 2026-10-15
+
+Exact fresh owner instruction: "run next session". Live authoritative/NEXT_SESSION_PROMPT.md was S016 FUTURE / UNEXECUTED and explicitly authorises EXACTLY S016 immediately; not S017.
+
+Read complete S016 prompt; AGENTS.md; docs/SESSION_PROTOCOL.md and EVIDENCE_POLICY.md; START_HERE.md and STATE.json; S015 INPUT/CLOSEOUT/proof/validation/test; S014 and S013 mathematical proofs; research/CLAIMS, FAILURE_LEDGER, SOURCES and sessions/LEDGER. Live GitHub main SHA 84a50048934ab5742ab76517e223267ddd44bc37; ACTUAL underlying Git commit tree e1823bff883c4cfc77bc4f8d20ebd79aedf5cfc1; ordered parents 8dc1592d6429d717a89f07edcb0476acb6afe718,8dc7d81a22c19a4fb4fd3b1dc88a52e5f3d38b76. Open PRs []; rulesets []; protection GET 403 not observed. Pre-entry main hosted workflow run38757992468 job116501433066 SUCCESS, all Unit tests, Finite parity and orbit sanity, Recreate finite residue stream and cross-check original manifest individually SUCCESS. This precedes new S016 artifacts.
+
+Goals: correct sharp intercept, widen rho using Matveev primary, prove actual all-lifts true first crossing in a strictly quantified scope, attack both ALL-n candidates with exact counterparameter, test exceptional 71/5041 graph and witness families, preserve sources and next prompt. Research proof research/S016_PROOFS_AND_OBSTRUCTIONS.md; finite audit validation/S016_LOCAL_PROBES.md. Global proof not presumed.

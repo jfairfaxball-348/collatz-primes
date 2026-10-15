@@ -52,3 +52,7 @@ S014 PR #22 hosted original 64 tests SUCCESS (initial run38751937102 job11648029
 S015 PR #24 hosted initial branch/PR full 69-test workflow PASS: push 38756876594 job116497513707, PR 38756939543 job116497731490, three substantive steps each SUCCESS incl S000 byte compare, S001 seven-depth regeneration/checker/consumer. Subsequent attestation-head CI must be separately checked; S016 remains FUTURE/UNEXECUTED.
 
 S015 **FINAL VERIFIED**: PR #24 normal merge to main `8dc1592d6429d717a89f07edcb0476acb6afe718` tree `4b6a54b3e3911878a9949c85b09d8354e62fed8f` ordered parents baseline ae692ae..., head 674693df...; final branch run 38757293484 job116498968449, PR run 38757301002 job116498992716, newly merged-main run 38757580954 job116499980897 EACH COMPLETED SUCCESS for all three substantive full hosted steps (69 tests in initial PR original log). S016 FUTURE/UNEXECUTED. See S015 CLOSEOUT final attestation.
+
+
+| S016 | 2026-10-15 | COMPLETE mathematical session; new hosted S016 CI separately observe | Sharp affine intercept, rho<ln2/ln(3/2) universal-to-cylinders but not-to-integers Matveev improvement; same-v2 one-renewal expanding composite family and inverse mod3 rigidity; 71/5041 hostile rechecks | CP-0060–0063; five isolated local tests; Collatz/CST OPEN, S017 FUTURE/UNEXECUTED |
+S016 pre-entry main run38757992468 job116501433066 all three hosted substantive steps SUCCESS. The NEW S016 PR/branch/merged-main hosted checks must be observed independently.
