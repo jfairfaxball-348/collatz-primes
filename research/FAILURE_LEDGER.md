@@ -33,3 +33,8 @@
 - F-0028 — REFUTED mixed-modulus fixed horizon: for any fixed M and compatible residue r=-1 mod2^v2(M), there exist infinitely many composite starts with unbounded initial growth; mod48 classes 15 and31 are explicit, but growing-memory ranks remain possible.
 - F-0029 — REFUTED valuation-only one-U-step decreasing rank: composite x=681 has v2(x+1)=1, U(x)=511 has v2(U(x)+1)=9, and arbitrarily large jumps exist. Size nevertheless decreases for this family; combined ranks not excluded.
 - F-0030 — INSUFFICIENT m-step factor/size potential: for every fixed m there are composite starts with the first m U steps increasing and F_m=3^m-2^m; adaptive m remains open.
+
+- F-0028 — INVALID strong inference that first coefficient crossing on O^a E^b must STRICTLY descend for all t: exact arithmetic establishes only nonovershoot universally. Exceptional equality D*t0=2^b-1 would be a periodic orbit; its absence has not been proved here. Treating finite no-equality a<=256 as proof is invalid.
+- F-0029 — INSUFFICIENT sparse six-residue forward certificates: n=r+3*2^j*q descends for six seed r, but no FULL class coverage; r27/43 fail the simple H=2 O^H E^b inverse condition t mod4.
+- F-0030 — REFUTED all-composite one-U-step monotonicity of any fixed additive size + (r,h)-valuation/prime-support penalties: x=96q+15 -> y=144q+23 yields y-x=48q+8 against O(log q) omega terms.
+- F-0031 — INVALID leap from a vanishing rare near-resonance band f_a>4/5 to absence of one-block equality or of global cycles. The Diophantine equality remains unexcluded; the full Collatz theorem OPEN.

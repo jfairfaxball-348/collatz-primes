@@ -38,3 +38,10 @@
 | CP-0025 | PROVED_INTERNAL elementary | For all K>=3 infinitely many composite x with v2(x+1)=1 but v2(U(x)+1)>=K; e.g. 681->511. No decreasing valuation-only U rank. | research/S004_PROOFS_AND_OBSTRUCTIONS.md |
 
 S004 novelty gate: CP-0023—0025 are elementary; no originality demonstrated; no Lean/Palomar or universal result.
+
+| CP-0026 | PROVED_INTERNAL elementary | For every a>=2, O^a E^b first-crossing cylinder never overshoots: exact drop (D*t+1)/2^b-1>=0; ALL t=t0+q2^b, q>=1, strictly descend; equality at q=0 iff D*t0=2^b-1, implying a periodic orbit, NOT ruled out here. | research/S005_PROOFS_AND_OBSTRUCTIONS.md |
+| CP-0027 | PROVED_INTERNAL elementary + irrational-rotation density | For all a>=3 with {a log_2(3/2)}<=4/5, D>2^b and uniform strict O^a E^b first-cross descent; infinitely many complementary a have alpha<f<=4/5. Originality UNESTABLISHED. | research/S005_PROOFS_AND_OBSTRUCTIONS.md |
+| CP-0028 | PROVED_INTERNAL elementary, sparse coverage ONLY | Exact parity-word lift progressions give infinite strict-descent composite subfamilies for each r in 7,15,27,31,39,43 mod48; adaptive H O-exit covers additional r15/31/r7/39 subsets. Does NOT remove whole residue classes. | research/S005_PROOFS_AND_OBSTRUCTIONS.md; tests/test_s005_grammar.py |
+| CP-0029 | PROVED_INTERNAL scoped no-go | Every one-U-step rank R(n)=n+A_(n mod48,v2(n+1))+B_(state)*omega(n) with finite real fixed penalties increases on infinitely many composites x=96q+15 ->144q+23. Does not rule out nonlinear/block ranks. | research/S005_PROOFS_AND_OBSTRUCTIONS.md |
+
+S005 originality NOT established; Collatz and Terras CST OPEN; 55 newly certified exponents among a2..256 and all six word checks are FINITE_TEST only; no Lean/Palomar.
