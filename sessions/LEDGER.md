@@ -16,3 +16,6 @@ A prepared S002 prompt is not an executed session. Owner fresh instruction direc
 
 | S004 | 2026-10-15 | COMPLETE (GitHub CI/merge evidence verified separately) | First-crossing O^a E^b restricted theorem; arbitrary mixed-modulus horizon no-go; unbounded v2 jump | CP-0023—CP-0025, elementary partial findings; full conjecture OPEN |
 | S005 | — | FUTURE / UNEXECUTED | Complementary O-run CST cylinders, genuinely adaptive mixed rank, composite valuation/factor potential | authoritative/NEXT_SESSION_PROMPT.md |
+
+| S005 | 2026-10-15 | COMPLETE (mathematical session; hosted CI/merge independently check) | First-crossing nonovershoot; new infinite complementary exponent band; six-class strict-cylinder grammar; additive mixed-state U-rank obstruction | CP-0026—CP-0029 internal elementary; global theorem/CST OPEN |
+| S006 | — | FUTURE / UNEXECUTED | One-block equality/cycle question, r27/43 coverage and nonadditive adaptive ranks | authoritative/NEXT_SESSION_PROMPT.md |

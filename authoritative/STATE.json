@@ -1,21 +1,22 @@
 {
   "project": "Collatz Primes",
   "updated_utc_date": "2026-10-15",
-  "update_kind": "S004_RESEARCH_SESSION_COMPLETED",
-  "current_session": "S004",
+  "update_kind": "S005_RESEARCH_SESSION_COMPLETED",
+  "current_session": "S005",
   "completed_sessions": [
     "S000",
     "S001",
     "S002",
     "S003",
-    "S004"
+    "S004",
+    "S005"
   ],
-  "next_session": "S005",
+  "next_session": "S006",
   "next_session_status": "FUTURE_UNEXECUTED",
   "target": "All composite positive integers eventually reach 1 under shortened Collatz T",
   "target_equivalent_to_full_collatz": true,
   "headline_status": "OPEN_UNPROVED",
-  "phase": "P1_FIRST_CROSSING_MIXED_STATE_ADAPTIVE_RANK",
+  "phase": "P1_ONE_BLOCK_EQUALITY_AND_SIX_CLASS_ADAPTIVE_GRAMMAR",
   "evidence": {
     "universal_proof": false,
     "terras_cst_status": "OPEN_KNOWN_PRIOR_ART",
@@ -28,13 +29,22 @@
     "palomar": false,
     "novelty": "NOT_ESTABLISHED",
     "s004_probe": "FINITE_A2_TO129_CRT_H_TO20_VALUATION_K_TO29",
-    "s004_ci": "OBSERVE_HOSTED_RUNS_AFTER_PR_AND_MERGE"
+    "s004_ci": "OBSERVE_HOSTED_RUNS_AFTER_PR_AND_MERGE",
+    "s005_new_internal_math": "CP_0026_TO_0029_ELEMENTARY_NOT_NOVEL",
+    "s005_probe": "A2_TO256_55_COMPLEMENTARY_BAND_SIX_CLASSES_ADDITIVE_RANK_Q1_TO1999",
+    "s005_local_original_checkout": false,
+    "s004_pr_ci": "SUCCESS_RUN_38710949298_JOB_116341876105",
+    "s004_main_ci": "SUCCESS_RUN_38711026773_JOB_116342130842",
+    "s005_pr_ci": "PENDING_HOSTED_OBSERVATION",
+    "s005_main_ci": "PENDING_HOSTED_OBSERVATION"
   },
-  "entry_main_sha": "362562edf0616f76d3c18496a8cb86f98ded244b",
-  "entry_main_tree": "1300ccaaaab1fe9673ded64c5aee25109ea94c01",
+  "entry_main_sha": "da3c88e41b5321d40a607302575def05c9d33b23",
+  "entry_main_tree": "316655231c41a5ba8419e7566f630a919d6e45f1",
   "s003_proof_record": "research/S003_PROOFS_AND_OBSTRUCTIONS.md",
   "s003_closeout": "sessions/S003/CLOSEOUT.md",
   "next_prompt": "authoritative/NEXT_SESSION_PROMPT.md",
   "s004_proof_record": "research/S004_PROOFS_AND_OBSTRUCTIONS.md",
-  "s004_closeout": "sessions/S004/CLOSEOUT.md"
+  "s004_closeout": "sessions/S004/CLOSEOUT.md",
+  "s005_proof_record": "research/S005_PROOFS_AND_OBSTRUCTIONS.md",
+  "s005_closeout": "sessions/S005/CLOSEOUT.md"
 }

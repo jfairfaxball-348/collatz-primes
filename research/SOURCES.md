@@ -48,3 +48,14 @@ No S001 finding claimed novel. Dated source inspections were abstracts/statuses,
 - SRC-0004: Barina 2025 journal publisher text https://link.springer.com/article/10.1007/s11227-025-07337-0 reports finite 2^71 verification, not independently rerun. SRC-0003 Tao (2022) logarithmic almost-all, SRC-0006 Angeltveit arXiv:2602.10466 finite checking, not universal.
 
 CP-0023—0025 self-contained arithmetic; exhaustive priority search NOT performed. Do not describe them as original or publication-ready.
+
+## S005 primary source and priority limitations (2026-10-15)
+
+- SRC-0012 Terras (1976), *A stopping time problem on the positive integers*, *Acta Arithmetica* 30 (3), 241-252, DOI https://doi.org/10.4064/aa-30-3-241-252 : original publisher/archival metadata checked; original full-paper proof not rederived. Identified prior CST by SRC-0013, still OPEN.
+- SRC-0013 Rozier–Terracol, *Paradoxical behavior in Collatz sequences*, *Discrete Mathematics* 349 (2026) 115167, https://www.sciencedirect.com/science/article/pii/S0012365X26001913 ; https://arxiv.org/abs/2502.00948 : primary publisher abstract, introduction and definitions checked; explicitly names Terras' open CST and distinguishes later paradoxical overshoots. Direct prior-art warning for CP-0026—0027.
+- SRC-0003 Tao (2022), *Forum of Mathematics, Pi*, theorem logarithmic almost-all almost-bounded orbit values, not pointwise convergence.
+- SRC-0004 Bařina (2025), *Journal of Supercomputing* 81:810, https://doi.org/10.1007/s11227-025-07337-0 : publisher article reports verification to 2^71; not reproduced, no universal proof.
+- SRC-0006 Angeltveit (2026), arXiv:2602.10466 : primary abstract on finite <2^N checking algorithms, not universal.
+- SRC-0014 Hercher 2026 June corrigendum https://cs.uwaterloo.ca/journals/JIS/VOL26/Hercher/corrigendum.pdf : BOTH PDF pages inspected; explicitly identifies the erroneous inequality derivation in Theorem 21 and supplies a convex-polytope extremum correction. No cycle lower bound imported as a premise.
+
+All S005 mathematics elementary internal parity and valuation algebra; no original-priority search for one-block cycles yet, so originality and publication threshold UNCHECKED. Future S006 must check Steiner-style one-cycle literature directly before any no-equality claims.

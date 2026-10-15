@@ -50,3 +50,7 @@ The next executable **S004** handover is [authoritative/NEXT_SESSION_PROMPT.md](
 ## S004 update — 15 October 2026
 
 S004 completed a **restricted quantified** first-coefficient-crossing O^a E^b descent theorem CP-0023, a no-go for **any fixed mixed modulus** residue horizon CP-0024, and a composite valuation-jump family CP-0025. All are elementary and nonuniversal; neither full Collatz nor Terras CST is proved. The **next executable S005** is in authoritative/NEXT_SESSION_PROMPT.md, immediately authorised by the next owner run request. See research/S004_PROOFS_AND_OBSTRUCTIONS.md and sessions/S004/CLOSEOUT.md. Older headings above that identify S001/S003 as next are historical and not authoritative.
+
+## S005 update — 15 October 2026
+
+S005 internally proves nonovershoot for all positive O^a E^b first coefficient crossings (CP-0026), full-cylinder strict descent on a larger infinite complementary exponent band (CP-0027), sparse strict-descent composite progressions in all six least-counterexample mod48 residues (CP-0028), and a no-go for state-penalised additive one-step U ranks (CP-0029). None closes the global exception set or proves Collatz/Terras CST; no novelty or Lean/Palomar claim. See [S005 proofs](research/S005_PROOFS_AND_OBSTRUCTIONS.md), [closeout](sessions/S005/CLOSEOUT.md). The authoritative **S006** prompt is FUTURE/UNEXECUTED and executable immediately only on the owner's NEXT run instruction; older README session labels above are historical.

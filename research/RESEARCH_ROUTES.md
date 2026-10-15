@@ -36,3 +36,11 @@ First session requirements and evidence/kill gates are in authoritative/NEXT_SES
 ## S004 route decision — 2026-10-15
 
 First-crossing route: CP-0023 gives a proof for O^a E^b cylinders, including all least positive representatives under a 3/4 coefficient margin, and proves the eligible a have gaps at most one. S005 must attack the complementary a via the inverse residue t0, not simply extend numerical counts. Arbitrary-modulus finite horizon route killed by CP-0024 (including r15,31 mod48), so any plausible algorithm needs unbounded state, growing parity window, or start-dependent rank; the y≡0,1 mod3 inverse obstacles persist. Valuation-only route killed by CP-0025's unbounded one-U jump and bounded-m all-O growth. Explore combined potentials with explicit decreasing transitions; do not assume prime erasure helps. Collatz and CST OPEN, originality unknown.
+
+## S005 route verdict — 2026-10-15
+
+First crossing CP-0026: every O^a E^b first-crossing representative is weakly non-increasing; all positive lifts beyond the least t0 strictly descend. The ONLY remaining possibility at q=0 is D*t0=2^b-1, implying a nontrivial periodic orbit; do NOT claim no such cycle. CP-0027 extends S004's all-t sufficient band from f<=alpha to f<=4/5 for a>=3, proving infinitely many formerly uncovered exponents. Near-resonant f>4/5 remains open. Future S006 one-block-cycle prior-art and exact inequality gate.
+
+Mixed-state CP-0028: exact finite-word forward cylinders give an infinite STRICT composite progression in all six least-counterexample mod48 residues, plus an actual variable H O-exit grammar for r15/31 arbitrary H and r7/39 at H3; NO full residue eliminated. r27/43 incompatible with the simple H2 b2 O-run condition, so improve their sparse coverage in S006. U-inverse y=0,1 mod3 obstacles persist.
+
+Factor-rank CP-0029: even arbitrary fixed real state-dependent additive valuation/omega corrections to numeric n fail stepwise U monotonicity on infinite x=96q+15 composites. Seek genuinely nonlinear/block adaptive ranks; m-step F_m has no automatic sign. Universal and CST conjectures remain OPEN; novelty not established.
