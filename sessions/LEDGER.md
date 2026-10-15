@@ -40,3 +40,4 @@ S012 hosted verification: PR #18 merged main 1848d3021bba76da626ca0b91716fbbaa5f
 
 | S013 | 2026-10-15 | COMPLETE mathematical research; S013 hosted CI independently verify | Uniform fixed-pair first coefficient crossing via Matveev; exact dual CRT carry; finite odd-run valuation rank and failed global integer-dependent coverage | CP-0050—0052; 3854 standalone finite exact triples; Collatz/CST OPEN; S014 FUTURE/UNEXECUTED |
 
+S013 verified hosted attestation: PR #20 merged 76b0bcc89e485d67dd7799250593c277ec5068dd (git tree 526680f937ebc2003444650f33251cbd871f2a31); branch/PR/main CI SUCCESS runs 38748744680 / 38748780774 / 38748940596, 59 original Python tests and all three substantive steps. S014 remains FUTURE/UNEXECUTED. Originality/Collatz/CST OPEN.
