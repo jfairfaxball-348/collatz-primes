@@ -1,49 +1,37 @@
-# S002 — Exceptional-tower transfer, reverse-parent gap and prime-transition barrier (FUTURE / UNEXECUTED)
+# S003 — Stopping-time slope threshold and exceptional-path termination (FUTURE / UNEXECUTED)
 
 Repository: https://github.com/jfairfaxball-348/collatz-primes
 
-**Execution authority:** This is the COMPLETE handover for S002, not evidence of S002 execution. A fresh owner instruction to “run next session”, a pasted prompt or a link to this file authorises **exactly S002 immediately** without a second confirmation; it does not authorise S003. Do not execute S003 in S002.
+**Authority:** An owner request to run this linked or pasted prompt executes exactly S003 immediately without further confirmation. This file is only a handover; S003 has NOT executed. Do NOT automatically execute S004.
 
-## Governing mathematical objective
+## Governing target and non-negotiable truth
 
-Prove the original target that every composite positive integer eventually reaches 1 under `T(n)=n/2` for even n, `(3n+1)/2` for odd n. CP-0001 shows this is full Collatz, **OPEN**. Focus on noncircular global strict descent or a genuinely complete reverse basin; do not substitute bounded computations, logarithmic-density results, a partial cycle bound, 94% residue certificates or a 2-adic infinite branch for proof.
+Prove every composite positive integer reaches 1 under the shortened map T(n)=n/2 (even), (3n+1)/2 (odd). By CP-0001 this is the full Collatz conjecture. OPEN. Neither the verified finite depth-16 residue certificates, CP-0015's infinite cylinder around 27, nor CP-0016's prime-return identity implies global convergence. Avoid any implication from 2-adic compactness to positive-integer divergence or from relative finite depth to universal first descent.
 
-## Mandatory live read / governance
+## Entry and governance
 
-Pin fresh **live** main SHA + tree, verify S001 authored single-parent commit, PR, actual ordinary merge parents/tree, hosted PR and main checks separately, open PRs/branches and available rulesets. Inspect branch protection; report access errors as UNKNOWN. No concurrent-work collision. Read `AGENTS.md`, `README.md`, `authoritative/START_HERE.md`, `authoritative/STATE.json`, this full prompt, `docs/SESSION_PROTOCOL.md`, `docs/EVIDENCE_POLICY.md`, `research/S000_FOUNDATIONS.md`, `research/S001_PROOFS_AND_OBSTRUCTIONS.md`, `research/REPORT_INTEGRATION.md`, `research/PROGRAMME_PLAN.md`, `research/CLAIMS.md`, `research/FAILURE_LEDGER.md`, `research/SOURCES.md`, `sessions/S001/CLOSEOUT.md`, `validation/S001_manifest.json`, and producer/checker/tests. Archive entry in `sessions/S002/INPUT.md`.
+Pin LIVE main SHA and tree, check S002's actual one-parent authored commit, PR, ordinary two-parent merge parents/tree, separately check PR and merged-main hosted runs/jobs, all open PRs/branches and accessible rulesets. Branch-protection 403 means UNKNOWN, not absent. Read AGENTS.md, README.md, authoritative/{START_HERE.md,STATE.json,NEXT_SESSION_PROMPT.md}, docs/{SESSION_PROTOCOL.md,EVIDENCE_POLICY.md}, all S002 proof/input/closeout files, research/{S000_FOUNDATIONS.md,S001_PROOFS_AND_OBSTRUCTIONS.md,S002_PROOFS_AND_OBSTRUCTIONS.md,CLAIMS.md,FAILURE_LEDGER.md,SOURCES.md,RESEARCH_ROUTES.md}, sessions/LEDGER.md, certificate generator/checker/consumer/tests, and CI. Execute tests, generator, independent checker, consumer and S000 audit; save real logs and SHA256 and explicitly label any unavailable runtime. No concurrent-work collision.
 
-Re-run `python -m unittest discover -s tests -v`, `python tools/residue_certificates.py --output /tmp/S002_manifest.json --records /tmp/S002_records.jsonl`, `python tools/check_residue_certificates.py /tmp/S002_manifest.json`, byte-compare to `validation/S001_manifest.json`, and run S000 audit. Record exact environment and SHA256; do not claim actions succeeded without output. Preserve exact convention: positive odd representative r in [1,2^k), first j<=k shortened steps; 30653 strict + 1 base-only + 2114 uncovered at k16. Inspect whether the S001 checker independence can be strengthened further by certificate consumption in addition to independent regeneration.
+## Attack A — first-descent vs parity-slope threshold
 
-## Proof attack A — exceptional-class transfer, not more coverage percentages
+For n>1, let j_s(n) be the least j>=1 such that T^j(n)<n, if it exists. Let a_j(n) count odd inputs among the first j and define j_c(n) as the least j with 3^{a_j}<2^j, if one exists. The S002 finite exploratory observation is j_s=j_c on the explored starts, NOT a theorem. Derive the exact affine intercept condition and either (i) prove the universally quantified equivalence without presupposing termination, or (ii) provide the smallest explicit counterexample with full parity word, coefficients and trace. Do not infer equivalence from samples. Even if the equivalence is proved, it is NOT Collatz unless finiteness of j_c for every n>1 is proved separately.
 
-A1. Model the exceptional `E_k` tower and prove an **exact per-child lift criterion** in terms of `(k,r,j,a,b,parity_word)`; account for inherited descent at a larger representative and novel descent at time k+1. Prove or refute a candidate *rank or finite-state transfer law* that implies every fixed positive n eventually exits the tower. Distinguish 2-adic compactness from N+; nested classes around -1 are an infinite 2-adic branch without a positive start. Do not assert all exceptional branches are -1 unless proved.
+For a branch with j_c=j, derive an honest bound on the intercept b_j relative to its least positive representative. Attack candidate bounds symbolically using arbitrary long O-prefixes, the n=1 exception and parity cycles. Test for counterfamilies beyond shallow depth; preregister the exploration split before inspecting any new data.
 
-A2. Try a mathematically substantive universal theorem rather than an enlarged search: derive an explicit symbolic bound on the first descent time of a nontrivial infinite family of uncovered representatives (`27+2^k q`, `2^k q-1`, or another preregistered hostile class). The bound must quantify over **all q** and specify whether it is relative to initial n and whether a new parity word depends on q. Prefer a genuine infinite-family proof or a counterfamily to a proposed uniform bound. Check small n=27 first descending at T-step 59 is **finite only**.
+## Attack B — exceptional child transition and finite-state impossibility
 
-A3. Propose a transfer from uncovered class to a previously certified smaller class with an independently justified well-founded rank. Try a falsifying residue or 2-adic family before accepting it. Explicitly identify the unresolved quantified case if no proof exists.
+Use CP-0014's exact two-child criterion to seek a genuine well-founded rank on positive exceptional representatives, not merely E_(k+1) subset of inverse image E_k. Investigate whether OPEN at k is equivalent to 3^{a_j}>=2^j for all j<=k for every representative r>1; this was only finitely observed at depth16, not established. Prove it or produce a hostile residue/counterexample. Examine how new early certification at high lifts could invalidate naive tree recurrences.
 
-## Proof attack B — odd reverse graph and first-counterexample sieve
+Find a noncircular theorem showing that every fixed positive n eventually leaves the exceptional tower; alternatively prove a precise obstacle for a clearly delimited class of automata/ranks. The universal tower exit is equivalent to global strict descent and remains OPEN. CP-0018 precludes predicting U(x) modulo3 from a fixed modulus 2^k alone, NOT all mixed 2-adic/3-adic automata.
 
-B1. Starting from S001 CP-0010, exploit rigorously that a least nonconvergent positive number cannot be 5 mod6, and S000 gives its mod16 restrictions. Check 6 remaining necessary classes `7,15,27,31,39,43 mod48`, and attempt a NEW modular/dynamical exclusion that does not merely assume a smaller predecessor or convergence. Prove it on an infinite family with complete quantifiers, or give exact adversarial counterfamilies.
+## Attack C — prime re-entry arithmetic and reverse-basin rank
 
-B2. Attempt a non-tautological compressed reverse-basin grammar: define membership with finite rules + a provable coverage or rank property. Show soundness separately from completeness. `G={convergent starts}` is an exact tautology, not a complete result. Inspect reverse steps at y divisible by3 and y≡1 mod3, where the smaller-U-predecessor route fails.
+Extend CP-0016 gcd(x,U^2(x))=gcd(x,2^a+3) to m accelerated odd steps with exact valuation-sensitive affine offsets. Decide whether any proposed multiplicative/factor-count potential decreases after bounded or start-dependent many U steps. Kill candidates on x=15+20t, x=121, x=27, the composite growth family 12t+3, and all y divisible by3 (which have no U predecessor).
 
-B3. Investigate whether the no-small-predecessor mod3 categories and `E_k` parity tower have an exact finite automaton or mixed 2-adic/3-adic invariant. For every candidate invariant list the hypothesis needed to cover **all** remaining positive odd y, and falsify it on 27 or explicit -1-prefix composites when relevant. A new theorem must avoid an unproved global reachability assumption.
+Test a genuinely non-tautological reverse-basin grammar for categories y=0,1 mod3 and the six least-counterexample residues mod48. Distinguish a finite rule system from its *unproved universal coverage*. A source class modulo3 does not imply divergent starts.
 
-## Proof attack C — factor transition with hostile composite cases
+## Validation, literature and end state
 
-C1. Beyond the elementary `gcd(n,U(n))=1`, identify a nontrivial prime-valuation/transition invariant across two or more U-steps, and test against `121->91`, `27->41`, and all odd composites `12t+3` (t>=1) with one-step increase. Do not infer a numeric or factor-count rank from mere erasure.
+Re-run original k10..16 producer and S001 manifest comparison, independently regenerate and consume the canonical JSONL with direct record integrity checks; design deliberate corruptions (missing row, reordering, wrong parity, wrong status, wrong hash) and require rejection. Replay exact first-descent-59 cylinder and CP-0016 identities with independent code. Inspect primary Lagarias, Tao (2022), Bařina (2025), Angeltveit (2026), Simons–de Weger and Hercher INCLUDING corrigendum before importing external bounds. Differentiate PROVED_INTERNAL, FINITE_CERTIFICATE, SOURCE_STATED, EXPERIMENT, REFUTED, OPEN; no originality or Lean/Palomar assertion without evidence.
 
-C2. If exploring primes vs composites, remember that `T(2p)=p` makes the composite target equivalent to the full conjecture, and odd modulo powers of two contain both primes and composites. State a precise quantified theorem and attempt proof or an infinite counterfamily.
-
-## Prior art, formal trust and result classification
-
-Cross-check primary Lagarias, Tao (2022), Bařina (2025), Angeltveit (2026), Simons–de Weger, and Hercher INCLUDING the corrigendum before using technical cycle bounds. Check current sibling repository statements only as needed. No unproven orientation bridge, Mignotte-height assumption, finite frontier, or modified leading-digit map may be imported as proved universal Collatz. Make a separate source-to-lemma dependency/novelty assessment. Formalise only proof-complete propositions if useful and actually verified; report exact Lean axiom lines if promoting.
-
-Freeze any PRIMES-style discovery and holdout partitions **before** examining data; no posthoc validation labels. Reproduce finite tests and put hostile failures in the ledger. Keep THEOREM/PROVED_INTERNAL, FINITE_CERTIFICATE, SOURCE_STATED, EXPERIMENT, REFUTED and OPEN distinct.
-
-## Required S002 closeout and handover
-
-Deliver `sessions/S002/INPUT.md`, deep proof and obstruction record, exact computational manifest/test updates if changed, failure log, `sessions/S002/CLOSEOUT.md`, revised `research/{CLAIMS,FAILURE_LEDGER,SOURCES,RESEARCH_ROUTES}.md` as necessary, `sessions/LEDGER.md`, `authoritative/{STATE.json,START_HERE.md,NEXT_SESSION_PROMPT.md}`. Include **COMPLETE S003 prompt** in next-session file and verbatim inside closeout, marked FUTURE / UNEXECUTED. One S002 session only.
-
-Prefer one isolated branch, one coherent single-parent authored commit, real ordinary PR, observe hosted checks before ordinary non-force merge if permitted, verify new main SHA/tree/parents and file readback. If any step is blocked, state precisely what exists and what was not observed, never fabricate checks. Return GitHub PR, commit, merge and key file links plus the full S003 prompt. The central theorem remains OPEN unless a complete genuinely universal noncircular proof withstands hostile analysis.
+Finish exactly S003 in one isolated branch and coherent commit if possible, real PR, successful observed hosted checks, ordinary merge, independently verified live main SHA/tree/parents/file readback. Update claims, failure ledger, sources, routes, sessions/S003/INPUT.md, proof record and CLOSEOUT.md, ledger, authoritative status. Write COMPLETE S004 FUTURE/UNEXECUTED next prompt in authoritative/NEXT_SESSION_PROMPT.md AND verbatim inside closeout. If blocked, identify exact incomplete GitHub actions and never fabricate results. Return all links and full S004 handover.

@@ -36,3 +36,8 @@ S000's [finite audit](validation/S000_audit.json) is a sanity check, not a unive
 ## Execution authority
 
 S000 is completed. S001 remains **future/unexecuted** even after this planning-only update. When the owner pastes or links the current S001 session prompt and instructs it to run, that is immediate authority to execute exactly S001; no second confirmation. Do not automatically run S002. Each completed session must give a mathematically honest closeout, verified git links, and a FULL next-session prompt.
+
+
+## S002 update — 15 October 2026
+
+Completed S000, S001 and S002. The full **next executable S003 prompt** is at [authoritative/NEXT_SESSION_PROMPT.md](authoritative/NEXT_SESSION_PROMPT.md); a linked or pasted owner run request is sufficient authority. Older README references to S001 as future and depth-16 statistics as report-only are historical/stale: S001 directly reproduced 30653 STRICT +1 BASE_1+2114 OPEN, and S002 added a canonical JSONL consumer to hosted CI. [S002 proof record](research/S002_PROOFS_AND_OBSTRUCTIONS.md) / [closeout](sessions/S002/CLOSEOUT.md). The conjecture **remains OPEN**.
