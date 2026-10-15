@@ -52,3 +52,11 @@ Factor-rank CP-0029: even arbitrary fixed real state-dependent additive valuatio
 **Six-class grammar:** CP-0031 three disjoint full parity-word cylinders (11 mod32 step5, 59 mod128 step7, 123 mod256 step8) cover exactly 11/16 of BOTH r27 and r43 mod48, much greater than sparse lifts. Remaining 5/16 and other four whole classes remain unresolved, so neither full class is excluded. Target the remaining mixed 27 mod32 subtrees, not merely global density.
 
 **Rank no-go:** CP-0032 rules out ALL separable multiplicative n^p f(v2(n+1)) strictly monotone at each U step even for composite starts. Input high-h O-runs vs output high-h jumps force incompatible growth. Nonseparable r/h, multi-step and terminal-state ranks remain possible. No Collatz/CST theorem.
+
+## S007 route verdict — 2026-10-15
+
+**Residual grammar:** CP-0033 exact disjoint NEW 89/512 full certificates + S006 352/512 = 441/512 per r27/r43 class. Residual 71/512 persists at level13, and neither class is excluded. Coverage increments alone have diminishing logical return; S008 should prioritise regenerative closure or a well-founded rank on the entire exceptional tree.
+
+**Multi-block:** CP-0034 rigorous infinite two-O-run first-coefficient-crossing descent band O^a E O E^b with explicit t0, affine formula, strict inequality 4X>=5P and qualifying exponent at least once per adjacent pair. Does not establish the general Terras CST and has no novelty certificate. Challenge near-resonant a and general O^a E^c O^d E^b in S008.
+
+**Horizon kill:** CP-0035 gives for every H composite witnesses in BOTH r27/r43 mod48 also ≡27 mod256 with all first H iterates > start, via forcing O after OOEOOOOO. Therefore no uniform horizon, even after the new certificates, can solve the infinite residue tree. A genuine start-dependent descending rank or renewal strategy remains unproved. Nested 2-adic word cannot be treated as a divergent ordinary integer.

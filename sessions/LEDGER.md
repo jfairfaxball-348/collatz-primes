@@ -22,3 +22,6 @@ A prepared S002 prompt is not an executed session. Owner fresh instruction direc
 
 | S006 | 2026-10-15 | COMPLETE (research; new PR/hosted checks separately verify) | Steiner 1-circuit prior art; three full parity cylinders covering 11/16 of r27/r43; multiplicative valuation-rank no-go | CP-0030 classical-source import, CP-0031–0032 elementary internal; global theorem OPEN |
 | S007 | — | FUTURE / UNEXECUTED | Remaining 5/16 mixed residues, multi-block first crossings, adaptive ranks | authoritative/NEXT_SESSION_PROMPT.md |
+
+| S007 | 2026-10-15 | COMPLETE research (PR/main CI verify separately) | Residual 30 disjoint certificates, infinite two-O-run first-crossing family, no-uniform-horizon composite obstruction | CP-0033–0035; 441/512 in each hard class, 71/512 still open; global Collatz/CST OPEN |
+| S008 | — | FUTURE / UNEXECUTED | Close residual 71/512 with noncircular regenerative rank; near-resonant multiblocks | authoritative/NEXT_SESSION_PROMPT.md |
