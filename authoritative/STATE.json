@@ -1,8 +1,8 @@
 {
   "project": "Collatz Primes",
   "updated_utc_date": "2026-10-15",
-  "update_kind": "S016_MERGED_MAIN_HOSTED_FULL_CI_VERIFIED_ATTESTATION_BRANCH",
-  "current_session": "S016",
+  "update_kind": "S017_MATHEMATICS_COMMITTED_HOSTED_CI_PENDING",
+  "current_session": "S017",
   "completed_sessions": [
     "S000",
     "S001",
@@ -20,16 +20,17 @@
     "S013",
     "S014",
     "S015",
-    "S016"
+    "S016",
+    "S017"
   ],
-  "next_session": "S017",
+  "next_session": "S018",
   "next_session_status": "FUTURE_UNEXECUTED",
   "target": "All composite positive integers eventually reach 1 under shortened Collatz T",
   "target_equivalent_to_full_collatz": true,
   "headline_status": "OPEN_UNPROVED",
-  "phase": "P1_S017_EXHAUSTIVE_INTEGER_DEPENDENT_CERTIFICATE",
-  "entry_main_sha": "84a50048934ab5742ab76517e223267ddd44bc37",
-  "entry_main_tree": "e1823bff883c4cfc77bc4f8d20ebd79aedf5cfc1",
+  "phase": "P1_S018_ARBITRARY_PREFIX_RATIO_FREE_PROOF_ATTACK",
+  "entry_main_sha": "e183c3a2133b6154700c0cb989318865a1387b80",
+  "entry_main_tree": "18cc76572a4e9aee1e73d94a900d7adbda3cf991",
   "evidence": {
     "universal_proof": false,
     "terras_cst_status": "OPEN_KNOWN_PRIOR_ART",
@@ -232,7 +233,15 @@
     "s016_merged_readback": "STATE_NEXT_CLOSEOUT_PROOF_TEST_VERIFIED",
     "s016_S000_sha256": "45a4ee995384ec9154bf092e272562172797e78bf771611b1d31376627498084",
     "s016_S001_manifest_sha256": "d4686d95c47107af29d939accb8d161684f929eb348426f2d39ea8b1819b2b37",
-    "s016_S001_records_sha256": "adec6e2b05d0671170ced97304a69f25a518ad0cd658be7feaa8238f0eafc1f9"
+    "s016_S001_records_sha256": "adec6e2b05d0671170ced97304a69f25a518ad0cd658be7feaa8238f0eafc1f9",
+    "s017_ratio_free_two_run": "CP_0064_ALL_R_C_D_WITH_R_PLUS_D_GE_M0_SOURCE_MATVEEV",
+    "s017_exact_canonical_admission": "CP_0065_EXACT_QMIN_NOT_ALL_N_CERTIFICATE",
+    "s017_uniform_parameter_M0": "[16*(10^10+10)]^2",
+    "s017_local_grid": "4425_TRIPLES_17700_LIFTS_PASS_STANDALONE_ONLY",
+    "s017_local_source_sha256": "3ce5dceb6baae591c07f9a986cc871daafc3bc80db8439b9cfac3f78dc899522",
+    "s017_new_hosted_ci": "NOT_YET_OBSERVED",
+    "s017_universal_exit": false,
+    "s017_novelty": "NOT_ESTABLISHED"
   },
   "next_prompt": "authoritative/NEXT_SESSION_PROMPT.md",
   "s007_proof_record": "research/S007_PROOFS_AND_OBSTRUCTIONS.md",
@@ -254,5 +263,7 @@
   "s015_proof_record": "research/S015_PROOFS_AND_OBSTRUCTIONS.md",
   "s015_closeout": "sessions/S015/CLOSEOUT.md",
   "s016_proof_record": "research/S016_PROOFS_AND_OBSTRUCTIONS.md",
-  "s016_closeout": "sessions/S016/CLOSEOUT.md"
+  "s016_closeout": "sessions/S016/CLOSEOUT.md",
+  "s017_proof_record": "research/S017_PROOFS_AND_OBSTRUCTIONS.md",
+  "s017_closeout": "sessions/S017/CLOSEOUT.md"
 }
