@@ -1,8 +1,8 @@
 {
   "project": "Collatz Primes",
   "updated_utc_date": "2026-10-15",
-  "update_kind": "S007_RESEARCH_SESSION_COMPLETED",
-  "current_session": "S007",
+  "update_kind": "S008_RESEARCH_SESSION_COMPLETED",
+  "current_session": "S008",
   "completed_sessions": [
     "S000",
     "S001",
@@ -11,16 +11,17 @@
     "S004",
     "S005",
     "S006",
-    "S007"
+    "S007",
+    "S008"
   ],
-  "next_session": "S008",
+  "next_session": "S009",
   "next_session_status": "FUTURE_UNEXECUTED",
   "target": "All composite positive integers eventually reach 1 under shortened Collatz T",
   "target_equivalent_to_full_collatz": true,
   "headline_status": "OPEN_UNPROVED",
-  "phase": "P1_RESIDUAL_71_OF_512_RENEWAL_AND_TWO_BLOCK_FIRST_CROSSING",
-  "entry_main_sha": "2161fb31a385a13a8923e43756ad68c68bd77fb9",
-  "entry_main_tree": "4843d167c36aef659aa95327ea277f48b13db861",
+  "phase": "P1_NONCIRCULAR_RESIDUAL_RENEWAL_AND_GENERAL_TWO_RUN_CST",
+  "entry_main_sha": "5cd92afdd23532b604faf6055be68aea3c3d094a",
+  "entry_main_tree": "f490f9e2615710fae17794e889c0f6427b903b72",
   "evidence": {
     "universal_proof": false,
     "terras_cst_status": "OPEN_KNOWN_PRIOR_ART",
@@ -40,10 +41,26 @@
     "s007_local_original_checkout": false,
     "s007_independent_script_sha256": "ae653f33a162f3c256d3c2e03a1e1873a351ced451490e6907023ce736fb6cb0",
     "s007_independent_json_sha256": "4bda38601fdc6874c36b125696ea5c37a594ec40d4b7a4d63bcc0a2b3e56e8c8",
-    "s007_pr_ci": "PENDING_HOSTED_OBSERVATION",
-    "s007_main_ci": "PENDING_HOSTED_OBSERVATION"
+    "s007_pr_ci": "SUCCESS_RUN_38718526616",
+    "s007_main_ci": "SUCCESS_RUN_38718617542",
+    "s007_erratum_pr_ci": "SUCCESS_RUN_38718796329",
+    "s007_erratum_main_ci": "SUCCESS_RUN_38718848292_JOB_116368112709",
+    "s008_residual_early_dichotomy": "441_DROP_BY_13_AND_71_NO_DROP_THROUGH_13_OF_512",
+    "s008_residual_groups_mod256": {
+      "27": 26,
+      "91": 15,
+      "155": 15,
+      "251": 15
+    },
+    "s008_two_run": "CP_0037_ALL_A_WEAK_STRICT_Q_GE_1_KNOWN_2_CYCLE_FOR_Q_0",
+    "s008_multi_run": "CP_0038_EXACT_K_GENERAL_OBSTRUCTION",
+    "s008_local_isolated_tests": "FOUR_PASS_REPOSITORY_ORIGINAL_NOT_CLONED",
+    "s008_pr_ci": "PENDING_HOSTED_OBSERVATION",
+    "s008_main_ci": "PENDING_HOSTED_OBSERVATION"
   },
   "next_prompt": "authoritative/NEXT_SESSION_PROMPT.md",
   "s007_proof_record": "research/S007_PROOFS_AND_OBSTRUCTIONS.md",
-  "s007_closeout": "sessions/S007/CLOSEOUT.md"
+  "s007_closeout": "sessions/S007/CLOSEOUT.md",
+  "s008_proof_record": "research/S008_PROOFS_AND_OBSTRUCTIONS.md",
+  "s008_closeout": "sessions/S008/CLOSEOUT.md"
 }
