@@ -87,3 +87,10 @@ S011: universal composite/positive Collatz and Terras CST OPEN; no external nove
 | CP-0049 | PROVED_INTERNAL elementary composite forced-O bound | For every H>=6 there is a composite n=2^H u-1, odd 3<=u<=29, n multiple of5, all first H input steps odd and T^i(n)>n for every 1<=i<=H, with bitlength n<=H+5. No bitlength-independent shallow descent bound; no divergence claim. | research/S012_PROOFS_AND_OBSTRUCTIONS.md; tests/test_s012_math.py |
 
 S012 full Collatz and Terras CST OPEN, all six mod48 exceptional classes unresolved. Internal mathematical proof, standalone FINITE_TEST and independently observed preceding-hosted CI are separate evidence categories. Originality NOT ESTABLISHED, no Lean/Palomar.
+
+| CP-0050 | PROVED_INTERNAL deriving from SOURCE_STATED published Matveev bound; originality UNESTABLISHED | Every FIXED a,c>=1 with 3^a>2^(a+c) admits m0 such that ALL m>=m0 yield true-first-crossing O^a E^c O^(m-a) E^b with STRICT descent for ALL positive lifts q>=0, including near-zero delta and complementary delta>=kappa. NOT all words, all n, CST or Collatz. | research/S013_PROOFS_AND_OBSTRUCTIONS.md; tests/test_s013_math.py |
+| CP-0051 | PROVED_INTERNAL elementary CRT, exact conditional classification; originality UNESTABLISHED | For each two-run valid first-crossing grammar the minimal carry h is explicit via h≡3^(-d) mod2^b and h≡(2^c-1)*2^(-(c+d)) mod3^a; strict/equal/overshoot is an exact integer comparison. Does NOT classify arbitrary words or establish CST. | research/S013_PROOFS_AND_OBSTRUCTIONS.md; tests/test_s013_math.py |
+| CP-0052 | PROVED_INTERNAL elementary odd-run length; originality UNESTABLISHED | For each positive odd n, maximal initial O run has length exactly v2(n+1) and growth T^h(n)=3^h*(n+1)/2^h-1 even; strictly decreasing valuation terminates each run but NOT an infinite sequence of mixed runs. | research/S013_PROOFS_AND_OBSTRUCTIONS.md; tests/test_s013_math.py |
+
+S013 research finite grid 3854 (43 D<K, 3811 D>=K), 4 isolated tests PASS; new hosted full-suite CI separate. Global Collatz and Terras CST OPEN, no novel priority or formal verification.
+
