@@ -122,3 +122,9 @@ S016 finite controls: five standalone local exact methods PASS; 71 states/5041 f
 | CP-0065 | PROVED_INTERNAL elementary; originality UNCHECKED | ANY parity word with 2^j>3^m has unique canonical n0 and exact integer qmin for strict descent (q>=qmin); for every finite H explicit infinitely many composite all-O positive starts defeat any H-bounded first-crossing certificate collection. Does NOT exclude integer-dependent unbounded total algorithms. | research/S017_PROOFS_AND_OBSTRUCTIONS.md; tests/test_s017_math.py |
 
 S017: standalone finite grid 4,425 triples/17,700 lifts PASS, not an infinite proof or hosted S017 result. Global Collatz/composite convergence and Terras CST remain OPEN; no independent novelty/formal/Palomar/publication.
+
+
+## S018 claims — 2026-10-15
+- **CP-0066 — PROVED_INTERNAL** (Matveev portion SOURCE_STATED): for ANY all-prefix overcritical U beginning with O^a, with r odds/e evens, ANY d>=1, m=r+d, j=bit_length(3^m), b=j-|U|-d>=1, W=U O^d E^b, D=2^j-3^m, the elementary sufficient D(2^a-1)>3^m 2^e implies first-crossing strict endpoint descent for ALL positive lifts. The Matveev corollary a>=e+2+ceil[10^10(1+ln4m)/ln2] suffices. Unbounded number of E blocks and unbounded r/d example U_k=O^(2k)(OOOE)^k,d=1,k>=[16(10^10+10)]². No universal all-U coverage or novelty claim. Proof research/S018_PROOFS_AND_OBSTRUCTIONS.md.
+- **CP-0067 — PROVED_INTERNAL**: for fixed U,d, genuine least-lift non-drop requires D*n0<=B_W<3^m 2^e and 2^a-1<=n0<2^e/delta. These are NECESSARY filters only; no actual counterexample, CST or Collatz proof.
+- **S018 finite — FINITE_TEST** 81,118 first-cross words through length24 (78,303 multi-E prefix cases), only OE/n=1 nonstrict, independent scratch SHA256 01b5d72969272b410df8c1258833a3a84302d9c5768ff683ef45b7c88a8eb060. Exact enumerations do NOT prove all words or priority.
