@@ -1,0 +1,5 @@
+# S011 INPUT — 2026-10-15
+
+Owner instruction in this Collatz Primes project was "Run next arson" followed immediately by correction "Session"; interpreted as **run next session**. Per AGENTS.md/SESSION_PROTOCOL this authorises exactly S011 (authoritative prompt), NOT S012. The entire S011 prompt is preserved verbatim in the preceding `sessions/S010/CLOSEOUT.md` and `authoritative/NEXT_SESSION_PROMPT.md` at entry, blob SHA `d626f9a79f5f8182995f7e7d57771f1772ddac76`.
+
+Entry main SHA `5017318dc43f950fa63b4f704fa77c385c7aec87`, TRUE Git commit tree `097d89ecce99c75cddb8789454a1184eede194a6`, ordered parents `7dc3cce70243892c80209785bb9f1e87d0a67872`, `1ba2f7ef63b5f468bc899a231a582a8aba0120d2`. All PRs #1–#15 merged or closed; no open PR in inspected recent listing. Rulesets [], branch protection 403. Recent main hosted CI run 38728310174/job116399522422 SUCCESS all nine job steps; original local checkout unavailable (DNS failure). Target Collatz, its composite equivalent, and Terras CST OPEN at entry.
