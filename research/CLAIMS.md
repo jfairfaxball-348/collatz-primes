@@ -32,3 +32,9 @@
 | CP-0022 | PROVED_INTERNAL scoped no-go | No fixed 2^k residue table of finite first-descent horizons can cover all positive starts; not all adaptive/mixed automata | research/S003_PROOFS_AND_OBSTRUCTIONS.md |
 
 **S003 prior-art correction:** CP-0019 is Terras' established OPEN Coefficient Stopping Time conjecture, not new; see Rozier–Terracol 2026, arXiv:2502.00948. Finite n<=1000000 agreement does not prove it. No originality claim for CP-0020—CP-0022.
+
+| CP-0023 | PROVED_INTERNAL elementary; originality NOT ESTABLISHED | For first-crossing O^a E^b, a>=2, a suitable 3/4 slope band guarantees strict first-crossing descent for every positive representative; at least one of adjacent a qualifies. Exact criterion D*t>2^b-1. | research/S004_PROOFS_AND_OBSTRUCTIONS.md; tests/test_s004_boundaries.py |
+| CP-0024 | PROVED_INTERNAL scoped no-go | For any fixed M, finite per-residue first-descent horizon fails on any r=-1 mod2^v2(M); infinitely many positive composite counterexamples; in mod48 at r15 and31. Does not exclude adaptive state ranks. | research/S004_PROOFS_AND_OBSTRUCTIONS.md |
+| CP-0025 | PROVED_INTERNAL elementary | For all K>=3 infinitely many composite x with v2(x+1)=1 but v2(U(x)+1)>=K; e.g. 681->511. No decreasing valuation-only U rank. | research/S004_PROOFS_AND_OBSTRUCTIONS.md |
+
+S004 novelty gate: CP-0023—0025 are elementary; no originality demonstrated; no Lean/Palomar or universal result.
