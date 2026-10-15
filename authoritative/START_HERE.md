@@ -127,3 +127,17 @@ This is a subsequent **attestation-only branch** after original S017 research me
 ## S018 mathematical closeout — 2026-10-15
 
 S000–S018 mathematical sessions recorded; **S019 FUTURE/UNEXECUTED** full prompt authoritative/NEXT_SESSION_PROMPT.md. CP-0066 proves an EXACT initial odd-run a versus number e of E steps ALL-LIFTS first-coefficient-crossing sufficient condition D(2^a-1)>3^m 2^e for arbitrary overcritical multiblock U, plus explicit SOURCE_STATED Matveev polynomial condition. The infinite family O^(2k)(OOOE)^k, d=1, k>=[16(10^10+10)]² has arbitrarily many E blocks and r/d unbounded. CP-0067 gives only necessary exact CRT inequalities for an ACTUAL overshoot, not an overshoot. 81,118 finite first crossings incl 78,303 multiple-E targets checked (only OE/n=1 nonstrict); new original hosted S018 CI separately observe. **Unrestricted all-U and full Collatz/composite, Terras CST OPEN; no originality, Lean, Palomar or publication claim.** Read research/S018_PROOFS_AND_OBSTRUCTIONS.md, validation/S018_LOCAL_PROBES.md, sessions/S018/{INPUT,CLOSEOUT}. S018 dedicated branch/PR CI and merge evidence require separate attestation.
+
+
+## S018 INDEPENDENT hosted PR and postmerge attestation — 2026-10-15
+
+ORIGINAL S018 source branch research/s018-initial-run-carry-budget commit 973e87cded78616114438b642e0a314e30362183 had ACTUAL underlying Git tree 5c06492a8c3c8bcda3e3aae3767f251855f26b14 and SOLE ordered parent 5255e2a5fcd134e81d67ec55885b57cf69e0a166. Pull request #30 https://github.com/jfairfaxball-348/collatz-primes/pull/30 had stable head and original main base, mergeable=true/clean. After independent HEAD/base safety check, GitHub merge_method=merge, expected_head_sha returned merged=true and merged main SHA ef5de1e4244179a2884c60261728997ed64ec0ed. Independently read live main ref SAME SHA, true tree 5c06492a8c3c8bcda3e3aae3767f251855f26b14, ordered parents [5255e2a5fcd134e81d67ec55885b57cf69e0a166,973e87cded78616114438b642e0a314e30362183]; and independently read S018 STATE, full S019 FUTURE/UNEXECUTED prompt and S018 CLOSEOUT on merged main.
+
+NEW ORIGINAL S018 CI FULLY observed independently, EACH workflow status completed SUCCESS and EACH of the three substantive hosted steps individually success:
+- Branch PUSH run 38813444589, job 116692112628.
+- PR #30 run 38813504285, job 116692314128.
+- NEW merged-main PUSH run 38813591529, job 116692615159.
+
+PR and main raw job logs show 86 tests / OK, all SIX S018 tests individually ok, S003 corruption tests remain under original unittest discovery. S000 regenerated exact byte cmp succeeded and SHA256 45a4ee995384ec9154bf092e272562172797e78bf771611b1d31376627498084. S001 depths10–16 separate regenerated records and checker report INDEPENDENT CHECK PASS: 7 depths; JSONL consumer STREAM CONSUMER PASS; manifest SHA256 d4686d95c47107af29d939accb8d161684f929eb348426f2d39ea8b1819b2b37, records SHA256 adec6e2b05d0671170ced97304a69f25a518ad0cd658be7feaa8238f0eafc1f9.
+
+This NEW attestation-only documentation writeback triggers its OWN separate checks: do NOT infer those from PR #30. None of these CI results proves Collatz, Terras CST, novelty, a 53-page Matveev proof, formal Lean/Palomar or peer review. S019 remains FUTURE / UNEXECUTED.
