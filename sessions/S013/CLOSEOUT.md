@@ -40,3 +40,15 @@ Write S014 numbered claims, proofs, failed conjectures and proper counterexample
 
 
 S014 is a future prepared session, NOT executed here. Verify actual S013 branch/PR/main CI and final Git tree separately before describing as hosted PASS.
+
+
+### S013 hosted full-suite CI and merged-main verification — 2026-10-15
+
+Original FULL GitHub-hosted repository Python suite and workflow, NOT standalone local evidence:
+- branch push run 38748744680, job 116469213101; 59 unit tests PASS; substantive steps Unit tests, Finite parity and orbit sanity, Recreate finite residue stream and cross-check original manifest each SUCCESS.
+- pull request #20 run 38748780774, job 116469340254; 59 unit tests PASS; same three substantive steps each SUCCESS. PR mergeability inspected CLEAN; premerge main unchanged. Rulesets [] and branch protection 403 (policy NOT fully observable).
+- ordinary nonforce PR #20 merge to main SHA 76b0bcc89e485d67dd7799250593c277ec5068dd, ACTUAL git tree 526680f937ebc2003444650f33251cbd871f2a31, ordered parents cee8936245d497bdd51cc817c8283c8bd41b2839 and 15573dbd8ba30c13215e614e4da800ba0ccbd7c1. Main ref readback matched and STATE, full S014 prompt, S013 closeout and test source read back.
+- merged main run 38748940596, job 116469898271; 59 Python tests OK including four S013 and legacy S003 corruption scenarios; individual Unit tests, S000 exact byte cmp/hash, S001 regenerated manifest byte cmp + independent checker + canonical JSONL consumer each SUCCESS. Seven certificate depths confirmed by independent checker. SHA256 from ACTUAL merged-main logs: S000 audit 45a4ee995384ec9154bf092e272562172797e78bf771611b1d31376627498084 ; S001 regenerated manifest d4686d95c47107af29d939accb8d161684f929eb348426f2d39ea8b1819b2b37 ; JSONL adec6e2b05d0671170ced97304a69f25a518ad0cd658be7feaa8238f0eafc1f9 .
+
+These attest specific finite Python and file-regeneration checks only; CP-0050's universal-in-m proof is on paper relative to the published Matveev theorem. Collatz/CST OPEN, originality, independent proof refereeing, Lean, Palomar, arXiv and publication NOT established. The subsequent attestation commit creates its own CI run and cannot be described as checked until observed.
+

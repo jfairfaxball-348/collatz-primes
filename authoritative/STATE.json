@@ -1,7 +1,7 @@
 {
   "project": "Collatz Primes",
   "updated_utc_date": "2026-10-15",
-  "update_kind": "S013_MATHEMATICS_COMPLETED_CI_PENDING",
+  "update_kind": "S013_VERIFIED_MERGED_AND_HOSTED_CI",
   "current_session": "S013",
   "completed_sessions": [
     "S000",
@@ -134,9 +134,24 @@
     "s013_explicit_carry": "CP_0051_CRT_NECESSARY_SUFFICIENT_SIGN",
     "s013_odd_run": "CP_0052_INTEGER_DEPENDENT_RUN_TERMINATION_NOT_GLOBAL_DESCENT",
     "s013_exhaustive_finite_grid": "3854_CASES_43_D_LT_K_3811_D_GE_K_ALL_LOCAL_PASS",
-    "s013_standalone_local_tests": "4_PASS_ORIGINAL_HOSTED_PENDING",
+    "s013_standalone_local_tests": "4_PASS_SEPARATE_FROM_59_HOSTED_ORIGINAL_TESTS",
     "s013_main_entry_ci": "SUCCESS_RUN_38745181460_WORKFLOW_LEVEL_NOT_S013",
-    "s013_original_primary_matveev": "NOT_READ_SECONDARY_EXPLICIT_STATEMENT_ONLY"
+    "s013_original_primary_matveev": "NOT_READ_SECONDARY_EXPLICIT_STATEMENT_ONLY",
+    "s013_hosted_unittest_count": 59,
+    "s013_branch_push_ci": "SUCCESS_RUN_38748744680_JOB_116469213101_ALL_THREE_SUBSTANTIVE_STEPS",
+    "s013_pr_ci": "SUCCESS_RUN_38748780774_JOB_116469340254_ALL_THREE_SUBSTANTIVE_STEPS",
+    "s013_main_ci": "SUCCESS_RUN_38748940596_JOB_116469898271_ALL_THREE_SUBSTANTIVE_STEPS",
+    "s013_merged_pr": 20,
+    "s013_merged_main_sha": "76b0bcc89e485d67dd7799250593c277ec5068dd",
+    "s013_merged_main_true_tree": "526680f937ebc2003444650f33251cbd871f2a31",
+    "s013_merged_main_parents": [
+      "cee8936245d497bdd51cc817c8283c8bd41b2839",
+      "15573dbd8ba30c13215e614e4da800ba0ccbd7c1"
+    ],
+    "s013_S000_sha256": "45a4ee995384ec9154bf092e272562172797e78bf771611b1d31376627498084",
+    "s013_S001_manifest_sha256": "d4686d95c47107af29d939accb8d161684f929eb348426f2d39ea8b1819b2b37",
+    "s013_S001_records_sha256": "adec6e2b05d0671170ced97304a69f25a518ad0cd658be7feaa8238f0eafc1f9",
+    "s013_main_readback": "STATE_NEXT_S013_CLOSEOUT_TESTS_VERIFIED"
   },
   "next_prompt": "authoritative/NEXT_SESSION_PROMPT.md",
   "s007_proof_record": "research/S007_PROOFS_AND_OBSTRUCTIONS.md",
