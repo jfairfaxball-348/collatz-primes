@@ -37,3 +37,12 @@ Try credible library/archive pathways for Steiner 1978 *A Theorem on the Syracus
 
 Write S013 mathematical proofs AND failed conjectures with numbered claim IDs, exact new tests, validation record, source audit, INPUT, CLOSEOUT, updated state/START_HERE/claim and failure and session ledgers, and a COMPLETE S014 FUTURE/UNEXECUTED prompt in authoritative/NEXT_SESSION_PROMPT.md and verbatim in CLOSEOUT. Use branch/PR, merge only after verified CI and branch-safety inspection, verify actual merged main SHA/tree/parents/readback. Global Collatz/composite convergence, Terras CST, novelty, Lean, Palomar and publication remain OPEN/UNCLAIMED absent real verification.
 
+
+
+### S012 hosted CI and postmerge attestation — 2026-10-15
+
+**VERIFIED PR #18** https://github.com/jfairfaxball-348/collatz-primes/pull/18 was merged by ordinary merge (not force) to main SHA `1848d3021bba76da626ca0b91716fbbaa5fc4481`; actual Git commit tree `e5776f3ff499baf8d77cf68548830a16a3988a08`, ordered parents `b397596941173027c7a0d33fddf38009ab837a87` and `1cb322b4ed921154d8c45fb12b7df9e4a2e9d082`. Postmerge main ref and STATE, S012 CLOSEOUT, NEXT_SESSION_PROMPT (full S013) readback VERIFIED.
+
+**Individual hosted GitHub Actions successes**, not local claims: S012 branch push run `38744583831`, job `116454759964`; PR run `38744619489`, job `116454901443`; merged-main run `38744739014`, job `116455297661`. For EACH of these three jobs, (1) Unit tests, (2) Finite parity and orbit sanity (exact S000 cmp), (3) Recreate finite residue stream and cross-check original manifest (S001 regeneration/independent checker/JSONL consumer) were individually **SUCCESS**. Main log: **Ran 55 tests / OK**, including four new S012 methods and prior S003 corruption cases. Actual merged-main log SHA256: S000 `45a4ee995384ec9154bf092e272562172797e78bf771611b1d31376627498084`; regenerated S001 manifest `d4686d95c47107af29d939accb8d161684f929eb348426f2d39ea8b1819b2b37`; canonical JSONL records `adec6e2b05d0671170ced97304a69f25a518ad0cd658be7feaa8238f0eafc1f9`. Validation is for the merger SHA, not a universal mathematical proof. Protection read returned 403; rulesets [] (no assertion of complete policy knowledge). The post-attestation commit has its own CI to be checked separately.
+
+S013 is FUTURE/UNEXECUTED. Collatz, Terras CST, novelty, Lean, Palomar, publication remain OPEN/UNCLAIMED.
