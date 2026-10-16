@@ -353,4 +353,72 @@ theorem mixed_atoms_251_budget (atoms : List CarryAtom23) :
 theorem three_two_sharp_identity :
     115 * 251 + 251 * 128 = 251 * 243 := by norm_num
 
+
+/-!
+S024: executable shortened iteration and CONDITIONAL arbitrary Bool parity-word
+affine semantics, using explicit trace matching.  Canonical residue existence /
+uniqueness and the unconditional bitlength-to-first-crossing chain are separate.
+-/
+def shortenedT (n : ℕ) : ℕ :=
+  if n % 2 = 0 then n / 2 else (3 * n + 1) / 2
+
+theorem shortenedT_even (n : ℕ) (h : n % 2 = 0) :
+    2 * shortenedT n = n := by
+  simp only [shortenedT, if_pos h]
+  omega
+
+theorem shortenedT_odd (n : ℕ) (h : n % 2 = 1) :
+    2 * shortenedT n = 3 * n + 1 := by
+  have hne : n % 2 ≠ 0 := by omega
+  simp only [shortenedT, if_neg hne]
+  omega
+
+def runWord (n : ℕ) (bs : List Bool) : ℕ :=
+  bs.foldl (fun x _ => shortenedT x) n
+
+def wordAffine : List Bool → AffineState
+  | [] => initialState
+  | false :: bs =>
+    let s := wordAffine bs
+    ⟨s.A, 2 * s.B, 2 * s.Q⟩
+  | true :: bs =>
+    let s := wordAffine bs
+    ⟨3 * s.A, s.A + 2 * s.B, 2 * s.Q⟩
+
+def wordAgrees (n : ℕ) : List Bool → Prop
+  | [] => True
+  | false :: bs => n % 2 = 0 ∧ wordAgrees (shortenedT n) bs
+  | true :: bs => n % 2 = 1 ∧ wordAgrees (shortenedT n) bs
+
+theorem word_affine_correct (n : ℕ) (bs : List Bool)
+    (h : wordAgrees n bs) :
+    (wordAffine bs).Q * runWord n bs =
+      (wordAffine bs).A * n + (wordAffine bs).B := by
+  induction bs generalizing n with
+  | nil =>
+    simp [wordAffine, runWord, initialState]
+  | cons b bs ih =>
+    cases b with
+    | false =>
+      have hp : n % 2 = 0 := h.1
+      have ht : wordAgrees (shortenedT n) bs := h.2
+      have hr := ih (shortenedT n) ht
+      have hs := shortenedT_even n hp
+      change (2 * (wordAffine bs).Q) * runWord (shortenedT n) bs =
+        (wordAffine bs).A * n + 2 * (wordAffine bs).B
+      have hr2 := congrArg (fun z : ℕ => 2 * z) hr
+      have hs2 := congrArg (fun z : ℕ => (wordAffine bs).A * z) hs
+      nlinarith only [hr2, hs2]
+    | true =>
+      have hp : n % 2 = 1 := h.1
+      have ht : wordAgrees (shortenedT n) bs := h.2
+      have hr := ih (shortenedT n) ht
+      have hs := shortenedT_odd n hp
+      change (2 * (wordAffine bs).Q) * runWord (shortenedT n) bs =
+        (3 * (wordAffine bs).A) * n +
+          ((wordAffine bs).A + 2 * (wordAffine bs).B)
+      have hr2 := congrArg (fun z : ℕ => 2 * z) hr
+      have hs2 := congrArg (fun z : ℕ => (wordAffine bs).A * z) hs
+      nlinarith only [hr2, hs2]
+
 end CollatzPrimes
