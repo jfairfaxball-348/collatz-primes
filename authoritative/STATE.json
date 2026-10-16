@@ -402,7 +402,18 @@
     "s024_2adic_positive_divergence": false,
     "s024_complete_lean_parity_realisation": false,
     "s024_source_complete_novelty": false,
-    "s024_final_PR_ci": "NOT_YET_OBSERVED"
+    "s024_final_PR_ci": "SUCCESS_PYTHON_PUSH_38895943405_PR_38895950965_LEAN_PUSH_38895943380_PR_38895951461_ALL_STEPS_FINAL_HEAD_3234FEF3",
+    "s024_merged_pr": 39,
+    "s024_final_research_sha": "3234fef3b64e80187a1f4fd350613a675a8abdcc",
+    "s024_merge_sha": "41e14bdd3ce7b489dc063487fe11e8b49f93fe91",
+    "s024_true_merge_tree": "ea007b15a2cd1f74efbdfd3181a482202a844552",
+    "s024_ordered_merge_parents": [
+      "7505909a42709294367dd8f3275fca648ac80d06",
+      "3234fef3b64e80187a1f4fd350613a675a8abdcc"
+    ],
+    "s024_postmerge_python": "SUCCESS_RUN_38896260878_JOB_116957345246_117_TESTS_S000_S001_CHECKER_JSONL",
+    "s024_postmerge_lean": "SUCCESS_RUN_38896260803_JOB_116957344660_7352_JOBS_NO_ADMITS",
+    "s024_attestation_only_new_checks": "TO_BE_OBSERVED_SEPARATELY"
   },
   "next_prompt": "authoritative/NEXT_SESSION_PROMPT.md",
   "s007_proof_record": "research/S007_PROOFS_AND_OBSTRUCTIONS.md",
