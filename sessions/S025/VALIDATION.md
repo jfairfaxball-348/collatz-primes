@@ -1,0 +1,9 @@
+# S025 VALIDATION — 2026-10-16
+
+Environment: local Python 3.13.5; local Lean/Lake absent; GitHub original remote clone unavailable locally (DNS). Five isolated S025 unittest methods, mirroring checked-in source, all PASS locally. Original checked-in tests/test_s025_math.py is finite and can be independently run with python -m unittest discover -s tests -v.
+
+Actual GitHub original S025 CODE source: commit 62c72b40df3b3c501e6298ae903a286aaefd8bb3, Git tree ba34256820bffba82dd68229f16bd389efa9b66d, parent 140c2a0b44f4108443bed48e492f36615ce8cf0d. Python push run38902175614/job116976832282 COMPLETED SUCCESS with individually observed Unit tests, S000 finite parity/orbit byte comparator, S001 full regenerated independent depth10–16 record/manifest checker SUCCESS. Pinned Lean push run38902175738/job116976832661 COMPLETED SUCCESS with individually observed toolchain installation, Mathlib cache, lake build --wfail and no admitted-marker guard SUCCESS. These observations validate CP-0085 scoped conditional theorem at this SHA, not an all-integer Collatz theorem.
+
+Finite test parameters: eight horizons times all six hard classes; five horizons times six prefix families; OOEE depth k=2,3,4,5,8,16,32; historical 71 residual states and 5041 ENUMERATED ordered pairs (not exit proofs); 120 64k+59 expansion checks, odd-run formula and controls 27/43/91/155/251/393243/393243+524288. Infinite assertions CP-0083/84 rely on separate exact elementary proof, not these tests.
+
+IMPORTANT: later documentation commit / PR / new merged main have different SHA and require their own independently observed Python and pinned Lean jobs before reporting PASS or merging. Nat bitlength bracket, unique parity-cylinder and complete CP-0076/78 formal pipeline NOT proved; full Terras/Steiner originals not read; novelty and global conjectures OPEN.

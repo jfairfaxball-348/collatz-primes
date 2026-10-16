@@ -421,4 +421,21 @@ theorem word_affine_correct (n : ℕ) (bs : List Bool)
       have hs2 := congrArg (fun z : ℕ => (wordAffine bs).A * z) hs
       nlinarith only [hr2, hs2]
 
+
+/-!
+S025: connect the S024 executable matching-word equality to the existing
+S021 conditional Nat strict-descent bridge.  This theorem requires a
+specified actual parity trace and an explicit positive affine margin;
+it does not establish a residue cylinder's existence, a first crossing,
+or any universal stopping assertion.
+-/
+theorem matching_word_strict_descent (n D : ℕ) (bs : List Bool)
+    (h : wordAgrees n bs)
+    (hQ : (wordAffine bs).Q = (wordAffine bs).A + D)
+    (hmargin : (wordAffine bs).B < D * n) :
+    runWord n bs < n := by
+  exact all_lifts_strict_descent
+    (wordAffine bs).A (wordAffine bs).Q (wordAffine bs).B D
+    n (runWord n bs) hQ (word_affine_correct n bs h) hmargin
+
 end CollatzPrimes
