@@ -143,3 +143,9 @@ S017: standalone finite grid 4,425 triples/17,700 lifts PASS, not an infinite pr
 - **S020 FINITE_TEST**: standalone six tests PASS, 2046 k<=10 binary block words (d1 1225/d2 821), canonical n0/lifts; 150-block irregular sample; gap test 20000 exponents; 71/512 control. NO_LEAN_VERIFIED, no novelty certification or Collatz/CST proof.
 
 - CP-0073 — S021 PROVED_INTERNAL; for ALL k>=1, ALL arbitrary a_i>=3, U=∏(O^{a_i}E) obeys 11B(U)+19Q(U)≤19A(U), hence H(U)<19/11 and, by CP-0071/72, SOME d∈{1,2} yields an actual first-coefficient-crossing strictly-descending entire positive W-cylinder with infinitely many composite representatives. Formal target staged in CollatzPrimes.lean; full word theorem not yet FORMAL_VERIFIED. Novelty UNCHECKED. Source research/S021_PROOFS_AND_OBSTRUCTIONS.md.
+
+
+## S022 — 2026-10-16
+- **CP-0074 — PROVED_INTERNAL (novelty UNCHECKED):** All arbitrary finite concatenations of O^aE (a>=3) and combined O⁴EO²E preserve exact weighted budget 11B+19Q<=19A and H<19/11, remain coefficient-overcritical at ALL prefixes, and using earlier CP-0071/72 have a selected d∈{1,2} for a FIRST coefficient crossing with strict descent for EVERY positive actual cylinder lift, infinitely many composite. New compared with CP-0073: some O²E runs allowed when paired in given order. NOT all-n integer admission. Full proof research/S022_PROOFS_AND_OBSTRUCTIONS.md.
+- **CP-0075 — REFUTATION of broader budget assertion (PROVED_INTERNAL):** O⁴EO²E=(729,256,745), slack +792; reversed O²EO⁴E=(729,256,925), budget violation 1188. Not a genuine Collatz first-crossing overshoot.
+- **S022 finite FINITE_TEST:** 3905 mixed words length1..5, 2541 with macro, d1=2251,d2=1654, 11715 canonical/lift actual trajectories, zero errors; script SHA256 ed94e237402ff44496b3916abbbf3ec65aa25c61a2d33a082d226af005850858; output SHA256 0e010543d7e1f9a7f074a5fdbda779b321aa6ed35bf8d7d44251c36d7f822463. Full CP-0071/72 not Lean-coded.
