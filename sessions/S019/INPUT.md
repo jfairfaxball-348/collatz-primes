@@ -1,0 +1,7 @@
+# S019 INPUT — 2026-10-16
+
+Owner exact instruction: "Run next session". Authoritative/NEXT_SESSION_PROMPT.md on live main identified S019 as NEXT FUTURE/UNEXECUTED. This single owner request immediately authorises exactly S019, not S020. The precise S019 original prompt remains accessible as GitHub main at entry commit e35857c7b6fd5054598998f009c39cd0edb4d3a6.
+
+LIVE main ref e35857c7b6fd5054598998f009c39cd0edb4d3a6, true underlying tree 0fdb82ac1ebe3ba56d0ff89d4a5ea5bcd9689040, ordered parents [ef5de1e4244179a2884c60261728997ed64ec0ed,093f6732c822c503d3bf211366f90a903bb883c5]. Open PRs [], rulesets []; branch protection HTTP403 inaccessible => UNKNOWN. PRE-S019 merged-main run38813824079/job116693394879 full original hosted 3 substantive steps each observed SUCCESS. Source Matveev 2000 actual PDF page 2 zero-index inspected this S019; Lagarias/Steiner secondary only. S018, S017, protocol, evidence, source/claim/failure ledgers read.
+
+S019 work: exact affine block repetition and 2-adic Q^k divisibility, constant normalised intercept, scoped Matveev large-k all-d first crossing; deliberate hostile attempts against all-U/totality and prior-art novelty. Independent local Python 3 script /mnt/data/s019/independent_s019.py SHA256 8c0cc2ce7f342e5d9a00be9429136b8b4532fca347e1d88a506a9635031bc26d; output SHA256 d7993b56f0b47d6e7a8bb54ecbfa9229192913e3417d427f2aae348a5d835bf0, 143 P patterns and 8580 finite cylinders; 6 isolated checked-in-oriented tests PASS. No original GitHub checkout cloned; hosted CI must be observed separately.

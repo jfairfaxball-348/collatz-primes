@@ -101,3 +101,8 @@ NEW ORIGINAL S018 CI FULLY observed independently, EACH workflow status complete
 PR and main raw job logs show 86 tests / OK, all SIX S018 tests individually ok, S003 corruption tests remain under original unittest discovery. S000 regenerated exact byte cmp succeeded and SHA256 45a4ee995384ec9154bf092e272562172797e78bf771611b1d31376627498084. S001 depths10–16 separate regenerated records and checker report INDEPENDENT CHECK PASS: 7 depths; JSONL consumer STREAM CONSUMER PASS; manifest SHA256 d4686d95c47107af29d939accb8d161684f929eb348426f2d39ea8b1819b2b37, records SHA256 adec6e2b05d0671170ced97304a69f25a518ad0cd658be7feaa8238f0eafc1f9.
 
 This NEW attestation-only documentation writeback triggers its OWN separate checks: do NOT infer those from PR #30. None of these CI results proves Collatz, Terras CST, novelty, a 53-page Matveev proof, formal Lean/Palomar or peer review. S019 remains FUTURE / UNEXECUTED.
+
+
+| S019 | 2026-10-16 | COMPLETE mathematical research; S019 NEW hosted code CI independently verify | Periodic overcritical word 2-adic CRT divisibility, constant affine intercept and all-d first-crossing descent for sufficiently repeated P (Matveev source); bounded repeat exit, 143 patterns/8580 finite cylinders | CP-0068—0069; aperiodic multi-block/universal Collatz and Terras CST OPEN; S020 FUTURE/UNEXECUTED |
+
+S019 entry main e35857c7b6fd5054598998f009c39cd0edb4d3a6, actual git tree 0fdb82ac1ebe3ba56d0ff89d4a5ea5bcd9689040; entry hosted run 38813824079/job116693394879 all 3 original substantive steps SUCCESS. New branch CI NOT OBSERVED YET at original writeback. Independent scratch script SHA256 8c0cc2ce7f342e5d9a00be9429136b8b4532fca347e1d88a506a9635031bc26d. No novelty/Lean/Palomar/publication.

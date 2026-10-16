@@ -1,8 +1,8 @@
 {
   "project": "Collatz Primes",
-  "updated_utc_date": "2026-10-15",
-  "update_kind": "S018_PR_MERGED_MAIN_ORIGINAL_HOSTED_FULL_CI_VERIFIED_ATTESTATION_BRANCH",
-  "current_session": "S018",
+  "updated_utc_date": "2026-10-16",
+  "update_kind": "S019_MATHEMATICS_ORIGINAL_HOSTED_CI_PENDING",
+  "current_session": "S019",
   "completed_sessions": [
     "S000",
     "S001",
@@ -22,16 +22,17 @@
     "S015",
     "S016",
     "S017",
-    "S018"
+    "S018",
+    "S019"
   ],
-  "next_session": "S019",
+  "next_session": "S020",
   "next_session_status": "FUTURE_UNEXECUTED",
   "target": "All composite positive integers eventually reach 1 under shortened Collatz T",
   "target_equivalent_to_full_collatz": true,
   "headline_status": "OPEN_UNPROVED",
-  "phase": "P1_S019_UNRESTRICTED_MULTIBLOCK_CRT_CARRY",
-  "entry_main_sha": "5255e2a5fcd134e81d67ec55885b57cf69e0a166",
-  "entry_main_tree": "579ca0edc3ff789b3311ffe1b0cede299a6e33c9",
+  "phase": "P1_S020_VARIABLE_BLOCK_APERIODIC_AND_LEAN_SCOPING",
+  "entry_main_sha": "e35857c7b6fd5054598998f009c39cd0edb4d3a6",
+  "entry_main_tree": "0fdb82ac1ebe3ba56d0ff89d4a5ea5bcd9689040",
   "evidence": {
     "universal_proof": false,
     "terras_cst_status": "OPEN_KNOWN_PRIOR_ART",
@@ -290,7 +291,19 @@
     "s018_original_hosted_unittest_count": 86,
     "s018_original_S000_sha256": "45a4ee995384ec9154bf092e272562172797e78bf771611b1d31376627498084",
     "s018_original_S001_manifest_sha256": "d4686d95c47107af29d939accb8d161684f929eb348426f2d39ea8b1819b2b37",
-    "s018_original_S001_records_sha256": "adec6e2b05d0671170ced97304a69f25a518ad0cd658be7feaa8238f0eafc1f9"
+    "s018_original_S001_records_sha256": "adec6e2b05d0671170ced97304a69f25a518ad0cd658be7feaa8238f0eafc1f9",
+    "s019_periodic_crt": "CP_0068_ELEM_Q_POWER_DIVISIBILITY",
+    "s019_periodic_all_d": "CP_0069_SOURCE_MATVEEV_ALL_K_GE_KP",
+    "s019_originality": "NOT_ESTABLISHED_BERNSTEIN_LAGARIAS_RELEVANT",
+    "s019_unrestricted_first_cross": "OPEN",
+    "s019_universal_exit": false,
+    "s019_finite_cases": 8580,
+    "s019_finite_exact_certificate_pass": 7854,
+    "s019_finite_patterns": 143,
+    "s019_independent_script_sha256": "8c0cc2ce7f342e5d9a00be9429136b8b4532fca347e1d88a506a9635031bc26d",
+    "s019_standalone_tests": "6_PASS_NOT_HOSTED_ORIGINAL",
+    "s019_entry_main_ci": "SUCCESS_RUN_38813824079_JOB_116693394879_ALL_THREE_STEPS",
+    "s019_new_hosted_ci": "NOT_OBSERVED_UNTIL_NEW_COMMIT"
   },
   "next_prompt": "authoritative/NEXT_SESSION_PROMPT.md",
   "s007_proof_record": "research/S007_PROOFS_AND_OBSTRUCTIONS.md",
@@ -316,5 +329,7 @@
   "s017_proof_record": "research/S017_PROOFS_AND_OBSTRUCTIONS.md",
   "s017_closeout": "sessions/S017/CLOSEOUT.md",
   "s018_proof_record": "research/S018_PROOFS_AND_OBSTRUCTIONS.md",
-  "s018_closeout": "sessions/S018/CLOSEOUT.md"
+  "s018_closeout": "sessions/S018/CLOSEOUT.md",
+  "s019_proof_record": "research/S019_PROOFS_AND_OBSTRUCTIONS.md",
+  "s019_closeout": "sessions/S019/CLOSEOUT.md"
 }
