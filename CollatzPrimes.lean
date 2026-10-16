@@ -130,4 +130,127 @@ theorem variable_runs_budget (runs : List {n : ℕ // 3 ≤ n}) :
   apply carry_budget_fold
   norm_num [initialState]
 
+
+/-!
+S022 extension: the combined block O⁴ E O² E has exact parameters
+(A,Q,B) = (729,256,745). Unlike a single O² E block, this whole
+two-block macro preserves the weighted carry inequality.
+-/
+def appendFourTwo (s : AffineState) : AffineState :=
+  { A := 729 * s.A
+    B := 729 * s.B + 745 * s.Q
+    Q := 256 * s.Q }
+
+theorem carry_budget_four_two (s : AffineState)
+    (hs : 11 * s.B + 19 * s.Q ≤ 19 * s.A) :
+    11 * (appendFourTwo s).B + 19 * (appendFourTwo s).Q
+      ≤ 19 * (appendFourTwo s).A := by
+  change 11 * (729 * s.B + 745 * s.Q) + 19 * (256 * s.Q)
+    ≤ 19 * (729 * s.A)
+  have h := Nat.mul_le_mul_left 729 hs
+  nlinarith only [h, Nat.zero_le s.Q]
+
+inductive CarryAtom where
+  | standard (n : {a : ℕ // 3 ≤ a})
+  | fourTwo
+
+def appendCarryAtom (s : AffineState) : CarryAtom → AffineState
+  | .standard n => appendBlock s (oddRunBlock n.1 n.2)
+  | .fourTwo => appendFourTwo s
+
+theorem carry_budget_atom (s : AffineState) (p : CarryAtom)
+    (hs : 11 * s.B + 19 * s.Q ≤ 19 * s.A) :
+    11 * (appendCarryAtom s p).B + 19 * (appendCarryAtom s p).Q
+      ≤ 19 * (appendCarryAtom s p).A := by
+  cases p with
+  | standard n =>
+    exact carry_budget_step s (oddRunBlock n.1 n.2) hs
+  | fourTwo =>
+    exact carry_budget_four_two s hs
+
+def mixedRunState (bs : List CarryAtom) : AffineState :=
+  bs.foldl appendCarryAtom initialState
+
+/-- Every ordering of long odd-run atoms and (O⁴ E O² E) macros
+    preserves the same rational carry budget, including unbounded lists. -/
+theorem mixed_runs_budget (bs : List CarryAtom) :
+    11 * (mixedRunState bs).B + 19 * (mixedRunState bs).Q
+      ≤ 19 * (mixedRunState bs).A := by
+  have h :
+      ∀ (xs : List CarryAtom) (s : AffineState),
+        11 * s.B + 19 * s.Q ≤ 19 * s.A →
+        11 * (xs.foldl appendCarryAtom s).B + 19 * (xs.foldl appendCarryAtom s).Q
+          ≤ 19 * (xs.foldl appendCarryAtom s).A := by
+    intro xs
+    induction xs with
+    | nil =>
+      intro s hs
+      simpa using hs
+    | cons x xs ih =>
+      intro s hs
+      exact ih (appendCarryAtom s x) (carry_budget_atom s x hs)
+  exact h bs initialState (by norm_num [initialState])
+
+/-- Arithmetic heart of the CP-0071 two-consecutive-gap argument.
+    Here j is the exponent of the power *below* 3^m; the actual
+    bitlength existence lemma has NOT been formalized. -/
+theorem consecutive_gap_from_bracket (m j : ℕ)
+    (_hlo : 2 ^ j < 3 ^ m)
+    (hhi : 3 ^ m < 2 ^ (j + 1))
+    (hnot : 3 * 2 ^ (j + 1) ≤ 4 * 3 ^ m) :
+    2 ^ (j + 2) < 3 ^ (m + 1) ∧
+    3 ^ (m + 1) < 2 ^ (j + 3) ∧
+    4 * 3 ^ (m + 1) < 3 * 2 ^ (j + 3) := by
+  have e1 : 2 ^ (j + 1) = 2 * 2 ^ j := by
+    simp [pow_succ]
+    ring
+  have e2 : 2 ^ (j + 2) = 4 * 2 ^ j := by
+    simp [pow_succ]
+    ring
+  have e3 : 2 ^ (j + 3) = 8 * 2 ^ j := by
+    simp [pow_succ]
+    ring
+  have e4 : 3 ^ (m + 1) = 3 * 3 ^ m := by
+    simp [pow_succ]
+    ring
+  rw [e2, e4, e3]
+  have hpos : 0 < 3 ^ m := pow_pos (by norm_num) m
+  rw [e1] at hnot hhi
+  constructor
+  · nlinarith only [hnot, hpos]
+  constructor
+  · nlinarith only [hhi, Nat.zero_le (2 ^ j)]
+  · nlinarith only [hhi]
+
+theorem two_choice_gap_from_bracket (m j : ℕ)
+    (hlo : 2 ^ j < 3 ^ m)
+    (hhi : 3 ^ m < 2 ^ (j + 1)) :
+    4 * 3 ^ m < 3 * 2 ^ (j + 1) ∨
+      (2 ^ (j + 2) < 3 ^ (m + 1) ∧
+       3 ^ (m + 1) < 2 ^ (j + 3) ∧
+       4 * 3 ^ (m + 1) < 3 * 2 ^ (j + 3)) := by
+  by_cases h : 4 * 3 ^ m < 3 * 2 ^ (j + 1)
+  · exact Or.inl h
+  · exact Or.inr (consecutive_gap_from_bracket m j hlo hhi (Nat.le_of_not_gt h))
+
+/-- If an actual parity-word cylinder has affine coefficient A,
+    modulus Q=A+D and B intercept, a bound B<D*n gives descent
+    for EVERY individual positive lift satisfying that affine law.
+    Parity-realisation and canonical residue existence are separate. -/
+theorem all_lifts_strict_descent (A Q B D n y : ℕ)
+    (hQ : Q = A + D)
+    (hword : Q * y = A * n + B)
+    (hmargin : B < D * n) :
+    y < n := by
+  have hlt : Q * y < Q * n := by
+    rw [hQ] at hword ⊢
+    nlinarith only [hword, hmargin]
+  have hpos : 0 < Q := by
+    by_contra hn
+    have hzero : Q = 0 := by omega
+    rw [hzero] at hlt
+    omega
+  exact (Nat.mul_lt_mul_left hpos).mp hlt
+
+
 end CollatzPrimes

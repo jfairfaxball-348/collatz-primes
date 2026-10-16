@@ -1,8 +1,8 @@
 {
   "project": "Collatz Primes",
   "updated_utc_date": "2026-10-16",
-  "update_kind": "S021_SUBSTANTIVE_FORMAL_PR_VERIFIED_PREMERGE_ATTESTATION",
-  "current_session": "S021",
+  "update_kind": "S022_MIXED_ODD_RUN_INTERNAL_THEOREM_FORMAL_GATE_PENDING",
+  "current_session": "S022",
   "completed_sessions": [
     "S000",
     "S001",
@@ -25,16 +25,17 @@
     "S018",
     "S019",
     "S020",
-    "S021"
+    "S021",
+    "S022"
   ],
-  "next_session": "S022",
+  "next_session": "S023",
   "next_session_status": "FUTURE_UNEXECUTED",
   "target": "All composite positive integers eventually reach 1 under shortened Collatz T",
   "target_equivalent_to_full_collatz": true,
   "headline_status": "OPEN_UNPROVED",
-  "phase": "P1_S022_FULL_FIRST_CROSSING_LEAN_AND_NONSELCTIVE_FALSIFICATION",
-  "entry_main_sha": "8df2e333429693d3bfac089e460bc204112f6e3d",
-  "entry_main_tree": "90c4c88abb1a5b007c3b4f185f7e25d707a88307",
+  "phase": "P1_S023_FULL_PARITY_WORD_LEAN_AND_INTEGER_ADMISSION",
+  "entry_main_sha": "555565a9c305a4862970935befe066cf37e9ea23",
+  "entry_main_tree": "NOT_OBSERVED_GITHUB_CONNECTOR",
   "evidence": {
     "universal_proof": false,
     "terras_cst_status": "OPEN_KNOWN_PRIOR_ART",
@@ -359,7 +360,19 @@
     "s021_python_branch_run": 38887018900,
     "s021_python_pr_run": 38887024435,
     "s021_formal_main_ci": "NOT_YET_OBSERVED",
-    "s021_source_novelty": "NOT_ESTABLISHED"
+    "s021_source_novelty": "NOT_ESTABLISHED",
+    "s022_mixed_theorem": "CP_0074_PROVED_INTERNAL_O4E_O2E_MACRO_PLUS_ALL_A_GE3",
+    "s022_order_countermodel": "CP_0075_REVERSE_MACRO_BUDGET_VIOLATION_1188",
+    "s022_exact_words": 3905,
+    "s022_exact_positive_trajectories": 11715,
+    "s022_scratch_script_sha256": "ed94e237402ff44496b3916abbbf3ec65aa25c61a2d33a082d226af005850858",
+    "s022_scratch_json_sha256": "0e010543d7e1f9a7f074a5fdbda779b321aa6ed35bf8d7d44251c36d7f822463",
+    "s022_python_initial_pr_run": "SUCCESS_RUN_38888829178_JOB_116933083009_ALL_3_STEPS_OLD_HEAD",
+    "s022_lean_initial_pr_run": "FAILED_38888829263_WFAIL_WARNINGS_CORRECTED_ON_NEW_SHA_CI_PENDING",
+    "s022_formal": "MIXED_BUDGET_GAP_ARITHMETIC_AND_AFFINE_DESCENT_SOURCE_STAGED_CURRENT_BUILD_PENDING_FULL_CP_0071_72_NOT_FORMALIZED",
+    "s022_pr": 37,
+    "s022_full_original_local_tests": false,
+    "s022_novelty": "NOT_ESTABLISHED"
   },
   "next_prompt": "authoritative/NEXT_SESSION_PROMPT.md",
   "s007_proof_record": "research/S007_PROOFS_AND_OBSTRUCTIONS.md",
@@ -390,5 +403,7 @@
   "s019_closeout": "sessions/S019/CLOSEOUT.md",
   "s020_proof_record": "research/S020_PROOFS_AND_OBSTRUCTIONS.md",
   "s020_lean_spec": "research/S020_LEAN_SPEC.md",
-  "s020_closeout": "sessions/S020/CLOSEOUT.md"
+  "s020_closeout": "sessions/S020/CLOSEOUT.md",
+  "s022_proof_record": "research/S022_PROOFS_AND_OBSTRUCTIONS.md",
+  "s022_closeout": "sessions/S022/CLOSEOUT.md"
 }

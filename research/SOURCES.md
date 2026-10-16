@@ -140,3 +140,9 @@ Tong Niu May 11 2026, *Parity vectors and paradoxical sequences in the accelerat
 
 - SRC-0024 — S021 primary-original Bernstein & Lagarias, *The 3x+1 Conjugacy Map*, Canadian J. Math. 48 (1996), 1154–1169, authors' 16-page full PDF https://websites.umich.edu/~lagarias/doc/bernstein.pdf . Accessed p1–3, p2 equations (1.5)(1.6) and finite parity conjugacy; whole proof not independently reconstructed. Priority: canonical parity-vector bijection is CLASSICAL; exact S021 weighted invariant originality UNKNOWN.
 - SRC-0025 — S021 Terras 1976 journal https://www.impan.pl/en/publishing-house/journals-and-series/acta-arithmetica/all/30/3/101028/a-stopping-time-problem-on-the-positive-integers . Primary publisher confirms 12-page metadata and open download; PDF endpoint returned 403, original article CONTENT NOT READ in S021. This does not clear a novelty claim. Steiner 1978 full seven-page primary still UNACQUIRED.
+
+
+## S022 direct source audit — 2026-10-16
+- **SRC-0026:** Bernstein–Lagarias (1996) original authors' 16pp https://websites.umich.edu/~lagarias/doc/bernstein.pdf p2 equation(1.5)/(1.6) directly inspected: finite input parity code and 2-adic conjugacy are CLASSICAL. CP-0074 priority still UNCHECKED.
+- **SRC-0027:** Terras (1976), Acta Arith. 30 pp241–252 https://www.impan.pl/en/publishing-house/journals-and-series/acta-arithmetica/all/30/3/101028/a-stopping-time-problem-on-the-positive-integers publisher metadata observed, CC-BY download shown; eudml https://eudml.org/doc/205476 and publisher article PDF returned 403, FULL 12-page primary NOT READ.
+- **SRC-0028:** Rozier–Terracol (2026), Discrete Mathematics publisher abstract https://www.sciencedirect.com/science/article/abs/pii/S0012365X26001913 : Terras coefficient stopping-time remains conjectural; full article NOT independently inspected. Steiner (1978) original UNACQUIRED. No complete novelty/paper gate.
