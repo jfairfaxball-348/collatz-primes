@@ -1,0 +1,9 @@
+# S020 INPUT — 2026-10-16
+
+Owner exact instruction: "run next session". Live authoritative/NEXT_SESSION_PROMPT.md at main 3342189c197b4e11f2e0c9a951076d3e7abb0977 specified S020 FUTURE/UNEXECUTED, authorising exactly S020 and NOT S021.
+
+Entry main 3342189c197b4e11f2e0c9a951076d3e7abb0977; underlying true tree 7379373e0bd930d9e37d96a5d9dc51221da44e6d, ordered parents [9adefb03af2493e59582a77b5a82bc13a859bf4c,f52996e03a7fc15c669200e39cc300cfcea6390d]. Open PR []; rulesets []; protection API 403 => UNKNOWN. Previous main run38881357952/job116908595237 completed SUCCESS, ALL THREE substantive steps independently SUCCESS. Pre-S020 checks cannot attest to S020 changes.
+
+Read protocol/policies, exact S019 CLOSEOUT/INPUT/proof, S018/S017, CLAIMS/FAILURE_LEDGER/SOURCES/LEDGER, S000/S001/S003 suite provenance. Work strategy: seek a genuine variable-block theorem without long fixed repetition, falsify on canonical least lifts, exclude fake all-n coverage, develop proof-ready Nat-domain Lean target; attempt hostile totality tests and source priority audit. The new CP-0070—0072 were proved in research/S020_PROOFS_AND_OBSTRUCTIONS.md, local finite checks in validation/S020_LOCAL_PROBES.md. Scratch Python test source exact SHA256 b66a6fc40ac2bfeafddbc05cb03bba08f4ae7a614c307d97323884ed02cd5d09; output 94eced05644b55bcd6ccc8c6d4ede7a206a90bc85851342004e183f70b21d130.
+
+Original primary Matveev full English printed1219 §2 Cor2.3 freshly inspected but NOT used by S020 theorem. Bernstein–Lagarias 1996 / Terras 1976 primary bibliographic records independently checked; particular S020 original priority UNCHECKED. No available lean/lake local binary; NO_LEAN_VERIFIED. No universal Collatz, Terras CST or publication result.
