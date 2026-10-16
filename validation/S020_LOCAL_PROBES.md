@@ -9,3 +9,16 @@ Date 2026-10-16. Scratch environment Python 3, standard-library unittest, arbitr
 - The existing workflow runs the original S000 byte-identical regeneration and SHA, S001 depths10–16 independent manifest/checker/JSONL stream consumer, plus S003 corruption tests in unittest discovery. Historical known fixture SHA S000: 45a4ee995384ec9154bf092e272562172797e78bf771611b1d31376627498084; S001 manifest d4686d95c47107af29d939accb8d161684f929eb348426f2d39ea8b1819b2b37 and records adec6e2b05d0671170ced97304a69f25a518ad0cd658be7feaa8238f0eafc1f9. Their new S020 original hosted recheck is PENDING until independently observed.
 
 The verified results are finite software observations. CP-0070–0072 require their separate quantified mathematical proofs (research/S020_PROOFS_AND_OBSTRUCTIONS.md); none of the finite tests establish an all-positive theorem.
+
+## S020 original research branch / PR / merged-main hosted attestation — 2026-10-16
+
+The ORIGINAL S020 research branch commit cf99e5afdfb56ba9ee45e553d4ef55c47e7f7775 had actual Git tree 4a5566e6694e6bc397be74977c013e93ceac1a53, and ONE ordered parent 3342189c197b4e11f2e0c9a951076d3e7abb0977. PR #34 https://github.com/jfairfaxball-348/collatz-primes/pull/34 had head cf99..., base 334218..., mergeable=true and clean. Immediately before merge, main SHA checked equal base; GitHub merge API with merge_method=merge and expected_head_sha returned merged=true SHA 5434be9b7f49bba7ba9199b808ede183c8410973. Independent live main ref SAME SHA, ACTUAL git tree 4a5566e6694e6bc397be74977c013e93ceac1a53 and TWO ordered parents [3342189c197b4e11f2e0c9a951076d3e7abb0977,cf99e5afdfb56ba9ee45e553d4ef55c47e7f7775]. Full S020 proof, test, CLOSEOUT, STATE and complete S021 FUTURE/UNEXECUTED next prompt all read back from merged-main GitHub.
+
+The following THREE actual distinct ORIGINAL GitHub-hosted workflows were individually inspected, each was COMPLETED SUCCESS and EACH substantive step Unit tests / Finite parity and orbit sanity / Recreate finite residue stream and cross-check original manifest independently SUCCESS:
+- BRANCH push run 38883461830, job 116915456628;
+- PR #34 run 38883503956, job 116915593256;
+- NEW merged-main push run 38883615826, job 116915956336.
+
+Full decoded original logs for ALL THREE were inspected: **Ran 98 tests / OK**; all SIX newly checked-in test_s020_math methods individually ok, S003 hostile canonical-stream-corruption tests still present and PASS. S000 regenerated audit is byte-identical via cmp, SHA256 45a4ee995384ec9154bf092e272562172797e78bf771611b1d31376627498084. S001 regenerated depth10–16 checked: INDEPENDENT CHECK PASS 7 depths; STREAM CONSUMER PASS; manifest SHA256 d4686d95c47107af29d939accb8d161684f929eb348426f2d39ea8b1819b2b37, records SHA256 adec6e2b05d0671170ced97304a69f25a518ad0cd658be7feaa8238f0eafc1f9. These are verified ORIGINAL hosted finite software checks, not a Lean formal proof, novelty determination, or universal Collatz result.
+
+This separate documentation-only attestation write creates its OWN new CI and merge provenance. Do NOT infer those new checks from the older ORIGINAL three runs; inspect separately if/after committed. CP-0070–0072 mathematical proof unchanged; S021 remains FUTURE/UNEXECUTED.
