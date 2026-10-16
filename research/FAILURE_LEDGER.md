@@ -128,3 +128,9 @@
 
 - F-0073 — S021 SHARP BUDGET ALPHABET: adding arbitrary O²E blocks breaks 11B+19Q≤19A already on the first block (207>171); this invalidates ONLY this particular uniform linear budget and does NOT give an actual first-crossing overshoot or refute CST. Exact canonical OOE repetitions k1..7 tested and descent occurs for the chosen extension.
 - F-0074 — S021 NONSELECTIVE TWO-CHOICE: exponent m=5 has δ=13/243<1/3, disproving 'both choices always have δ>1/3'; existence of some d does not force an arbitrary fixed Collatz input to follow that parity extension. Compatible infinite 2-adic words are NOT demonstrated divergent positive integers. 
+
+
+## S022 — mixed macro and integer admission
+- **F-0086 — REFUTED broad invariant:** O²E cannot be inserted freely while asserting SAME 11B+19Q<=19A. Reversed O²EO⁴E violates it by1188, whereas ordered O⁴EO²E preserves it with slack792. This is NOT a true first-crossing overshoot or refutation of Terras CST.
+- **F-0087 — OPEN integer selection:** CP-0074 chooses a favourable future extension but proves no given fixed positive integer follows it; all-n exit and 71/512 residual remain open. Infinite 2-adic paths are not divergent positive orbits.
+- **F-0088 — FORMAL INCOMPLETE:** Nat bitlength bracket existence, exact parity-word semantics and unique canonical residue, full first crossing and complete CP-0074 still absent from Lean. Preliminary Lean PR #37 job116933083680 FAILED due unused-variable and simp lint warnings only; a subsequent source commit changed those lines, requiring independent fresh CI.
