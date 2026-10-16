@@ -1,7 +1,7 @@
 {
   "project": "Collatz Primes",
   "updated_utc_date": "2026-10-16",
-  "update_kind": "S020_RESEARCH_ORIGINAL_HOSTED_PENDING",
+  "update_kind": "S020_ORIGINAL_RESEARCH_PR_MERGED_FULL_CI_VERIFIED_ATTESTATION_BRANCH",
   "current_session": "S020",
   "completed_sessions": [
     "S000",
@@ -334,7 +334,21 @@
     "s020_local_lean": false,
     "s020_novelty": "UNCHECKED",
     "s020_main_entry_ci": "SUCCESS_RUN_38881357952_JOB_116908595237_ALL_THREE_STEPS",
-    "s020_new_hosted_ci": "NOT_OBSERVED_YET"
+    "s020_new_hosted_ci": "ORIGINAL_BRANCH_PR_AND_MERGED_MAIN_ALL_SUCCESS_ATTESTATION_NEW_CHECKS_NOT_YET_OBSERVED",
+    "s020_original_research_commit": "cf99e5afdfb56ba9ee45e553d4ef55c47e7f7775",
+    "s020_original_true_tree": "4a5566e6694e6bc397be74977c013e93ceac1a53",
+    "s020_original_parent": "3342189c197b4e11f2e0c9a951076d3e7abb0977",
+    "s020_pr": 34,
+    "s020_branch_ci": "SUCCESS_RUN_38883461830_JOB_116915456628_ALL_3_STEPS_98_TESTS",
+    "s020_pr_ci": "SUCCESS_RUN_38883503956_JOB_116915593256_ALL_3_STEPS_98_TESTS",
+    "s020_merged_main_ci": "SUCCESS_RUN_38883615826_JOB_116915956336_ALL_3_STEPS_98_TESTS",
+    "s020_merged_main_sha": "5434be9b7f49bba7ba9199b808ede183c8410973",
+    "s020_merged_main_tree": "4a5566e6694e6bc397be74977c013e93ceac1a53",
+    "s020_merged_main_parents": [
+      "3342189c197b4e11f2e0c9a951076d3e7abb0977",
+      "cf99e5afdfb56ba9ee45e553d4ef55c47e7f7775"
+    ],
+    "s020_postmerge_readback": "STATE_NEXT_PROMPT_CLOSEOUT_PROOF_TEST_MAIN_VERIFIED"
   },
   "next_prompt": "authoritative/NEXT_SESSION_PROMPT.md",
   "s007_proof_record": "research/S007_PROOFS_AND_OBSTRUCTIONS.md",
