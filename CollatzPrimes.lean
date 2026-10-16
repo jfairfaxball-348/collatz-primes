@@ -195,7 +195,7 @@ theorem mixed_runs_budget (bs : List CarryAtom) :
     Here j is the exponent of the power *below* 3^m; the actual
     bitlength existence lemma has NOT been formalized. -/
 theorem consecutive_gap_from_bracket (m j : ℕ)
-    (hlo : 2 ^ j < 3 ^ m)
+    (_hlo : 2 ^ j < 3 ^ m)
     (hhi : 3 ^ m < 2 ^ (j + 1))
     (hnot : 3 * 2 ^ (j + 1) ≤ 4 * 3 ^ m) :
     2 ^ (j + 2) < 3 ^ (m + 1) ∧
@@ -205,10 +205,10 @@ theorem consecutive_gap_from_bracket (m j : ℕ)
     simp [pow_succ]
     ring
   have e2 : 2 ^ (j + 2) = 4 * 2 ^ j := by
-    simp [pow_succ, pow_add]
+    simp [pow_succ]
     ring
   have e3 : 2 ^ (j + 3) = 8 * 2 ^ j := by
-    simp [pow_succ, pow_add]
+    simp [pow_succ]
     ring
   have e4 : 3 ^ (m + 1) = 3 * 3 ^ m := by
     simp [pow_succ]
