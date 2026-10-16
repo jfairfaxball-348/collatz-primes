@@ -1,7 +1,7 @@
 {
   "project": "Collatz Primes",
   "updated_utc_date": "2026-10-16",
-  "update_kind": "S021_RESEARCH_COMMIT_PRE_CI",
+  "update_kind": "S021_SUBSTANTIVE_FORMAL_PR_VERIFIED_PREMERGE_ATTESTATION",
   "current_session": "S021",
   "completed_sessions": [
     "S000",
@@ -46,7 +46,7 @@
     "s007_two_block": "CP_0034_PROVED_INTERNAL_SUFFICIENT_BAND_INFINITE_A",
     "s007_unbounded_prefix": "CP_0035_NO_UNIFORM_H_ALL_COMPOSITE_TWO_R_CLASSES",
     "independent_external_validation": false,
-    "lean": false,
+    "lean": true,
     "palomar": false,
     "novelty": "NOT_ESTABLISHED",
     "s006_pr_ci": "SUCCESS_RUN_38715995495_JOB_116358694217",
@@ -351,8 +351,15 @@
     ],
     "s020_postmerge_readback": "STATE_NEXT_PROMPT_CLOSEOUT_PROOF_TEST_MAIN_VERIFIED",
     "s021_extended_all_a_ge3": "CP_0073_PROVED_INTERNAL",
-    "s021_formal": "PENDING_GITHUB_HOSTED_LEAN_CI",
-    "s021_finite": "55986_VARIABLE_BLOCK_LISTS_TESTED_LOCAL"
+    "s021_formal": "FORMAL_VERIFIED_NAT_AFFINE_CONJUGATION_AND_VARIABLE_RUN_WEIGHTED_BUDGET_ONLY_CP_0071_72_NOT_FORMALIZED",
+    "s021_finite": "55986_VARIABLE_BLOCK_LISTS_TESTED_LOCAL",
+    "s021_formal_source_sha": "7f845a78e7c091979d78063dba9da357b61fc81e",
+    "s021_lean_branch_run": 38887018859,
+    "s021_lean_pr_run": 38887024972,
+    "s021_python_branch_run": 38887018900,
+    "s021_python_pr_run": 38887024435,
+    "s021_formal_main_ci": "NOT_YET_OBSERVED",
+    "s021_source_novelty": "NOT_ESTABLISHED"
   },
   "next_prompt": "authoritative/NEXT_SESSION_PROMPT.md",
   "s007_proof_record": "research/S007_PROOFS_AND_OBSTRUCTIONS.md",
