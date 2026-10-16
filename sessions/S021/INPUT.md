@@ -1,0 +1,5 @@
+# S021 INPUT — 2026-10-16
+
+Owner instruction exact: "run next session". The live authoritative/NEXT_SESSION_PROMPT.md named S021 FUTURE/UNEXECUTED, so run only S021. Base main 8df2e333429693d3bfac089e460bc204112f6e3d; true tree 90c4c88abb1a5b007c3b4f185f7e25d707a88307; ordered parents [5434be9b7f49bba7ba9199b808ede183c8410973,844914545c590ad5104530fddf1a6d590d6f2a15]. No open PRs, rulesets []; protection403 UNKNOWN. Latest PRE-S021 main run38883998469/job116917214503 three substantive Python steps each SUCCESS. Lean/lake/elan absent locally and git remote clone DNS blocked; use hosted GitHub pinned Lean workflow for verified status.
+
+Read current S020 proof/Lean spec/test/validation, S019 proof, policy/AGENTS, state and registers. S021 targets actual Nat Lean compile and a genuinely stronger variable alphabet O^a E for ALL a>=3, not a data-only session. Literature primary Bernstein–Lagarias full PDF read, Terras download403. Formal verification requires hosted success, not merely uploaded .lean source.
