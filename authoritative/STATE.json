@@ -427,7 +427,23 @@
     "s025_terras_full_original_read": false,
     "s025_steiner_full_original_read": false,
     "s025_novelty": "NOT_ESTABLISHED",
-    "s025_docs_exact_head_ci": "NOT_YET_OBSERVED_AT_AUTHORING"
+    "s025_docs_exact_head_ci": "BRANCH_AND_PR_AND_RESEARCH_MERGED_MAIN_PYTHON_LEAN_ALL_SUCCESS",
+    "s025_final_branch_python": "SUCCESS_RUN_38903483659_JOB_116981193336_122_TESTS_PLUS_S000_S001",
+    "s025_final_branch_lean": "SUCCESS_RUN_38903483596_JOB_116981192952_ALL_STEPS",
+    "s025_final_pr_python": "SUCCESS_RUN_38903516392_JOB_116981300993_122_TESTS_PLUS_S000_S001",
+    "s025_final_pr_lean": "SUCCESS_RUN_38903516303_JOB_116981300712_ALL_STEPS",
+    "s025_original_pr": 41,
+    "s025_original_final_head": "72bccec80375fb366e2d5beb33a65588b25fd2ec",
+    "s025_original_merge_sha": "c6d02ebbf6b459939634a15569789347d8eeffee",
+    "s025_original_merge_tree": "5a467d3da18797f343ecf974866d2cb477f27b9f",
+    "s025_original_merge_parents": [
+      "140c2a0b44f4108443bed48e492f36615ce8cf0d",
+      "72bccec80375fb366e2d5beb33a65588b25fd2ec"
+    ],
+    "s025_original_main_python": "SUCCESS_RUN_38903788552_JOB_116982199512_122_TESTS_S000_S001",
+    "s025_original_main_lean": "SUCCESS_RUN_38903788783_JOB_116982209294_7352_JOBS_NO_ADMISSIONS",
+    "s025_postmerge_readback": "EXACT_REMOTE_MAIN_SHA_TREE_ORDERED_PARENTS_AND_STATE_NEXT_PROOF_CLOSEOUT_LEAN_TEST_VERIFIED",
+    "s025_attestation_commit_ci": "NOT_YET_OBSERVED_DIFFERENT_HEAD"
   },
   "next_prompt": "authoritative/NEXT_SESSION_PROMPT.md",
   "s007_proof_record": "research/S007_PROOFS_AND_OBSTRUCTIONS.md",
