@@ -134,3 +134,9 @@
 - **F-0086 — REFUTED broad invariant:** O²E cannot be inserted freely while asserting SAME 11B+19Q<=19A. Reversed O²EO⁴E violates it by1188, whereas ordered O⁴EO²E preserves it with slack792. This is NOT a true first-crossing overshoot or refutation of Terras CST.
 - **F-0087 — OPEN integer selection:** CP-0074 chooses a favourable future extension but proves no given fixed positive integer follows it; all-n exit and 71/512 residual remain open. Infinite 2-adic paths are not divergent positive orbits.
 - **F-0088 — FORMAL INCOMPLETE:** Nat bitlength bracket existence, exact parity-word semantics and unique canonical residue, full first crossing and complete CP-0074 still absent from Lean. Preliminary Lean PR #37 job116933083680 FAILED due unused-variable and simp lint warnings only; a subsequent source commit changed those lines, requiring independent fresh CI.
+
+
+- F-00S23-A — S023 direct mixed-grammar integer admission FALSE: infinitely many composites n=3+48k have prefix OOEE and cannot begin any atom. Eventual integer admission still OPEN.
+- F-00S23-B — Reverse O²EO³E block (A,Q,B)=(243,128,287) has B/(A−Q)=287/115>7/3; hence cannot preserve the same uniform 7/3 budget by independent concatenation. NOT a genuine first-crossing overshoot.
+- F-00S23-C — k=3 initial O³E bank followed by N copies O²E eventually violates H<7/3; first N=21. k=4 succeeds all N. This refutes k≤3 fixed-bank budget but NOT descent or Collatz.
+- F-00S23-D — COMPLETE Lean arithmetic/parity realisation, first-crossing and universal positive integer admission still MISSING even with partial scoped Lean invariant. Literature novelty review also UNFINISHED (Terras original PDF 403).
