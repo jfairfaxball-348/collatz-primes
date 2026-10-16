@@ -163,3 +163,10 @@ S017: standalone finite grid 4,425 triples/17,700 lifts PASS, not an infinite pr
 - **CP-0081 PROVED_INTERNAL:** S=O²EO³E triple (243,128,287); H(S^k)=287/115+(1−287/115)(128/243)^k, threshold H≥7/3 exactly k≥4; this kills that budget only, not actual descent.
 - **CP-0082 FORMAL_VERIFIED SCOPED (source head cdf366f2404af40ce986a28420808791e1841f09)** pinned Lean branch/PR runs38894936751/38894970810 SUCCESS: executable shortenedT, arbitrary Bool word trace hypothesis→exact affine equality. No formal unique 2^L cylinder, bitlength bracket or global Collatz proof. Fresh checks needed on subsequent heads.
 - S024 local isolated five Python tests PASS; source-complete novelty UNCHECKED; full conjectures OPEN. See research/S024_PROOFS_AND_OBSTRUCTIONS.md.
+
+
+## S025 claims — 2026-10-16
+- CP-0083 PROVED_INTERNAL, novelty NOT ESTABLISHED: for all H≥6, each r∈{7,15,27,31,39,43} mod48 has an explicit CRT-selected composite n with bitlength(n)≤H+4 and T^j(n)>n for every 1≤j≤H. Infinitely many DISTINCT such composites per r as H varies. Refutes strict descent universally by bitlength(n)−4, NOT eventual descent or B(n)=bitlength+C.
+- CP-0084 PROVED_INTERNAL (classical 2-adic apparatus): for every k≥2 composite n divisible3, 0<n<3·16^k follows (OOEE)^k, hence no S023 atom begins through bitlength(n)−6. No positive divergent orbit follows; 5/7 is a 2-adic fixed point only.
+- CP-0085 FORMAL_VERIFIED SCOPED at original code source SHA62c72b40df3b3c501e6298ae903a286aaefd8bb3, pinned Lean run38902175738/job116976832661 success: actual trace matching + Nat affine positive gap ⇒ strict descent. NOT parity-cylinder unique residue, bitlength bracket, unconditional first crossing, or all-composite Collatz.
+- S025 FINITE_TEST: five local standalone Python3.13 tests PASS; original checked-in source Python run38902175614/job116976832282 completed SUCCESS with full original unit, S000 and S001 independent checker steps. 71 vertices and 5041 enumerated ordered pairs do NOT yield all-edge exit. Novelty UNCHECKED, Collatz/CST OPEN. Detailed proof research/S025_PROOFS_AND_OBSTRUCTIONS.md.

@@ -148,3 +148,10 @@
 - **F-0091 — REFUTED REVERSED-MACRO FIXED BUDGET:** H((O²EO³E)^4)>7/3 but no actual first-crossing counterexample obtained; a different integer-dependent certificate may work.
 - **F-0092 — OPEN FORMAL GAP:** S024 proves trace-matching Bool word affine law in Lean, but NOT parity-cylinder unique residue or bitlength bracket existence/uniqueness and global selected first-crossing descent; hosted source success cannot be projected to unproved claims.
 - **F-0093 — OPEN SOURCE/PUBLICATION:** Full Terras 1976 primary PDF (publisher and indexed mirror) 403; Steiner original not read; no full novelty review; avoid originality/Palomar/arXiv/journal claims.
+
+
+## S025 precision and rank failures
+- F-0094 REFUTED proposed bitlength-adaptive universal strict descent: explicit CP-0083 witnesses in ALL six difficult mod48 classes have no strict drop in the first bitlength(n)−4 steps. DOES NOT refute any n-dependent B(n) with a larger horizon, nor even eventual descent of those same n.
+- F-0095 REFUTED near-bitlength S023 grammar admission: CP-0084's composite OOEE finite shadows admit no S023 grammar atom starting by bitlength(n)−6; different grammar, later admission and full Collatz remain open.
+- F-0096 OPEN actual integer-dependent potential: finite 71 residual vertices/5041 directed ordered pairs cannot by themselves prove a well-founded rank or a first descent for every positive integer. Coherent 2-adic 5/7 is not a positive integer counterexample.
+- F-0097 OPEN formal and novelty pipeline: only S025 conditional actual-word margin descent compiled; no Nat power bracket existence/uniqueness, unconditional CP-0071, canonical positive parity-cylinder bijection, selected strict FIRST crossing or CP-0076/78 full Lean proof. Terras 1976 full original and Steiner 1978 full original not read; novelty/publication priority NOT established.
