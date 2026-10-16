@@ -1,8 +1,8 @@
 {
   "project": "Collatz Primes",
   "updated_utc_date": "2026-10-16",
-  "update_kind": "S020_ORIGINAL_RESEARCH_PR_MERGED_FULL_CI_VERIFIED_ATTESTATION_BRANCH",
-  "current_session": "S020",
+  "update_kind": "S021_SUBSTANTIVE_FORMAL_PR_VERIFIED_PREMERGE_ATTESTATION",
+  "current_session": "S021",
   "completed_sessions": [
     "S000",
     "S001",
@@ -24,16 +24,17 @@
     "S017",
     "S018",
     "S019",
-    "S020"
+    "S020",
+    "S021"
   ],
-  "next_session": "S021",
+  "next_session": "S022",
   "next_session_status": "FUTURE_UNEXECUTED",
   "target": "All composite positive integers eventually reach 1 under shortened Collatz T",
   "target_equivalent_to_full_collatz": true,
   "headline_status": "OPEN_UNPROVED",
-  "phase": "P1_S021_ELEMENTARY_LEAN_FORMALISATION_AND_NOVELTY_GATE",
-  "entry_main_sha": "3342189c197b4e11f2e0c9a951076d3e7abb0977",
-  "entry_main_tree": "7379373e0bd930d9e37d96a5d9dc51221da44e6d",
+  "phase": "P1_S022_FULL_FIRST_CROSSING_LEAN_AND_NONSELCTIVE_FALSIFICATION",
+  "entry_main_sha": "8df2e333429693d3bfac089e460bc204112f6e3d",
+  "entry_main_tree": "90c4c88abb1a5b007c3b4f185f7e25d707a88307",
   "evidence": {
     "universal_proof": false,
     "terras_cst_status": "OPEN_KNOWN_PRIOR_ART",
@@ -45,7 +46,7 @@
     "s007_two_block": "CP_0034_PROVED_INTERNAL_SUFFICIENT_BAND_INFINITE_A",
     "s007_unbounded_prefix": "CP_0035_NO_UNIFORM_H_ALL_COMPOSITE_TWO_R_CLASSES",
     "independent_external_validation": false,
-    "lean": false,
+    "lean": true,
     "palomar": false,
     "novelty": "NOT_ESTABLISHED",
     "s006_pr_ci": "SUCCESS_RUN_38715995495_JOB_116358694217",
@@ -348,7 +349,17 @@
       "3342189c197b4e11f2e0c9a951076d3e7abb0977",
       "cf99e5afdfb56ba9ee45e553d4ef55c47e7f7775"
     ],
-    "s020_postmerge_readback": "STATE_NEXT_PROMPT_CLOSEOUT_PROOF_TEST_MAIN_VERIFIED"
+    "s020_postmerge_readback": "STATE_NEXT_PROMPT_CLOSEOUT_PROOF_TEST_MAIN_VERIFIED",
+    "s021_extended_all_a_ge3": "CP_0073_PROVED_INTERNAL",
+    "s021_formal": "FORMAL_VERIFIED_NAT_AFFINE_CONJUGATION_AND_VARIABLE_RUN_WEIGHTED_BUDGET_ONLY_CP_0071_72_NOT_FORMALIZED",
+    "s021_finite": "55986_VARIABLE_BLOCK_LISTS_TESTED_LOCAL",
+    "s021_formal_source_sha": "7f845a78e7c091979d78063dba9da357b61fc81e",
+    "s021_lean_branch_run": 38887018859,
+    "s021_lean_pr_run": 38887024972,
+    "s021_python_branch_run": 38887018900,
+    "s021_python_pr_run": 38887024435,
+    "s021_formal_main_ci": "NOT_YET_OBSERVED",
+    "s021_source_novelty": "NOT_ESTABLISHED"
   },
   "next_prompt": "authoritative/NEXT_SESSION_PROMPT.md",
   "s007_proof_record": "research/S007_PROOFS_AND_OBSTRUCTIONS.md",
