@@ -1,0 +1,30 @@
+# S024 CLOSEOUT — 2026-10-16
+
+**CP-0079 PROVED_INTERNAL, classical parity apparatus / priority UNCHECKED:** for any horizon H there exist infinitely many DIFFERENT composite positive n whose prefix follows (OOEE)^k with 4k≥H+4, selected by 7n≡5 mod16^k. No S023 grammar atom is completed from any initial offset ≤H. Its coherent infinite limit is the **2-adic fixed point 5/7**, NOT a positive integer divergent orbit. Hence no uniform finite eventual-admission horizon; pointwise eventual admission remains OPEN.
+
+**CP-0080 PROVED_INTERNAL (overlaps prior CP-0035/49):** for EVERY r=7,15,27,31,39,43 mod48 and EVERY H≥6, infinitely many composite integers in that class follow an explicit word with A_prefix>Q_prefix for all times 1..H, hence T^j(n)>n through H. They depend on H, so they do NOT refute eventual Collatz descent. Classes 7/15/31/39 have initial L3/L4 atoms, so this is a no-uniform-**descent** statement, not no-initial-admission.
+
+**CP-0081 PROVED_INTERNAL:** the reversed O²EO³E uniform 7/3 carry bound holds for k≤3 repetitions and fails first at k=4; exact rational H3,H4. This is NOT a true Collatz overshoot. Arbitrary interleavings and integer-dependent regenerative ranks remain unresolved.
+
+**CP-0082 FORMAL_VERIFIED only on source head with observed pinned build:** `word_affine_correct` verifies conditional exact arbitrary Boolean-word affine semantics for executable shortenedT. Original S024 source SHA cdf366f2404af40ce986a28420808791e1841f09 hosted Python branch/PR and Lean branch/PR workflows observed completed SUCCESS; full Nat bitlength, gap/cylinder existence+uniqueness, first crossing and CP-0076/78 all-lift chain still NOT formalised. Every later documentation/test head must receive its own checks before merge.
+
+**Finite:** five local standalone Python tests PASS; 12 periodic-depth probes, 114 all-six-class horizon probes, rational reversed macro tests and legacy residue controls. Original entry main 112-test CI, S000 exact SHA, S001 seven-depth checker/JSONL and Lean build independently observed success, as in INPUT/VALIDATION. New checked-in test includes five methods; full new-head hosted count/passing status must be observed before attestation.
+
+**Sources:** Bernstein–Lagarias primary PDF early pages inspected, Terras original full text still 403 from publisher and mirror, Steiner original inaccessible, Rozier–Terracol primary HTML confirms CST open. Source-complete novelty/priority and publication gates UNMET; no Palomar, arXiv or journal step. Local repo clone and Lean executable unavailable. Git branch protection 403 UNKNOWN; rulesets [].
+
+**Unresolved mathematical target:** no single universal all-positive integer descent/admission argument, no Collatz solution, no Terras CST proof, no complete source novelty review. 71/512 early residual, 5041 transducer and all six hard eventual-exit classes remain live.
+
+**Git provenance:** S024 dedicated branch research/s024-periodic-nonadmission-and-parity-semantics and PR #39. Exact final branch CI/merge SHA/main tree/parents and postmerge hosted CI must be observed, not inferred. State and S025 prompt are written before PR merge; postmerge witness is an independent verification step.
+
+## COMPLETE S025 next-session prompt — FUTURE / UNEXECUTED
+
+# S025 — integer-dependent regeneration or exact obstruction; Lean realisation completion (FUTURE / UNEXECUTED)
+
+Repository: https://github.com/jfairfaxball-348/collatz-primes . Owner's NEXT explicit "run next session" authorises exactly S025, not S026.
+
+1. Verify live main SHA, *true* Git tree and ordered parents, open PRs, protected branch/ruleset accessibility and every GitHub-hosted Python/Lean run, job, log and exact SHA. Read AGENTS, protocol and evidence policy, authoritative STATE/START_HERE/NEXT, S024 INPUT/PROOFS/VALIDATION/CLOSEOUT, previous claims/failures/sources/ledger and current Lean/tests; resolve any unmerged S024 work.
+2. Central mathematical target: prove a noncircular integer-dependent strict descent/renewal certificate valid for every positive composite, including the 71/512 early residual, all 5041 directed residual state pairs and r=7,15,27,31,39,43 mod48. Explicitly confront S024 arbitrary-horizon overcritical composite prefixes in all six classes and the OOEE 2-adic periodic shadow. Either close the totality quantifier or prove an exact infinitely parameterised obstruction to a specified proposed mechanism; never call a 2-adic path a divergent positive integer.
+3. Investigate adaptive high-precision integer budgets, parity-run renewal after transient short runs, true well-founded lexicographic/potential ranks with *integer* parameters; prove termination instead of a selectable extension. Hostile test every positive assertion on 64k+59 ->72k+67, 393243+524288k, 2^H u−1, 27/43/91/155/251, all residual states, and all six mod48 classes.
+4. In pinned Mathlib/Lean, finish Nat bitlength existence+uniqueness for 3^m, unconditional CP-0071 two-gap, parity-cylinder existence and **unique** residue modulo 2^L, strict first crossing and all-lift descent for CP-0076 and CP-0078, *starting with* verified S024 conditional Bool word_affine_correct. No sorry/admit/native_decide/unscoped axioms; scoped declarations are not a universal theorem. Observe exact-head hosted compile and full Python suites.
+5. Audit full Terras 1976 article (alternative matwbn mirror if accessible; publisher 403), complete Bernstein–Lagarias 1996 original 16pp, Steiner 1978 original if lawfully obtainable and Rozier–Terracol 2026. A real theorem-by-theorem novelty comparison is required before originality, arXiv or journal priority.
+6. Deliver S025 INPUT, rigorous PROOFS_AND_OBSTRUCTIONS, reproducible tests, VALIDATION, numbered CLAIMS and FAILURE_LEDGER, SOURCES and sessions LEDGER, authoritative STATE/START_HERE, complete CLOSEOUT and full S026 FUTURE/UNEXECUTED prompt. Use dedicated branch/PR and ordinary nonforce merge only with observed passing checks, exact postmerge readback, and explicit limitations. Full Collatz, composite convergence and Terras CST remain OPEN without a valid universal proof.

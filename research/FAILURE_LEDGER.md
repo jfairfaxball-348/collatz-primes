@@ -140,3 +140,11 @@
 - F-00S23-B — Reverse O²EO³E block (A,Q,B)=(243,128,287) has B/(A−Q)=287/115>7/3; hence cannot preserve the same uniform 7/3 budget by independent concatenation. NOT a genuine first-crossing overshoot.
 - F-00S23-C — k=3 initial O³E bank followed by N copies O²E eventually violates H<7/3; first N=21. k=4 succeeds all N. This refutes k≤3 fixed-bank budget but NOT descent or Collatz.
 - F-00S23-D — COMPLETE Lean arithmetic/parity realisation, first-crossing and universal positive integer admission still MISSING even with partial scoped Lean invariant. Literature novelty review also UNFINISHED (Terras original PDF 403).
+
+
+## S024 obstruction ledger
+- **F-0089 — REFUTED UNIFORM BOUNDED ADMISSION:** ∀H, infinitely many composite positive n with first 4k≥H+4 parity symbols (OOEE)^k and no S023 atom starting at any i≤H; these depend on H. Inference of a single divergent positive orbit from coherent 2-adic itinerary is INVALID.
+- **F-0090 — REFUTED UNIFORM ALL-SIX DESCENT HORIZON:** ∀r∈{7,15,27,31,39,43} and ∀H≥6, infinitely many composite n≡r mod48 with T^j(n)>n for 1..H. Existence of some integer-dependent stopping time is NOT refuted. Initial atom admission occurs for r7/15/31/39 in the constructed words.
+- **F-0091 — REFUTED REVERSED-MACRO FIXED BUDGET:** H((O²EO³E)^4)>7/3 but no actual first-crossing counterexample obtained; a different integer-dependent certificate may work.
+- **F-0092 — OPEN FORMAL GAP:** S024 proves trace-matching Bool word affine law in Lean, but NOT parity-cylinder unique residue or bitlength bracket existence/uniqueness and global selected first-crossing descent; hosted source success cannot be projected to unproved claims.
+- **F-0093 — OPEN SOURCE/PUBLICATION:** Full Terras 1976 primary PDF (publisher and indexed mirror) 403; Steiner original not read; no full novelty review; avoid originality/Palomar/arXiv/journal claims.
