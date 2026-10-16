@@ -42,23 +42,19 @@ implies delta*n>M>B_W/3^m, hence D*n>B_W and T^j(n)<n for ALL lifts, INCLUDING t
 **All k large, ALL d proof via SOURCE_STATED Matveev and independent prior S016:**
 For all m>=1 the directly inspected Matveev (2000) §2 Corollary 2.3 implies, with C=10^10,
     ln delta > -C(1+ln(4m)), delta=2^bitlength(3^m)/3^m-1.       (8)
-This uses L=j ln2-m ln3>0 and delta=e^L-1>L, NOT direct Matveev bound on delta. Let H=ln(2F)+C(1+ln(8r)); let K_B be the least positive integer with Q^K_B>=2B. Fix D0=[16(C+10)]^2 and the EFFECTIVE threshold
-    K(P)=max{D0, K_B, ceil[(4(H+C+1)/(ell ln2))^2]}.             (9)
+This uses L=j ln2-m ln3>0 and delta=e^L-1>L, NOT direct Matveev bound on delta. Let H_P=ln(2*max(F,B))+C(1+ln(8r)), let K_B be the least positive integer with Q^K_B>=2B, and set D0=[16(C+10)]^2. The EFFECTIVE threshold is
+    K(P)=max{D0, K_B, ceil[(4(H_P+C+1)/(ell ln2))^2]}.            (9)
 Every quantity is well-defined; finite exact integer search computes K_B.
 
 For k>=K(P), Q^k>=2B and n>=(Q^k-B)/F>=Q^k/(2F). There are two cases:
-(i) 1<=d<=kr gives m=kr+d<=2kr. For k>=1, ln k<=sqrt k (check elementary calculus). Thus ln(4m)<=ln(8r)+sqrt k. With X=sqrt k>=4(H+C+1)/(ell ln2) and X>=1, 
-    k ell ln2 >= 4(H+C+1)X > H+C X.
-Therefore
+(i) 1<=d<=kr gives m=kr+d<=2kr. For k>=1, ln k<=sqrt k (elementary calculus). Thus ln(4m)<=ln(8r)+sqrt k. With X=sqrt k>=4(H_P+C+1)/(ell ln2) and X>=1,
+    k ell ln2 >= 4(H_P+C+1)X > H_P+C X.
+Since F*M=max(F,B), we conclude
     ln(delta*n/M) >
-       k ell ln2 - ln(2F M)- C[1+ln(8r)+sqrt k].
-Here 2F M=2 max(F,B) MAY BE LARGER THAN 2F: for correct threshold (9), replace H with H'=ln(2 max(F,B))+C(1+ln(8r)), and K(P) with the formula using H' everywhere. With that CORRECTED H', the RHS >0, so delta*n>M and strict descent.
-(ii) d>kr: write R=kr=#O(U), so R<=d and d>=kr>=K(P)>=D0. The ALREADY PROVED S016 CP-0061 (rho=1) directly proves first-crossing all-lift strict descent for all such U, regardless of number of E-blocks, using the same published Matveev source. No circular inference about arbitrary Collatz.
-
-For clarity, the EFFECTIVE K(P) asserted in this theorem is obtained by formula (9) with H replaced throughout by H'=ln(2 max(F,B))+C(1+ln(8r)); the initial H form is NOT the operative value. Equivalently set
-    H_P=ln(2 max(F,B))+C(1+ln(8r)),
-    K(P)=max{D0,K_B,ceil[(4(H_P+C+1)/(ell ln2))^2]}.             (10)
-Then the displayed inequalities hold exactly.
+       k ell ln2 -ln(2F*M)-C[1+ln(8r)+sqrt k]
+       = k ell ln2 - H_P-C sqrt k > 0,
+so delta*n>M and strict first-crossing descent.
+(ii) d>kr: write R=kr=#O(U), so R<=d and d>=kr>=K(P)>=D0. The ALREADY PROVED S016 CP-0061 (rho=1) directly proves first-crossing all-lift strict descent for all such U, regardless of the number of E-blocks, using the same published Matveev source. No circular inference about arbitrary Collatz.
 
 **First crossing and existence:** P overcritical at each of its own prefixes, and A/Q>1 per full block; hence EVERY prefix of U=P^k is overcritical. Appending O^d preserves that property. Since 3^m>2^(ell*k+d), b>=1. No shorter final E-prefix can cross, because for any prior j'<j we have 2^j'<=2^(j-1)<3^m. The full W has its unique positive 2^j parity residue; 2^j coprime to3 yields infinitely many composite (divisible by3, >3) representatives. S018 exact affine first-crossing sign test applies.
 
