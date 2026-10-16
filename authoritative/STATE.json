@@ -1,8 +1,8 @@
 {
   "project": "Collatz Primes",
   "updated_utc_date": "2026-10-16",
-  "update_kind": "S022_MIXED_ODD_RUN_INTERNAL_THEOREM_FORMAL_GATE_PENDING",
-  "current_session": "S022",
+  "update_kind": "S023_SHARP_REVERSED_MIXED_MACRO_AND_BANKED_SHORT_RUNS",
+  "current_session": "S023",
   "completed_sessions": [
     "S000",
     "S001",
@@ -26,16 +26,17 @@
     "S019",
     "S020",
     "S021",
-    "S022"
+    "S022",
+    "S023"
   ],
-  "next_session": "S023",
+  "next_session": "S024",
   "next_session_status": "FUTURE_UNEXECUTED",
   "target": "All composite positive integers eventually reach 1 under shortened Collatz T",
   "target_equivalent_to_full_collatz": true,
   "headline_status": "OPEN_UNPROVED",
-  "phase": "P1_S023_FULL_PARITY_WORD_LEAN_AND_INTEGER_ADMISSION",
-  "entry_main_sha": "555565a9c305a4862970935befe066cf37e9ea23",
-  "entry_main_tree": "NOT_OBSERVED_GITHUB_CONNECTOR",
+  "phase": "P1_S024_INTEGER_ADMISSION_AND_LEAN_PARITY_SEMANTICS",
+  "entry_main_sha": "0e75e048d81c2b7e9fc4eabd996ea204b3cf3776",
+  "entry_main_tree": "315623ae58f7cd0b7f935505804b29b025df675c",
   "evidence": {
     "universal_proof": false,
     "terras_cst_status": "OPEN_KNOWN_PRIOR_ART",
@@ -372,7 +373,17 @@
     "s022_formal": "MIXED_BUDGET_GAP_ARITHMETIC_AND_AFFINE_DESCENT_SOURCE_STAGED_CURRENT_BUILD_PENDING_FULL_CP_0071_72_NOT_FORMALIZED",
     "s022_pr": 37,
     "s022_full_original_local_tests": false,
-    "s022_novelty": "NOT_ESTABLISHED"
+    "s022_novelty": "NOT_ESTABLISHED",
+    "s023_sharp_mixed": "CP_0076_PROVED_INTERNAL_251_OVER_115_P3_R4",
+    "s023_bank": "CP_0078_4_LONG_PREFIX_ARBITRARY_SHORT_TAIL",
+    "s023_nonadmission": "CP_0077_COMPOSITES_3_PLUS_48K_OOEE",
+    "s023_9330_words": "FINITE_9330_WORDS_27990_ORBITS_PRECURSOR",
+    "s023_formal_full_parity_cylinders": false,
+    "s023_novelty": "NOT_ESTABLISHED",
+    "s023_entry_python_ci": "SUCCESS_RUN_38889964978_S022_MAIN",
+    "s023_entry_lean_ci": "SUCCESS_RUN_38889964937_S022_MAIN",
+    "s023_pr_ci": "NOT_OBSERVED",
+    "s023_merged_main_ci": "NOT_OBSERVED"
   },
   "next_prompt": "authoritative/NEXT_SESSION_PROMPT.md",
   "s007_proof_record": "research/S007_PROOFS_AND_OBSTRUCTIONS.md",

@@ -253,4 +253,104 @@ theorem all_lifts_strict_descent (A Q B D n y : ℕ)
   exact (Nat.mul_lt_mul_left hpos).mp hlt
 
 
+
+/-!
+S023: strengthened scoped carry invariant for the grammar
+L_a=O^a E (a>=3), O³ E O² E, O⁴ E O² E, O² E O⁴ E.
+This is state-transition algebra, NOT formalised Collatz integer admission.
+-/
+
+def appendThreeTwo (s : AffineState) : AffineState :=
+  { A := 243 * s.A, B := 243 * s.B + 251 * s.Q, Q := 128 * s.Q }
+
+def appendTwoFour (s : AffineState) : AffineState :=
+  { A := 729 * s.A, B := 729 * s.B + 925 * s.Q, Q := 256 * s.Q }
+
+theorem carry_251_long_step (s : AffineState) (p : WeightedBlock)
+    (hs : 115 * s.B + 251 * s.Q ≤ 251 * s.A) :
+    115 * (appendBlock s p).B + 251 * (appendBlock s p).Q
+      ≤ 251 * (appendBlock s p).A := by
+  change 115 * (p.u * s.B + p.t * s.Q) + 251 * (2 * p.v * s.Q)
+    ≤ 251 * (p.u * s.A)
+  have hmul := Nat.mul_le_mul_left p.u hs
+  have hgap := Nat.mul_le_mul_right s.Q p.admissible
+  have hsplit : p.u * s.Q = p.v * s.Q + p.t * s.Q := by
+    rw [p.split]
+    ring
+  nlinarith only [hmul, hgap, hsplit]
+
+theorem carry_251_three_two (s : AffineState)
+    (hs : 115 * s.B + 251 * s.Q ≤ 251 * s.A) :
+    115 * (appendThreeTwo s).B + 251 * (appendThreeTwo s).Q
+      ≤ 251 * (appendThreeTwo s).A := by
+  change 115 * (243 * s.B + 251 * s.Q) + 251 * (128 * s.Q)
+    ≤ 251 * (243 * s.A)
+  have hmul := Nat.mul_le_mul_left 243 hs
+  nlinarith only [hmul]
+
+theorem carry_251_two_four (s : AffineState)
+    (hs : 115 * s.B + 251 * s.Q ≤ 251 * s.A) :
+    115 * (appendTwoFour s).B + 251 * (appendTwoFour s).Q
+      ≤ 251 * (appendTwoFour s).A := by
+  change 115 * (729 * s.B + 925 * s.Q) + 251 * (256 * s.Q)
+    ≤ 251 * (729 * s.A)
+  have hmul := Nat.mul_le_mul_left 729 hs
+  nlinarith only [hmul, Nat.zero_le s.Q]
+
+theorem carry_251_four_two (s : AffineState)
+    (hs : 115 * s.B + 251 * s.Q ≤ 251 * s.A) :
+    115 * (appendFourTwo s).B + 251 * (appendFourTwo s).Q
+      ≤ 251 * (appendFourTwo s).A := by
+  change 115 * (729 * s.B + 745 * s.Q) + 251 * (256 * s.Q)
+    ≤ 251 * (729 * s.A)
+  have hmul := Nat.mul_le_mul_left 729 hs
+  nlinarith only [hmul, Nat.zero_le s.Q]
+
+inductive CarryAtom23 where
+  | long (n : {a : ℕ // 3 ≤ a})
+  | threeTwo
+  | fourTwo
+  | twoFour
+
+def appendAtom23 (s : AffineState) : CarryAtom23 → AffineState
+  | .long n => appendBlock s (oddRunBlock n.1 n.2)
+  | .threeTwo => appendThreeTwo s
+  | .fourTwo => appendFourTwo s
+  | .twoFour => appendTwoFour s
+
+theorem carry_251_atom (s : AffineState) (p : CarryAtom23)
+    (hs : 115 * s.B + 251 * s.Q ≤ 251 * s.A) :
+    115 * (appendAtom23 s p).B + 251 * (appendAtom23 s p).Q
+      ≤ 251 * (appendAtom23 s p).A := by
+  cases p with
+  | long n => exact carry_251_long_step s (oddRunBlock n.1 n.2) hs
+  | threeTwo => exact carry_251_three_two s hs
+  | fourTwo => exact carry_251_four_two s hs
+  | twoFour => exact carry_251_two_four s hs
+
+def state23 (atoms : List CarryAtom23) : AffineState :=
+  atoms.foldl appendAtom23 initialState
+
+/-- Arbitrary lists of four atom types satisfy the 251/115 carry budget. -/
+theorem mixed_atoms_251_budget (atoms : List CarryAtom23) :
+    115 * (state23 atoms).B + 251 * (state23 atoms).Q
+      ≤ 251 * (state23 atoms).A := by
+  have h : ∀ (xs : List CarryAtom23) (s : AffineState),
+      115 * s.B + 251 * s.Q ≤ 251 * s.A →
+      115 * (xs.foldl appendAtom23 s).B +
+        251 * (xs.foldl appendAtom23 s).Q
+        ≤ 251 * (xs.foldl appendAtom23 s).A := by
+    intro xs
+    induction xs with
+    | nil =>
+      intro s hs
+      simpa using hs
+    | cons a xs ih =>
+      intro s hs
+      exact ih (appendAtom23 s a) (carry_251_atom s a hs)
+  exact h atoms initialState (by norm_num [initialState])
+
+theorem three_two_sharp_identity :
+    115 * 251 + 251 * 128 = 251 * 243 := by norm_num
+
 end CollatzPrimes
