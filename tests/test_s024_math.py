@@ -71,6 +71,37 @@ class S024Math(unittest.TestCase):
         self.assertLess(ratio(w*3),Fraction(7,3))
         self.assertGreater(ratio(w*4),Fraction(7,3))
 
+    def test_all_six_hard_classes_arbitrary_overcritical_prefix(self):
+        for H in range(10,65,3):
+            for residue in (7,15,27,31,39,43):
+                if residue % 16 == 7:
+                    word = 'OOOE' + 'O'*(H-4)
+                elif residue % 16 == 15:
+                    word = 'OOOOE' + 'O'*(H-5)
+                else:
+                    word = 'OOE' + 'O'*(H-3)
+                # Classical parity-bit lifting: canonical representative of the H-cylinder.
+                n,a,q,b=0,1,1,0
+                for c in word:
+                    bit=((a*n+b)//q)&1
+                    n+=((int(c=='O')-bit)%2)*q
+                    if c=='O':a,b=3*a,3*b+q
+                    q*=2
+                    self.assertEqual((a*n+b)%q,0)
+                # CRT modulo 3, 5 and 2^H gives a composite lift in the r mod48 class.
+                n=next(n+t*q for t in range(15,45)
+                       if (n+t*q)%48==residue and (n+t*q)%5==0)
+                self.assertGreater(n,5)
+                self.assertEqual(n%48,residue)
+                self.assertEqual(n%5,0)
+                x=n
+                for ch in word:
+                    self.assertGreaterEqual(x,n)
+                    self.assertEqual(x&1,int(ch=='O'))
+                    x=shortened(x)
+                    self.assertGreater(x,n)
+                self.assertEqual(trace(n,H)[0],word)
+
     def test_old_exception_and_controls(self):
         residual=[]
         for n in range(11,8192,16):

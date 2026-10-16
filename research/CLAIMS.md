@@ -155,3 +155,11 @@ S017: standalone finite grid 4,425 triples/17,700 lifts PASS, not an infinite pr
 - CP-0076 PROVED_INTERNAL — Every arbitrary nonempty mixed atom word over O^aE a≥3, O³EO²E, O⁴EO²E, O²EO⁴E satisfies 115B+251Q≤251A; all prefixes A>Q; two-choice terminal extension yields FIRST coefficient crossing and actual ALL-positive-lift strict descent. Sharp constant C=251/115 for this atom grammar, not an original-priority or all-integer theorem. Detailed proof research/S023_PROOFS_AND_OBSTRUCTIONS.md.
 - CP-0077 PROVED_INTERNAL (negative direct admission) — Every composite n=3+48k, k≥1, begins OOEE and cannot start any certified S023 atom. Does not exclude eventual admission.
 - CP-0078 PROVED_INTERNAL — For every N≥0, U=(O³E)^4 (O²E)^N has H<7/3; selected full cylinders strictly descend, and O²E run share N/(N+4) tends to 1. Fixed-bank threshold k=4 is sharp for uniform 7/3 H bound, not for all certificates.
+
+
+## S024 — 2026-10-16
+- **CP-0079 PROVED_INTERNAL; novelty UNCHECKED/classical 2-adic coding:** For every H there are infinitely many composite positive integers shadowing (OOEE)^k for 4k≥H+4, via 7n≡5 mod16^k, with no complete S023 grammar atom starting at any index ≤H. 5/7 is 2-adic, NOT a divergent positive integer.
+- **CP-0080 PROVED_INTERNAL; overlaps CP-0035/0049:** For each r in {7,15,27,31,39,43} mod48 and every H≥6, infinitely many composite n≡r mod48 satisfy T^j(n)>n for all 1≤j≤H by constructive parity word + CRT. NO uniform H; not one orbit for all H.
+- **CP-0081 PROVED_INTERNAL:** S=O²EO³E triple (243,128,287); H(S^k)=287/115+(1−287/115)(128/243)^k, threshold H≥7/3 exactly k≥4; this kills that budget only, not actual descent.
+- **CP-0082 FORMAL_VERIFIED SCOPED (source head cdf366f2404af40ce986a28420808791e1841f09)** pinned Lean branch/PR runs38894936751/38894970810 SUCCESS: executable shortenedT, arbitrary Bool word trace hypothesis→exact affine equality. No formal unique 2^L cylinder, bitlength bracket or global Collatz proof. Fresh checks needed on subsequent heads.
+- S024 local isolated five Python tests PASS; source-complete novelty UNCHECKED; full conjectures OPEN. See research/S024_PROOFS_AND_OBSTRUCTIONS.md.

@@ -66,3 +66,8 @@ S007 proves elementary scoped CP-0033, CP-0034, CP-0035: exact full residue-cyli
 ## S009 update — 15 October 2026
 
 S009 completes scoped CP-0039/0040 first-crossing two-run certificates (for every fixed c,d≠(1,1) an infinite progression of a, and for K=1 both (2,1) and (1,2) ALL a>=4), plus CP-0041 an exact expanding 27 mod256 residue return showing why residue renewal alone cannot work. Global Collatz/composite goal and Terras CST **OPEN**; novelty UNCHECKED. Read [proof](research/S009_PROOFS_AND_OBSTRUCTIONS.md), [closeout](sessions/S009/CLOSEOUT.md), and [complete S010 future prompt](authoritative/NEXT_SESSION_PROMPT.md). Older next-session headings above are historical, not authoritative.
+
+
+## S024 update — 16 October 2026
+
+Current controlling next-session handover is **S025 FUTURE/UNEXECUTED** in authoritative/NEXT_SESSION_PROMPT.md. S024 adds CP-0079 periodic finite-horizon 2-adic shadow obstruction, CP-0080 arbitrary-horizon composite non-descent in all six hard mod48 classes, CP-0081 exact reversed-atom budget threshold and scoped Lean Bool parity-word affine semantics. None resolves global Collatz or Terras CST, and classical parity/affine prior art means novelty is UNCHECKED. Refer to sessions/S024/CLOSEOUT.md and research/S024_PROOFS_AND_OBSTRUCTIONS.md; old S001/S003/S010 next-session labels in this README are historical.

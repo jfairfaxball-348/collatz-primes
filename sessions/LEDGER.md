@@ -147,3 +147,8 @@ This separate documentation-only attestation write creates its OWN new CI and me
 
 
 - **S023 — 2026-10-16:** CP-0076 sharp 251/115 mixed-macro FIRST-crossing selected all-lift descent, CP-0077 infinite composite OOEE direct-nonadmission, CP-0078 four-L3 seed permitting arbitrary O²E tail/short density→1; exact finite 9330 words, 27990 orbits; global Collatz/CST OPEN. Research proof research/S023_PROOFS_AND_OBSTRUCTIONS.md; INPUT and CLOSEOUT sessions/S023. S024 FUTURE/UNEXECUTED; novelty UNCHECKED.
+
+
+| S024 | 2026-10-16 | COMPLETE scoped research; formal conditional word theorem compiled at source head; final PR/new-head CI to verify | CP-0079 OOEE periodic 2-adic finite-horizon composite nonadmission; CP-0080 six hard mod48 arbitrary-horizon composite strict non-descent; CP-0081 reversed macro fixed 7/3-bound first fails k=4; CP-0082 executable shortenedT arbitrary Bool word-affine conditional Lean theorem | No single divergent positive orbit or universal Collatz/CST proof, no global integer admission, no complete parity-cylinder Lean bridge or prior-art novelty; S025 FUTURE/UNEXECUTED. |
+
+S024 entry main 7505909a42709294367dd8f3275fca648ac80d06 true tree 351065449a2b61b259134e6e73b7a197b9d02498; original entry-main full Python 112-test job116942978029/run38891847861 and Lean job116942979408/run38891848208 SUCCESS. Original S024 first source head cdf366f2404af40ce986a28420808791e1841f09 Python push/PR runs38894936713/38894970753 and pinned Lean push/PR runs38894936751/38894970810 all SUCCESS. New docs/test head requires separate checks. Exact source-level CI and 2-adic finite controls do not prove full Collatz.

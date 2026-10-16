@@ -1,8 +1,8 @@
 {
   "project": "Collatz Primes",
   "updated_utc_date": "2026-10-16",
-  "update_kind": "S023_SHARP_REVERSED_MIXED_MACRO_AND_BANKED_SHORT_RUNS",
-  "current_session": "S023",
+  "update_kind": "S024_PERIODIC_FINITE_HORIZON_NONADMISSION_AND_BOOL_WORD_LEAN",
+  "current_session": "S024",
   "completed_sessions": [
     "S000",
     "S001",
@@ -27,16 +27,17 @@
     "S020",
     "S021",
     "S022",
-    "S023"
+    "S023",
+    "S024"
   ],
-  "next_session": "S024",
+  "next_session": "S025",
   "next_session_status": "FUTURE_UNEXECUTED",
   "target": "All composite positive integers eventually reach 1 under shortened Collatz T",
   "target_equivalent_to_full_collatz": true,
   "headline_status": "OPEN_UNPROVED",
-  "phase": "P1_S024_INTEGER_ADMISSION_AND_LEAN_PARITY_SEMANTICS",
-  "entry_main_sha": "0e75e048d81c2b7e9fc4eabd996ea204b3cf3776",
-  "entry_main_tree": "315623ae58f7cd0b7f935505804b29b025df675c",
+  "phase": "P1_S025_INTEGER_DEPENDENT_REGENERATION_AND_FORMAL_PARITY_REALISATION",
+  "entry_main_sha": "7505909a42709294367dd8f3275fca648ac80d06",
+  "entry_main_tree": "351065449a2b61b259134e6e73b7a197b9d02498",
   "evidence": {
     "universal_proof": false,
     "terras_cst_status": "OPEN_KNOWN_PRIOR_ART",
@@ -382,8 +383,26 @@
     "s023_novelty": "NOT_ESTABLISHED",
     "s023_entry_python_ci": "SUCCESS_RUN_38889964978_S022_MAIN",
     "s023_entry_lean_ci": "SUCCESS_RUN_38889964937_S022_MAIN",
-    "s023_pr_ci": "NOT_OBSERVED",
-    "s023_merged_main_ci": "NOT_OBSERVED"
+    "s023_pr_ci": "S023_MERGED_PR_38_ENTRY_MAIN_REVERIFIED",
+    "s023_merged_main_ci": "SUCCESS_PYTHON_38891847861_LEAN_38891848208",
+    "s024_ooee_shadow": "CP_0079_UNBOUNDED_H_FINITE_COMPOSITE_PREFIX_NONADMISSION_NOT_DIVERGENCE",
+    "s024_six_hard": "CP_0080_ALL_SIX_R_ALL_H_FINITE_PREFIX_OVERCRITICAL",
+    "s024_reversed_threshold": "CP_0081_O2E_O3E_REPETITIONS_FIRST_FAIL_FIXED_7_OVER_3_BUDGET_K4",
+    "s024_lean_semantics": "CP_0082_BOOL_WORD_CONDITIONAL_AFFINE_SOURCE_CDF366F_VERIFIED_PUSH_AND_PR",
+    "s024_lean_source_sha": "cdf366f2404af40ce986a28420808791e1841f09",
+    "s024_python_push_run": 38894936713,
+    "s024_python_pr_run": 38894970753,
+    "s024_lean_push_run": 38894936751,
+    "s024_lean_pr_run": 38894970810,
+    "s024_five_local_isolated_tests": "PASS_PYTHON3_13_STANDALONE_ONLY",
+    "s024_entry_python": "SUCCESS_RUN_38891847861_JOB_116942978029_112_TESTS_AND_S000_S001",
+    "s024_entry_lean": "SUCCESS_RUN_38891848208_JOB_116942979408_ALL_STEPS",
+    "s024_original_local_repo_checkout": false,
+    "s024_local_lean": false,
+    "s024_2adic_positive_divergence": false,
+    "s024_complete_lean_parity_realisation": false,
+    "s024_source_complete_novelty": false,
+    "s024_final_PR_ci": "NOT_YET_OBSERVED"
   },
   "next_prompt": "authoritative/NEXT_SESSION_PROMPT.md",
   "s007_proof_record": "research/S007_PROOFS_AND_OBSTRUCTIONS.md",
@@ -416,5 +435,7 @@
   "s020_lean_spec": "research/S020_LEAN_SPEC.md",
   "s020_closeout": "sessions/S020/CLOSEOUT.md",
   "s022_proof_record": "research/S022_PROOFS_AND_OBSTRUCTIONS.md",
-  "s022_closeout": "sessions/S022/CLOSEOUT.md"
+  "s022_closeout": "sessions/S022/CLOSEOUT.md",
+  "s024_proof_record": "research/S024_PROOFS_AND_OBSTRUCTIONS.md",
+  "s024_closeout": "sessions/S024/CLOSEOUT.md"
 }
