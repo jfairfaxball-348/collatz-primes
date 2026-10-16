@@ -1,7 +1,7 @@
 {
   "project": "Collatz Primes",
   "updated_utc_date": "2026-10-16",
-  "update_kind": "S019_MATHEMATICS_ORIGINAL_HOSTED_CI_PENDING",
+  "update_kind": "S019_ORIGINAL_RESEARCH_PR_MERGED_FULL_CI_VERIFIED_ATTESTATION_BRANCH",
   "current_session": "S019",
   "completed_sessions": [
     "S000",
@@ -303,7 +303,25 @@
     "s019_independent_script_sha256": "8c0cc2ce7f342e5d9a00be9429136b8b4532fca347e1d88a506a9635031bc26d",
     "s019_standalone_tests": "6_PASS_NOT_HOSTED_ORIGINAL",
     "s019_entry_main_ci": "SUCCESS_RUN_38813824079_JOB_116693394879_ALL_THREE_STEPS",
-    "s019_new_hosted_ci": "NOT_OBSERVED_UNTIL_NEW_COMMIT"
+    "s019_new_hosted_ci": "ORIGINAL_BRANCH_PR_MERGED_MAIN_SUCCESS_ATTESTATION_NEW_CHECKS_SEPARATE",
+    "s019_pr": 32,
+    "s019_research_head": "e215700a5a5d333eac91a56e123afa233babcc5e",
+    "s019_research_head_true_tree": "72c1e8b26445b2e91b055db90bb0a2f6b2ca2422",
+    "s019_research_head_parent": "6a791d61deeb544e63a26cc29a69480b116b611e",
+    "s019_branch_push_ci": "SUCCESS_RUN_38880983331_JOB_116907374205_ALL_THREE_STEPS_92_TESTS",
+    "s019_pr_ci": "SUCCESS_RUN_38881024455_JOB_116907507642_ALL_THREE_STEPS",
+    "s019_merged_main_ci": "SUCCESS_RUN_38881098610_JOB_116907747783_ALL_THREE_STEPS_92_TESTS",
+    "s019_merged_main_sha": "9adefb03af2493e59582a77b5a82bc13a859bf4c",
+    "s019_merged_main_tree": "72c1e8b26445b2e91b055db90bb0a2f6b2ca2422",
+    "s019_merged_main_parents": [
+      "e35857c7b6fd5054598998f009c39cd0edb4d3a6",
+      "e215700a5a5d333eac91a56e123afa233babcc5e"
+    ],
+    "s019_merge_readback": "MAIN_REF_TREE_PARENTS_STATE_S020_PROMPT_CLOSEOUT_PROOF_VERIFIED",
+    "s019_original_full_unittest_count": 92,
+    "s019_S000_sha256": "45a4ee995384ec9154bf092e272562172797e78bf771611b1d31376627498084",
+    "s019_S001_manifest_sha256": "d4686d95c47107af29d939accb8d161684f929eb348426f2d39ea8b1819b2b37",
+    "s019_S001_records_sha256": "adec6e2b05d0671170ced97304a69f25a518ad0cd658be7feaa8238f0eafc1f9"
   },
   "next_prompt": "authoritative/NEXT_SESSION_PROMPT.md",
   "s007_proof_record": "research/S007_PROOFS_AND_OBSTRUCTIONS.md",

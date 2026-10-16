@@ -106,3 +106,17 @@ This NEW attestation-only documentation writeback triggers its OWN separate chec
 | S019 | 2026-10-16 | COMPLETE mathematical research; S019 NEW hosted code CI independently verify | Periodic overcritical word 2-adic CRT divisibility, constant affine intercept and all-d first-crossing descent for sufficiently repeated P (Matveev source); bounded repeat exit, 143 patterns/8580 finite cylinders | CP-0068—0069; aperiodic multi-block/universal Collatz and Terras CST OPEN; S020 FUTURE/UNEXECUTED |
 
 S019 entry main e35857c7b6fd5054598998f009c39cd0edb4d3a6, actual git tree 0fdb82ac1ebe3ba56d0ff89d4a5ea5bcd9689040; entry hosted run 38813824079/job116693394879 all 3 original substantive steps SUCCESS. New branch CI NOT OBSERVED YET at original writeback. Independent scratch script SHA256 8c0cc2ce7f342e5d9a00be9429136b8b4532fca347e1d88a506a9635031bc26d. No novelty/Lean/Palomar/publication.
+
+
+## S019 INDEPENDENT original research PR #32 and merged-main hosted attestation — 2026-10-16
+
+Dedicated research branch research/s019-periodic-parity-divisibility final original research HEAD e215700a5a5d333eac91a56e123afa233babcc5e had true git tree 72c1e8b26445b2e91b055db90bb0a2f6b2ca2422 and single ordered parent 6a791d61deeb544e63a26cc29a69480b116b611e (the preceding proof clarity amendment; initial research commit 6a791d61deeb544e63a26cc29a69480b116b611e had original base parent e35857c7b6fd5054598998f009c39cd0edb4d3a6). PR #32 https://github.com/jfairfaxball-348/collatz-primes/pull/32 was checked as mergeable=true, clean, head unchanged e215..., and PR base matching independently read unchanged main e358... . Github nonforce merge_method=merge with expected_head_sha returned merged=true, resulting SHA 9adefb03af2493e59582a77b5a82bc13a859bf4c. Independently read live main SAME SHA, underlying true git tree 72c1e8b26445b2e91b055db90bb0a2f6b2ca2422, ordered parents [e35857c7b6fd5054598998f009c39cd0edb4d3a6,e215700a5a5d333eac91a56e123afa233babcc5e]. Remote main STATE S019 COMPLETE/S020 FUTURE_UNEXECUTED, full S020 prompt, S019 CLOSEOUT and proof all read back.
+
+Independently observed TRUE ORIGINAL S019 GitHub Actions hosted CI, all 3 substantive steps (Unit tests; Finite parity and orbit sanity; Recreate finite residue stream and cross-check original manifest) EACH COMPLETED SUCCESS in each run:
+- S019 final BRANCH push run38880983331 job116907374205;
+- PR #32 run38881024455 job116907507642;
+- NEW merged-MAIN push run38881098610 job116907747783.
+
+Original branch and main raw logs each report **Ran 92 tests / OK**, all SIX new test_s019_math methods individually ok, earlier S003 corruption tests still in unittest discovery. Original S000 regenerate byte-for-byte cmp success and SHA256 45a4ee995384ec9154bf092e272562172797e78bf771611b1d31376627498084. Original S001 independent complete 7 depth checker success, JSONL STREAM CONSUMER PASS, manifest SHA256 d4686d95c47107af29d939accb8d161684f929eb348426f2d39ea8b1819b2b37, records SHA256 adec6e2b05d0671170ced97304a69f25a518ad0cd658be7feaa8238f0eafc1f9. These were OBSERVED, not imputed from older sessions.
+
+The NEW attestation-only documentation commit itself triggers new GitHub checks, not covered by these original S019 successes; independently inspect those separately before merging attestation. Full Collatz/composite, Terras CST, general aperiodic all-U, novelty, Lean, Palomar, publication remain OPEN / UNCLAIMED. S020 still FUTURE/UNEXECUTED.
