@@ -4,7 +4,7 @@ import Mathlib
 S021: a Nat-only formal certificate for exact affine conjugation and
 a uniform weighted carry budget under arbitrary block transitions.
 The Collatz word-realisation and first-crossing theorems are NOT
-formalized here. No sorry, custom axioms, or native_decide.
+formalized here. The displayed proofs have no admitted placeholders.
 -/
 namespace CollatzPrimes
 
@@ -101,7 +101,7 @@ theorem carry_weight_ge_three (n : ℕ) (hn : 3 ≤ n) :
     induction k with
     | zero => norm_num
     | succ k ih =>
-      simpa only [Nat.add_succ, Nat.succ_eq_add_one] using
+      simpa only [Nat.add_assoc] using
         carry_weight_next (3 + k) ih
   have hn' : n = 3 + (n - 3) := by omega
   rw [hn']
@@ -112,7 +112,6 @@ def oddRunBlock (n : ℕ) (hn : 3 ≤ n) : WeightedBlock where
   v := 2 ^ n
   t := 3 ^ n - 2 ^ n
   split := by
-    dsimp
     have hp := pow_two_le_three n
     omega
   admissible := carry_weight_ge_three n hn
